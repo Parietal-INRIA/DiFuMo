@@ -5,3 +5,5 @@
 See region names here for: [64 components](https://parietal-inria.github.io/MODL_atlas/64 "Labels for 64 components")
 
 ![128 components](imgs/128.jpg "128 components")
+
+See region names here for: [128 components](https://parietal-inria.github.io/MODL_atlas/128 "Labels for 128 components")
