@@ -11,3 +11,7 @@ See region names here for: [128 components](https://parietal-inria.github.io/MOD
 ![256 components](imgs/front/256.jpg "256 components")
 
 See region names here for: [256 components](https://parietal-inria.github.io/MODL_atlas/256 "Labels for 256 components")
+
+![512 components](imgs/front/512.jpg "512 components")
+
+See region names here for: [512 components](https://parietal-inria.github.io/MODL_atlas/512 "Labels for 512 components")
