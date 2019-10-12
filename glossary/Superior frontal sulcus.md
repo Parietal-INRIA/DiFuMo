@@ -1,5 +1,6 @@
 | Superior frontal sulcus |  
 |:---:|
+||
 
 | From 64 components |
 |:---:|
