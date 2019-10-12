@@ -1,0 +1,8 @@
+
+
+
+| **Middle frontal gyrus, RH** identified on various resolutions |
+
+| 128 resolution, the component index number is 105|  
+|:---:|  
+| ![Component 128](../128/final/105.jpg "From component 128: Middle frontal gyrus, RH") |
