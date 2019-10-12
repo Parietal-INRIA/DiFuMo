@@ -1,5 +1,4 @@
 | **Region names identified on various atlases** |
-||
 
 | Superior frontal sulcus region from 64 components atlas |
 |:---:|
