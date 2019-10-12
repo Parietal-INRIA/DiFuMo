@@ -1,3 +1,3 @@
 |SOMF regions|Other anatomical structures|
 | :---: | :---: |
-|https://parietal-inria.github.io/MODL_atlas/glossary/||
+|[Superior frontal sulcus](https://parietal-inria.github.io/MODL_atlas/glossary/Superior frontal sulcus)| -- |
