@@ -1,7 +1,4 @@
-
-
-
-| **Cerebrospinal fluid** identified on various resolutions |
+# **Cerebrospinal fluid**
 
 | 64 resolution, the component index number is 10|  
 |:---:|  

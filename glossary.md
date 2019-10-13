@@ -17,3 +17,7 @@
 |[Planum temporale](https://parietal-inria.github.io/MODL_atlas/glossary/Planum temporale)| **Harvard Oxford**: Planum Temporale <br> **Destrieux**: G_temp_sup-G_T_transv <br> **Juelich**: GM Primary auditory cortex TE1.0 <br> **BASC**: Superior temporal gyrus middle|
 | :---: | ---: |
 |[Cerebellum Crus II](https://parietal-inria.github.io/MODL_atlas/glossary/Cerebellum Crus II)| **Diedrichsen**: Crus II <br> **BASC**: Cerebellum Crus II posterior|
+| :---: | ---: |
+|[Superior parts of Postcentral and Precentral gyri](https://parietal-inria.github.io/MODL_atlas/glossary/Superior parts of Postcentral and Precentral gyri)| **Harvard Oxford**: Postcentral gyrus <br> **Destrieux**: G_Postcentral <br> **Juelich**: GM Primary somatosensory cortex BA1 <br> **BASC**: Somatomotor network dorsolateral|
+| :---: | ---: |
+|[Cerebrospinal fluid](https://parietal-inria.github.io/MODL_atlas/glossary/Cerebrospinal fluid)| **Harvard Oxford**: Occipital Fusiform Gyrus <br> **Destrieux**: G_oc-temp_lat-fusifor <br> **Diedrichsen**: Crus I <br> **BASC**: Cerebellum Crus I|

@@ -1,7 +1,4 @@
-
-
-
-| **Superior parts of Postcentral and Precentral gyri** identified on various resolutions |
+# **Superior parts of Postcentral and Precentral gyri**
 
 | 64 resolution, the component index number is 9|  
 |:---:|  
