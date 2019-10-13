@@ -1,7 +1,7 @@
 
 
 
-| **Superior temporal sulcus with angular gyrus** identified on various resolutions |
+| **Superior temporal sulcus with angular gyrus** |
 
 | 64 resolution, the component index number is 6|  
 |:---:|  

@@ -1,7 +1,4 @@
-
-
-
-| **Planum temporale** identified on various resolutions |
+# **Planum temporale** 
 
 | 64 resolution, the component index number is 7|  
 |:---:|  
