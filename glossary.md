@@ -9,3 +9,5 @@
 |[Posterior cingulate cortex](https://parietal-inria.github.io/MODL_atlas/glossary/Posterior cingulate cortex)| **Harvard Oxford**: Cingulate Gyrus, posterior <br> **Destrieux**: G_cingul-Post-dorsal <br> **Juelich**: GM Superior parietal lobule 7M <br> **BASC**: Precuneus ventral <br> **JHU**: Cingulum (cingulate gyrus)|
 | :---: | ---: |
 |[Dorsal Parieto-occipital sulcus](https://parietal-inria.github.io/MODL_atlas/glossary/Dorsal Parieto-occipital sulcus)| **Harvard Oxford**: Precuneous Cortex <br> **Destrieux**: S_parieto_occipital <br> **Juelich**: GM Superior parietal lobule 7M <br> **BASC**: Parieto Occipital Sulcus dorsal  <br> **JHU**: Genu of corpus callosum|
+| :---: | ---: |
+|[Antero-superior insula](https://parietal-inria.github.io/MODL_atlas/glossary/Antero-superior insula)| **Harvard Oxford**: Frontal Operculum Cortex <br> **Destrieux**: Lat_Fis-ant-Horizont <br> **Juelich**: GM Broca's area BA44 <br> **BASC**: Anterior Insula anterodorsal|

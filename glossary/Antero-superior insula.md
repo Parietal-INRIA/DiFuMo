@@ -1,7 +1,4 @@
-
-
-
-| **Antero-superior insula** identified on various resolutions |
+| **Antero-superior insula** |
 
 | 64 resolution, the component index number is 5|  
 |:---:|  
