@@ -1,4 +1,4 @@
-| **Superior frontal sulcus** identified on various resolutions |
+# **Superior frontal sulcus**
 
 | 64 resolution, the component index number is 0|  
 |:---:|  

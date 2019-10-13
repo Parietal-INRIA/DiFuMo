@@ -1,8 +1,5 @@
+# **Superior temporal sulcus with angular gyrus**
 
-
-
-| **Superior temporal sulcus with angular gyrus** |
-
-| 64 resolution, the component index number is 6|  
-|:---:|  
+| 64 resolution, the component index number is 6|
+|:---:|
 | ![Component 64](../64/final/6.jpg "From component 64: Superior temporal sulcus with angular gyrus") |
