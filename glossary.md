@@ -7,3 +7,5 @@
 |[Calcarine cortex posterior](https://parietal-inria.github.io/MODL_atlas/glossary/Calcarine cortex posterior)| **Harvard Oxford**: Intracalcarine Cortex <br> **Destrieux**: Pole_occipital <br> **Juelich**: GM Visual cortex V1 BA17 <br> **BASC**: Posterior Visual Network ventromedial|
 | :---: | ---: |
 |[Posterior cingulate cortex](https://parietal-inria.github.io/MODL_atlas/glossary/Posterior cingulate cortex)| **Harvard Oxford**: Cingulate Gyrus, posterior <br> **Destrieux**: G_cingul-Post-dorsal <br> **Juelich**: GM Superior parietal lobule 7M <br> **BASC**: Precuneus ventral <br> **JHU**: Cingulum (cingulate gyrus)|
+| :---: | ---: |
+|[Dorsal Parieto-occipital sulcus](https://parietal-inria.github.io/MODL_atlas/glossary/Dorsal Parieto-occipital sulcus)| **Harvard Oxford**: Precuneous Cortex <br> **Destrieux**: S_parieto_occipital <br> **Juelich**: GM Superior parietal lobule 7M <br> **BASC**: Parieto Occipital Sulcus dorsal  <br> **JHU**: Genu of corpus callosum|
