@@ -15,3 +15,5 @@
 |[Superior temporal sulcus with angular gyrus](https://parietal-inria.github.io/MODL_atlas/glossary/Superior temporal sulcus with angular gyrus)| **Harvard Oxford**: Angular gyrus <br> **Destrieux**: S_temporal_sup <br> **Juelich**: GM Inferior parietal lobule Pga <br> **BASC**: Angular gyrus|
 | :---: | ---: |
 |[Planum temporale](https://parietal-inria.github.io/MODL_atlas/glossary/Planum temporale)| **Harvard Oxford**: Planum Temporale <br> **Destrieux**: G_temp_sup-G_T_transv <br> **Juelich**: GM Primary auditory cortex TE1.0 <br> **BASC**: Superior temporal gyrus middle|
+| :---: | ---: |
+|[Cerebellum Crus II](https://parietal-inria.github.io/MODL_atlas/glossary/Cerebellum Crus II)| **Diedrichsen**: Crus II <br> **BASC**: Cerebellum Crus II posterior|
