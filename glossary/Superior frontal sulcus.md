@@ -21,10 +21,6 @@
 |:---:|  
 | ![Component 1024](../1024/final/338.jpg "From component 1024: Superior frontal sulcus RH") |
 
-| 1024 resolution, the component index number is 338|  
-|:---:|  
-| ![Component 1024](../1024/final/338.jpg "From component 1024: Superior frontal sulcus RH") |
-
 ## Left Hemisphere (LH)
 
 | 256 resolution, the component index number is 44| 
