@@ -21,3 +21,9 @@
 |[Superior parts of Postcentral and Precentral gyri](https://parietal-inria.github.io/MODL_atlas/glossary/Superior parts of Postcentral and Precentral gyri)| **Harvard Oxford**: Postcentral gyrus <br> **Destrieux**: G_Postcentral <br> **Juelich**: GM Primary somatosensory cortex BA1 <br> **BASC**: Somatomotor network dorsolateral|
 | :---: | ---: |
 |[Cerebrospinal fluid](https://parietal-inria.github.io/MODL_atlas/glossary/Cerebrospinal fluid)| **Harvard Oxford**: Occipital Fusiform Gyrus <br> **Destrieux**: G_oc-temp_lat-fusifor <br> **Diedrichsen**: Crus I <br> **BASC**: Cerebellum Crus I|
+| :---: | ---: |
+|[Paracentral gyrus RH](https://parietal-inria.github.io/MODL_atlas/glossary/Paracentral gyrus RH)| **Harvard Oxford**: Postcentral gyrus <br> **Destrieux**: G_postcentral <br> **Juelich**: GM Primary somatosensory cortex BA2 <br> **BASC**: Somatomotor network dorsolateral|
+| :---: | ---: |
+|[Superior occipital gyrus](https://parietal-inria.github.io/MODL_atlas/glossary/Superior occipital gyrus)| **Harvard Oxford**: Lateral occipital cortex, superior <br> **Destrieux**: S_oc_sup_and_transversal <br> **Juelich**: GM Visual cortex V2 BA18 <br> **BASC**: Mediodorsal visual network posterior|
+| :---: | ---: |
+|[Mid-posterior cingulate gyrus](https://parietal-inria.github.io/MODL_atlas/glossary/Mid-posterior cingulate gyrus)| **Harvard Oxford**: Cingulate gyrus, posterior <br> **Destrieux**: S_subparietal <br> **Juelich**: GM Superior parietal lobule 7M <br> **BASC**: Posterior cingulate cortex|

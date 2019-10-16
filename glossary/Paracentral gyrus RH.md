@@ -1,7 +1,4 @@
-
-
-
-| **Paracentral gyrus RH** identified on various resolutions |
+# **Paracentral gyrus RH**
 
 | 64 resolution, the component index number is 11|  
 |:---:|  
