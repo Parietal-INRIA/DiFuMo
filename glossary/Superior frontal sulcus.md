@@ -8,3 +8,24 @@
 |:---:|  
 | ![Component 128](../128/final/8.jpg "From component 128: Superior frontal sulcus") |
 
+# **All children of Superior frontal sulcus**
+|:----:|
+
+## Right Hemisphere (RH)
+| 256 resolution, the component index number is 247|  
+|:---:|  
+| ![Component 256](../256/final/247.jpg "From component 256: Superior frontal sulcus RH") |
+
+| 1024 resolution, the component index number is 338|  
+|:---:|  
+| ![Component 1024](../1024/final/338.jpg "From component 1024: Superior frontal sulcus RH") |
+
+| 1024 resolution, the component index number is 338|  
+|:---:|  
+| ![Component 1024](../1024/final/338.jpg "From component 1024: Superior frontal sulcus RH") |
+
+## Left Hemisphere (LH)
+
+| 256 resolution, the component index number is 44|  
+|:---:|  
+| ![Component 256](../256/final/44.jpg "From component 256: Superior frontal sulcus, LH") |
