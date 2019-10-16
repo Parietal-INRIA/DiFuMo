@@ -32,7 +32,7 @@
 |:---|  
 | ![Component 128](../128/final/89.jpg "From component 128: Superior frontal sulcus, anterior") |
 
-## Middle left hemisphere (LH)
+## Middle LH
 
 | 512 resolution, the component index number is 123|  
 |:---|  
@@ -41,3 +41,13 @@
 | 1024 resolution, the component index number is 62|  
 |:---|  
 | ![Component 1024](../1024/final/62.jpg "From component 1024: Superior frontal sulcus middle LH") |
+
+## Anterior LH
+
+| 512 resolution, the component index number is 184|  
+|:---|  
+| ![Component 512](../512/final/184.jpg "From component 512: Superior frontal sulcus anterior LH") |
+
+| 1024 resolution, the component index number is 855|  
+|:---|  
+| ![Component 1024](../1024/final/855.jpg "From component 1024: Superior frontal sulcus anterior LH") |
