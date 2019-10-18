@@ -1,5 +1,11 @@
 # **Superior frontal sulcus**
 
+```sequence {theme="hand"}
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
 | 64 resolution, the component index number is 0|  
 |:---:|  
 | ![Component 64](../64/final/0.jpg "From component 64: Superior frontal sulcus") |
