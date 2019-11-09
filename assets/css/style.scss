@@ -8,6 +8,11 @@ p.description {
     font-weight: bold;
 }
 
+div.search {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
 /* Google custom search */
 .gsc-control-cse {
     padding: 0px !important;
@@ -25,4 +30,8 @@ p.description {
 .gsc-search-button-v2, .gsc-search-button-v2:hover,
 .gsc-search-button-v2:focus {
     padding: 6px 12px !important;
+}
+
+table.gsc-search-box td, table.gsc-search-box th {
+    border: none;
 }
