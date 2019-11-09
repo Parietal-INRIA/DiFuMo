@@ -1,21 +1,21 @@
 # Dictionaries of multiple dimensions
 
-![64 components](imgs/front/64.jpg "64 components")
+![64 dimensions](imgs/front/64.jpg "64 dimensions")
 
-See region names here for: [64 components](https://parietal-inria.github.io/MODL_atlas/64 "Labels for 64 components")
+See regions for: [64 dimensions](64 "Labels for 64 dimensions")
 
-![128 components](imgs/front/128.jpg "128 components")
+![128 dimensions](imgs/front/128.jpg "128 dimensions")
 
-See region names here for: [128 components](https://parietal-inria.github.io/MODL_atlas/128 "Labels for 128 components")
+See regions for: [128 dimensions](128 "Labels for 128 dimensions")
 
-![256 components](imgs/front/256.jpg "256 components")
+![256 dimensions](imgs/front/256.jpg "256 dimensions")
 
-See region names here for: [256 components](https://parietal-inria.github.io/MODL_atlas/256 "Labels for 256 components")
+See regions for: [256 dimensions](256 "Labels for 256 dimensions")
 
-![512 components](imgs/front/512.jpg "512 components")
+![512 dimensions](imgs/front/512.jpg "512 dimensions")
 
-See region names here for: [512 components](https://parietal-inria.github.io/MODL_atlas/512 "Labels for 512 components")
+See regions for: [512 dimensions](512 "Labels for 512 dimensions")
 
-![1024 components](imgs/front/1024.jpg "1024 components")
+![1024 dimensions](imgs/front/1024.jpg "1024 dimensions")
 
-See region names here for: [1024 components](https://parietal-inria.github.io/MODL_atlas/1024 "Labels for 1024 components")
+See regions for: [1024 dimensions](1024 "Labels for 1024 dimensions")
