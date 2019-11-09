@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+p.description {
+    color: #1B5C8A;
+    font-weight: bold;
+}
+
 /* Google custom search */
 .gsc-control-cse {
     padding: 0px !important;
