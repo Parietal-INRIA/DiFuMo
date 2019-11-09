@@ -5,19 +5,19 @@
 
 /* Google custom search */
 .gsc-control-cse {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .gsc-search-button {
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
 }
 
 .gsc-search-box-tools .gsc-search-box .gsc-input {
-    padding-right: 5px;
+    padding-right: 5px !important;
 }
 
 .gsc-search-button-v2, .gsc-search-button-v2:hover,
 .gsc-search-button-v2:focus {
-    padding: 6px 12px;
+    padding: 6px 12px !important;
 }
