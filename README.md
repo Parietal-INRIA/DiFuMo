@@ -21,10 +21,9 @@ For this, we leverage the wealth of openly-available functional images
 
 ## Cite this work if you use these atlases
 
-__Authors__: Kamalaker Dadi, Gaël Varoquaux, Antonia Machlouzarides-Shalit, Krzysztof J. Gorgolewski,
-             Demian Wassermann, Bertrand Thirion, Arthur Mensch.
-__Title__: Fine-grain atlases of functional modes for fMRI analysis
-__Status__: Paper in preparation
+Dadi, K., Varoquaux, G., Machlouzarides-Shalit, A., Gorgolewski, KJ.,
+Wassermann, D., Thirion, B., Mensch, A. Fine-grain atlases of functional
+modes for fMRI analysis **Paper in preparation**
 
 ### References
 
