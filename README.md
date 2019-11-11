@@ -14,7 +14,7 @@
        - Anatomical names are available for each resolution in .csv
 
 
-## Datasets and Statistical model
+## Datasets and Statistical model used to extract these atlases
 
 For this, we leverage the wealth of openly-available functional images
 (Poldrack et al., 2013) and stochastic online matrix factorization algorithm
