@@ -15,6 +15,10 @@
 
 [<img title="Download .zip" src="imgs/download-icon.png" width=200>](https://osf.io/a6vu4/download)
 
+## Simple demo
+
+![Signals extraction and reconstruction](notebook/demo.ipynb "Simple demo")
+
 ## Datasets and Statistical model used to extract these atlases
 
 For this, we leverage the wealth of openly-available functional images
