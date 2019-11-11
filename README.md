@@ -13,9 +13,7 @@
        - All atlases are available in .nii.gz format and sampled to MNI space
        - Anatomical names are available for each resolution in .csv
 
-## Download
-
-https://osf.io/a6vu4/download
+[<img title="Download .zip" src="imgs/download-icon.png" width=200>](https://osf.io/a6vu4/download)
 
 ## Datasets and Statistical model used to extract these atlases
 
