@@ -10,7 +10,8 @@
    
 
       
-       All atlases are available in .nii.gz format and sampled to MNI space
+       - All atlases are available in .nii.gz format and sampled to MNI space
+       - Anatomical names are available for each resolution in .csv
 
 
 ## Datasets and Statistical model
