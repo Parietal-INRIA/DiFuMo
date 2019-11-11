@@ -7,12 +7,17 @@
    
 2. Additionally, we provide meaningful names for these modes, based on their anatomical
    location, to facilitate reporting of results.
+   
 
-## Material and Methods
+      
+       All atlases in available in .nii.gz format and are sampled to MNI space
+
+
+## Datasets and Statistical model
 
 For this, we leverage the wealth of openly-available functional images
 (Poldrack et al., 2013) and stochastic online matrix factorization algorithm
-(SOMF, Mensch et al., 2018).
+(SOMF, Mensch et al., 2018), sparse dictionary learning.
 
 ## Cite this work if you use these atlases
 
@@ -20,3 +25,14 @@ __Authors__: Kamalaker Dadi, Gaël Varoquaux, Antonia Machlouzarides-Shalit, Krz
              Demian Wassermann, Bertrand Thirion, Arthur Mensch.
 __Title__: Fine-grain atlases of functional modes for fMRI analysis
 __Status__: Paper in preparation
+
+### References
+
+Mensch, A., Mairal, J., Thirion, B., Varoquaux, G., 2018. Stochastic
+Subsampling for Factorizing Huge Matrices. IEEE Transactions
+on Signal Processing 66, 113–128.
+
+Poldrack, R.A., Barch, D.M., Mitchell, J.P., et al., 2013. Toward
+open sharing of task-based fMRI data: the OpenfMRI project.
+Frontiers in neuroinformatics 7.
+
