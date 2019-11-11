@@ -10,7 +10,7 @@
    
 
       
-       All atlases in available in .nii.gz format and are sampled to MNI space
+       All atlases are available in .nii.gz format and sampled to MNI space
 
 
 ## Datasets and Statistical model
