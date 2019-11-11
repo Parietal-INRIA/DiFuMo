@@ -50,7 +50,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
         raise ValueError("Requested resolution_mm={} is not available. Valid "
                          "options: {}".format(resolution_mm,
                                               valid_resolution_mm))
-    url = 'https://osf.io/a6vu4/download'
+    url = 'https://osf.io/6gm37/download'
     opts = {'uncompress': True}
 
     csv_file = os.path.join('DiFuMo_atlases', '{0}',
