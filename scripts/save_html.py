@@ -1,10 +1,13 @@
 import os
 from os.path import join
-import pandas as pd
 from nilearn import plotting
 from nilearn.image import iter_img
 
-from fetcher import fetch_difumo
+# Load a file not on the path
+import runpy
+fetcher = runpy.run_path('../notebook/fetcher.py')
+fetch_difumo = fetcher['fetch_difumo']
+
 
 for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)

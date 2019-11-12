@@ -8,7 +8,11 @@ from matplotlib import pyplot as plt
 
 from nilearn import image, plotting
 
-from fetcher import fetch_difumo
+# Load a file not on the path
+import runpy
+fetcher = runpy.run_path('../notebook/fetcher.py')
+fetch_difumo = fetcher['fetch_difumo']
+
 
 
 def _plot_dl_maps(img, cut_coords, annotated_name,

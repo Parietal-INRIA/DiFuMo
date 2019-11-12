@@ -8,7 +8,10 @@ import matplotlib.pyplot as plt
 from nilearn.image import iter_img
 from nilearn import plotting
 
-from fetcher import fetch_difumo
+# Load a file not on the path
+import runpy
+fetcher = runpy.run_path('../notebook/fetcher.py')
+fetch_difumo = fetcher['fetch_difumo']
 
 
 def _get_values(maps_img, percent):
