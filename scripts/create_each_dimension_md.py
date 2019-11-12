@@ -1,5 +1,6 @@
 import numpy as np
 import mdutils
+import os
 
 # Load a file not on the path
 import runpy
@@ -8,7 +9,8 @@ fetch_difumo = fetcher['fetch_difumo']
 
 for n in [64, 128, 256, 512, 1024]:
     n_components = n
-    mdFile = mdutils.MdUtils(file_name=str(n_components))
+    mdFile = mdutils.MdUtils(file_name=os.path.join('..',
+                                                    str(n_components)))
     mdFile.write('| All {} components |'.format(n_components))
     mdFile.new_line()
     mdFile.write('|:---:|')

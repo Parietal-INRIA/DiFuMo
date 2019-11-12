@@ -19,7 +19,7 @@ def _plot_dl_maps(img, cut_coords, annotated_name,
                   index, dimension):
     display = plotting.plot_stat_map(stat_map_img=img, cut_coords=cut_coords, 
                                      colorbar=False, black_bg=False)
-    save_dir = join(str(dimension), 'final')
+    save_dir = join('..', str(dimension), 'final')
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     plt.savefig(join(save_dir, '{0}.jpg'.format(index)),
