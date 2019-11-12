@@ -1,4 +1,13 @@
 """Function to fetch DiFuMo atlases.
+
+   Direct download links from OSF:
+
+   dic = {64: https://osf.io/ry5fq/download,
+          128: https://osf.io/5kqx7/download,
+          256: https://osf.io/xkja5/download,
+          512: https://osf.io/unqfz/download,
+          1024: https://osf.io/wr4j3/download,
+          }
 """
 import os
 import pandas as pd
@@ -41,6 +50,12 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     Fine-grain atlases of functional modes for fMRI analysis,
     Paper in preparation
     """
+    dic = {64: 'ry5fq',
+           128: '5kqx7',
+           256: 'xkja5',
+           512: 'unqfz',
+           1024: 'wr4j3',
+           }
     valid_dimensions = [64, 128, 256, 512, 1024]
     valid_resolution_mm = [2, 3]
     if dimension not in valid_dimensions:
@@ -50,21 +65,19 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
         raise ValueError("Requested resolution_mm={} is not available. Valid "
                          "options: {}".format(resolution_mm,
                                               valid_resolution_mm))
-    url = 'https://osf.io/6gm37/download'
+    url = 'https://osf.io/{}/download'.format(dic[dimension])
     opts = {'uncompress': True}
 
-    csv_file = os.path.join('DiFuMo_atlases', '{0}',
-                            'labels_{0}_dictionary.csv')
+    csv_file = os.path.join('{0}', 'labels_{0}_dictionary.csv')
     if resolution_mm != 3:
-        nifti_file = os.path.join('DiFuMo_atlases', '{0}', 'maps.nii.gz')
+        nifti_file = os.path.join('{0}', 'maps.nii.gz')
     else:
-        nifti_file = os.path.join('DiFuMo_atlases', '{0}', '3mm',
-                                  'resampled_maps.nii.gz')
+        nifti_file = os.path.join('{0}', '3mm', 'resampled_maps.nii.gz')
 
     files = [(csv_file.format(dimension), url, opts),
              (nifti_file.format(dimension), url, opts)]
 
-    dataset_name = 'difumo'
+    dataset_name = 'difumo_atlases'
 
     data_dir = _get_dataset_dir(data_dir=None, dataset_name=dataset_name,
                                 verbose=1)
