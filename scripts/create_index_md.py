@@ -1,9 +1,7 @@
-import numpy as np
 import mdutils
-import pandas as pd
-from mdutils import MdUtils
+import os
 
-mdFile = mdutils.MdUtils(file_name='index')
+mdFile = mdutils.MdUtils(file_name=os.path.join('..', 'index'))
 
 mdFile.write('# Dictionaries of multiple dimensions')
 

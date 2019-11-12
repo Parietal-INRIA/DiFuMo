@@ -54,7 +54,7 @@ for i, n_components in enumerate(components_to_display):
                                        threshold=threshold, dim=0.1,
                                        draw_cross=False,
                                        cmap=cmap, linewidths=1.5)
-    save_dir = join('imgs', 'display_maps')
+    save_dir = join('..', 'imgs', 'display_maps')
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     plt.savefig(join(save_dir, '{0}.jpg'.format(n_components)),

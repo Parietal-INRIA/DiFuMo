@@ -9,17 +9,46 @@ fetcher = runpy.run_path('../notebook/fetcher.py')
 fetch_difumo = fetcher['fetch_difumo']
 
 
+import bs4
+
+
 for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
 
-    save_dir = join(str(n), 'html')
+    save_dir = join('..', str(n), 'html')
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
-    for i, img in enumerate(iter_img(maps_img)):
+    for i, (img, label) in enumerate(zip(iter_img(maps_img),
+                                         labels['names'])):
         cut_coords = plotting.find_xyz_cut_coords(img)
         html_view = plotting.view_img(img, cut_coords=cut_coords,
-                                      title=labels.iloc[i].names,
                                       colorbar=False)
-        html_view.save_as_html(join(save_dir, '{0}.html'.format(i + 1)))
+
+        # Post-processing the HTML
+        soup = bs4.BeautifulSoup(html_view.get_standalone(),
+                                 'html.parser')
+        # Add CSS in the header
+        style = soup.new_tag('style')
+        style.append("""
+            body {
+                background: black;
+                color: white;
+                font-family: arial;
+            }
+
+            h1 {
+                font-size: xxx-large;
+            }
+        """)
+        soup.head.append(style)
+        soup.head.title.string = label
+        title = soup.new_tag('h1')
+        title.append(label)
+        soup.body.insert(0, title)
+        html_doc = str(soup)
+
+        file_name = join(save_dir, '{0}.html'.format(i + 1))
+        with open(file_name, 'wb') as f:
+            f.write(html_doc.encode('utf-8'))
