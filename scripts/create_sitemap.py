@@ -4,7 +4,7 @@ Generate a sitemap for Google indexing
 
 import glob
 
-sitemap = open('../sitemap.txt', 'w')
+sitemap = open('../assets/sitemap.txt', 'w')
 
 for html_file in glob.glob('../*/html/*.html'):
     sitemap.write(html_file)
