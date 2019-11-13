@@ -16,3 +16,6 @@ At the same time, use html script to save all html files.
 
 Finally, create all dimension mds
 6. create_each_dimension_md.py
+
+Optionnally: regenerate the sitemap for Google indexing
+7. create_sitemap.py
