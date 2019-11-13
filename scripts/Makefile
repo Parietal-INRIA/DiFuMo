@@ -18,3 +18,4 @@ links:
 
 final:
 	$(PYTHON) create_each_dimension_md.py
+	$(PYTHON) create_sitemap.py
