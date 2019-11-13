@@ -19,6 +19,8 @@
 
 ![Signals extraction and reconstruction](notebook/demo.ipynb "Simple demo")
 
+![Run the demo online](https://mybinder.org/v2/gh/Parietal-INRIA/DiFuMo/master?filepath=notebook%2Fdemo.ipynb)
+
 ## Datasets and Statistical model used to extract these atlases
 
 For this, we leverage the wealth of openly-available functional images
