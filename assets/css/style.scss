@@ -16,7 +16,7 @@ div.search {
     background-color: #eaeaea;
 }
 
-header p.sidebar a:hover{
+header p.sidebar a:hover, section a:hover{
     font-weight: normal;
     text-decoration: underline;
 }
@@ -30,6 +30,21 @@ section iframe {
     width: calc((90vw - 860px) / 2 + 500px);
     height: 70vh;
     border: solid 1px #bbb;
+}
+
+@media print, screen and (max-width: 960px) {
+    section iframe {
+	width: 100%;
+    }
+
+    header p.view {
+	display: none;
+    }
+
+    div.search {
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+    }
 }
 
 /* Google custom search */
