@@ -10,9 +10,15 @@ p.description {
 
 div.search {
     margin-top: 5ex;
+    margin-bottom: 3vh;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     background-color: #eaeaea;
+}
+
+header p.sidebar a:hover{
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 div.search span {
