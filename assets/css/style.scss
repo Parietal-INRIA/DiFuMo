@@ -25,6 +25,12 @@ div.search span {
     margin-left: 1ex;
 }
 
+section iframe {
+    width: 100%;
+    height: 70vh;
+    border: solid 1px #bbb;
+}
+
 /* Google custom search */
 .gsc-control-cse {
     padding: 0px !important;
