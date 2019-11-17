@@ -26,7 +26,8 @@ div.search span {
 }
 
 section iframe {
-    width: 100%;
+    /* width computed from containers' width */
+    width: calc((90vw - 860px) / 2 + 500px);
     height: 70vh;
     border: solid 1px #bbb;
 }
