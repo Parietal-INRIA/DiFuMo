@@ -1,4 +1,6 @@
 
 
 
-![59](59.jpg "Structures overlap with component_59")
+## Structures related to DiFuMo 64 Angular gyrus
+
+![59](59.jpg ## Structures related to DiFuMo 64 Angular gyrus)

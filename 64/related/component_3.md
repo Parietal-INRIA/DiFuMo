@@ -1,4 +1,6 @@
 
 
 
-![3](3.jpg "Structures overlap with component_3")
+## Structures related to DiFuMo 64 Calcarine cortex posterior
+
+![3](3.jpg ## Structures related to DiFuMo 64 Calcarine cortex posterior)

@@ -1,4 +1,6 @@
 
 
 
-![43](43.jpg "Structures overlap with component_43")
+## Structures related to DiFuMo 64 Callosomarginal sulcus
+
+![43](43.jpg ## Structures related to DiFuMo 64 Callosomarginal sulcus)

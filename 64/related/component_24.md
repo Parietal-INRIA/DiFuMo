@@ -1,4 +1,6 @@
 
 
 
-![24](24.jpg "Structures overlap with component_24")
+## Structures related to DiFuMo 64 Descending occipital gyrus
+
+![24](24.jpg ## Structures related to DiFuMo 64 Descending occipital gyrus)

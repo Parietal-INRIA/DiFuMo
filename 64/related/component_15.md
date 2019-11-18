@@ -1,4 +1,6 @@
 
 
 
-![15](15.jpg "Structures overlap with component_15")
+## Structures related to DiFuMo 64 ventricles
+
+![15](15.jpg ## Structures related to DiFuMo 64 ventricles)

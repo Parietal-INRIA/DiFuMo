@@ -1,4 +1,6 @@
 
 
 
-![33](33.jpg "Structures overlap with component_33")
+## Structures related to DiFuMo 64 Superior parietal lobule anterior
+
+![33](33.jpg ## Structures related to DiFuMo 64 Superior parietal lobule anterior)

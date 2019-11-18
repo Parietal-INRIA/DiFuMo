@@ -1,4 +1,6 @@
 
 
 
-![30](30.jpg "Structures overlap with component_30")
+## Structures related to DiFuMo 64 Superior rostral gyrus
+
+![30](30.jpg ## Structures related to DiFuMo 64 Superior rostral gyrus)

@@ -1,4 +1,6 @@
 
 
 
-![2](2.jpg "Structures overlap with component_2")
+## Structures related to DiFuMo 64 Fusiform gyrus
+
+![2](2.jpg ## Structures related to DiFuMo 64 Fusiform gyrus)

@@ -1,4 +1,6 @@
 
 
 
-![38](38.jpg "Structures overlap with component_38")
+## Structures related to DiFuMo 64 Intraparietal sulcus LH
+
+![38](38.jpg ## Structures related to DiFuMo 64 Intraparietal sulcus LH)

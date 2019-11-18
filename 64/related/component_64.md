@@ -1,4 +1,6 @@
 
 
 
-![64](64.jpg "Structures overlap with component_64")
+## Structures related to DiFuMo 64 Caudate
+
+![64](64.jpg ## Structures related to DiFuMo 64 Caudate)

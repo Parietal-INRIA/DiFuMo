@@ -1,4 +1,6 @@
 
 
 
-![40](40.jpg "Structures overlap with component_40")
+## Structures related to DiFuMo 64 Precentral gyrus superior
+
+![40](40.jpg ## Structures related to DiFuMo 64 Precentral gyrus superior)

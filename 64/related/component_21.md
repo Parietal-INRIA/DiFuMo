@@ -1,4 +1,6 @@
 
 
 
-![21](21.jpg "Structures overlap with component_21")
+## Structures related to DiFuMo 64 Cerebellum I-V
+
+![21](21.jpg ## Structures related to DiFuMo 64 Cerebellum I-V)

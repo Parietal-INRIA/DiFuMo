@@ -1,4 +1,6 @@
 
 
 
-![42](42.jpg "Structures overlap with component_42")
+## Structures related to DiFuMo 64 Lateral occipital cortex
+
+![42](42.jpg ## Structures related to DiFuMo 64 Lateral occipital cortex)

@@ -1,4 +1,6 @@
 
 
 
-![62](62.jpg "Structures overlap with component_62")
+## Structures related to DiFuMo 64 Superior frontal gyrus
+
+![62](62.jpg ## Structures related to DiFuMo 64 Superior frontal gyrus)

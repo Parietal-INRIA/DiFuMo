@@ -1,4 +1,6 @@
 
 
 
-![6](6.jpg "Structures overlap with component_6")
+## Structures related to DiFuMo 64 Antero-superior insula
+
+![6](6.jpg ## Structures related to DiFuMo 64 Antero-superior insula)

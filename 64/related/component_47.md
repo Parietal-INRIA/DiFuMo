@@ -1,4 +1,6 @@
 
 
 
-![47](47.jpg "Structures overlap with component_47")
+## Structures related to DiFuMo 64 Thalamus
+
+![47](47.jpg ## Structures related to DiFuMo 64 Thalamus)

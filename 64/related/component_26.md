@@ -1,4 +1,6 @@
 
 
 
-![26](26.jpg "Structures overlap with component_26")
+## Structures related to DiFuMo 64 Mid-anterior Cingulate cortex
+
+![26](26.jpg ## Structures related to DiFuMo 64 Mid-anterior Cingulate cortex)

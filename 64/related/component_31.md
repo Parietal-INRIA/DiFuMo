@@ -1,4 +1,6 @@
 
 
 
-![31](31.jpg "Structures overlap with component_31")
+## Structures related to DiFuMo 64 Calcarine sulcus anterior
+
+![31](31.jpg ## Structures related to DiFuMo 64 Calcarine sulcus anterior)

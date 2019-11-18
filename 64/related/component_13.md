@@ -1,4 +1,6 @@
 
 
 
-![13](13.jpg "Structures overlap with component_13")
+## Structures related to DiFuMo 64 Superior occipital gyrus
+
+![13](13.jpg ## Structures related to DiFuMo 64 Superior occipital gyrus)

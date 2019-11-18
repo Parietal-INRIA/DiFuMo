@@ -1,4 +1,6 @@
 
 
 
-![49](49.jpg "Structures overlap with component_49")
+## Structures related to DiFuMo 64 Inferior frontal sulcus
+
+![49](49.jpg ## Structures related to DiFuMo 64 Inferior frontal sulcus)

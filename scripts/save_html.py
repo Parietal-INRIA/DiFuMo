@@ -54,6 +54,8 @@ for n in [64, 128, 256, 512, 1024]:
         title.append(label)
         soup.body.insert(0, title)
 
+        # Add links to visualize an image of related anatomical
+        # structures to each component
         link = ("https://parietal-inria.github.io/DiFuMo/"
                 "{0}/related/component_{1}")
         new_link = soup.new_tag('a', href=link.format(n, i + 1))

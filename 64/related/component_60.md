@@ -1,4 +1,6 @@
 
 
 
-![60](60.jpg "Structures overlap with component_60")
+## Structures related to DiFuMo 64 Cuneus
+
+![60](60.jpg ## Structures related to DiFuMo 64 Cuneus)
