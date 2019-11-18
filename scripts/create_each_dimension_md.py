@@ -7,6 +7,13 @@ import runpy
 fetcher = runpy.run_path('../notebook/fetcher.py')
 fetch_difumo = fetcher['fetch_difumo']
 
+dic = {64: "https://osf.io/ry5fq/download",
+       128: "https://osf.io/5kqx7/download",
+       256: "https://osf.io/xkja5/download",
+       512: "https://osf.io/unqfz/download",
+       1024: "https://osf.io/wr4j3/download",
+       }
+
 for n in [64, 128, 256, 512, 1024]:
     n_components = n
     mdFile = mdutils.MdUtils(file_name=os.path.join('..',
@@ -15,7 +22,8 @@ for n in [64, 128, 256, 512, 1024]:
     mdFile.new_line()
     mdFile.write('|:---:|')
     mdFile.new_line()
-    mdFile.write('| ![All components](imgs/display_maps/{0}.jpg "All {0} components") |'.format(n_components))
+    l = '| [![All components](imgs/display_maps/{0}.jpg "All {0} components")]({1})'
+    mdFile.write(l.format(n_components, dic[n]))
 
     data = fetch_difumo(dimension=n_components)
     annotated_names = data.labels
