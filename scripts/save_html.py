@@ -40,7 +40,9 @@ for n in [64, 128, 256, 512, 1024]:
 
             h1 {
                 font-size: xxx-large;
+                margin-bottom: 0px;
             }
+
             a:link {
                 background-color: lightgreen;
                 font-size: 25px;
