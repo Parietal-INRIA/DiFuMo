@@ -60,7 +60,7 @@ def find_overlaps(atlas_names, dimension):
     """
     masker = input_data.NiftiMasker(
         datasets.load_mni152_brain_mask()).fit([])
-    queries = transform_difumo_to_data(dimension=64,
+    queries = transform_difumo_to_data(dimension=dimension,
                                        masker=masker)
     atlases = fetch_atlases(atlas_names)
     info = {}
@@ -148,7 +148,7 @@ def save_info(info, save_labels, atlas_names, dimension):
 if __name__ == '__main__':
     atlas_names = ['harvard_oxford', 'destrieux', 'diedrichsen',
                    'juelich', 'jhu', 'mist']
-    for dimension in [64]:
+    for dimension in [256]:
         info, save_labels = find_overlaps(atlas_names, dimension)
         table = save_info(info, save_labels, atlas_names,
                           dimension)

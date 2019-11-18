@@ -41,12 +41,23 @@ for n in [64, 128, 256, 512, 1024]:
             h1 {
                 font-size: xxx-large;
             }
+            a:link {
+                background-color: lightgreen;
+                font-size: 25px;
+            }
         """)
         soup.head.append(style)
         #soup.head.title.string = label
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
+
+        link = ("https://parietal-inria.github.io/DiFuMo/"
+                "{0}/related/component_{1}")
+        new_link = soup.new_tag('a', href=link.format(n, i + 1))
+        new_link.string = "related brain structures"
+        soup.html.append(new_link)
+        soup.body.insert(3, new_link)
 
         html_doc = str(soup)
 
