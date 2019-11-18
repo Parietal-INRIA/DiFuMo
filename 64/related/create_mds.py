@@ -14,7 +14,7 @@ title = "Structures related to DiFuMo 64 {0}"
 write_line = '![{0}]({0}.jpg "{1}")'
 
 link_back_line = ("[Go back to corresponding component]"
-                  "(https://parietal-inria.github.io/DiFuMo/64/html/{0}.html")
+                  "(https://parietal-inria.github.io/DiFuMo/64/html/{0}.html)")
 
 for idx, label in zip(np.arange(n_components) + 1,
                       labels['names']):
