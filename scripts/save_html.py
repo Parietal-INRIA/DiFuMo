@@ -43,10 +43,11 @@ for n in [64, 128, 256, 512, 1024]:
             }
         """)
         soup.head.append(style)
-        soup.head.title.string = label
+        #soup.head.title.string = label
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
+
         html_doc = str(soup)
 
         file_name = join(save_dir, '{0}.html'.format(i + 1))
