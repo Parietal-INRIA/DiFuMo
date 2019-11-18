@@ -152,6 +152,7 @@ if __name__ == '__main__':
         info, save_labels = find_overlaps(atlas_names, dimension)
         table = save_info(info, save_labels, atlas_names,
                           dimension)
+        table.to_csv(str(dimension) + '.csv')
         plot_overlaps(info=table, atlas_names=atlas_names,
                       dimension=dimension,
                       output_dir=join('..', str(dimension),
