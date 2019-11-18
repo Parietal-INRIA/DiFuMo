@@ -73,7 +73,7 @@ def _simplify_grid(fig, axes, i):
 
 
 def _plotting_roi(labels_img, label_match, cut_coords, color,
-                  axes, fig, xy_coords, alias):
+                  axes, fig, alias):
     """Plotting Regions of interest (ROI)
     """
     plotting.plot_roi(labels_img, cut_coords=cut_coords,
@@ -86,12 +86,12 @@ def _plotting_roi(labels_img, label_match, cut_coords, color,
     return
 
 
-def _plot_difumo(img, axes, proposed_name, cut_coords):
+def _plot_difumo(img, axes, proposed_name, cut_coords, dimension):
     """Plot component-wise DiFuMo atlases
     """
     plotting.plot_stat_map(stat_map_img=img, cut_coords=cut_coords,
                            colorbar=False, black_bg=True, axes=axes)
-    title = '{0}: {1}'.format('DiFuMo', proposed_name)
+    title = '{0} {1}: {2}'.format('DiFuMo', dimension, proposed_name)
     axes.set_title(title, color='w', fontsize=18)
     return
 
@@ -110,7 +110,7 @@ def _plot_references(label_match, labels_img, labels, atlas,
             _plotting_roi(image.new_img_like(labels_img,
                                              data),
                           label_match, cut_coords, color,
-                          axes, fig, xy[atlas], ATLASES[atlas])
+                          axes, fig, ATLASES[atlas])
         else:
             axes.axis('off')
     else:
@@ -119,7 +119,7 @@ def _plot_references(label_match, labels_img, labels, atlas,
         _plotting_roi(image.new_img_like(labels_img,
                                          data),
                       label_match, cut_coords, color,
-                      axes, fig, xy[atlas], ATLASES[atlas])
+                      axes, fig, ATLASES[atlas])
     return
 
 
@@ -173,7 +173,8 @@ def plot_overlaps(info, atlas_names, dimension, output_dir=None,
         proposed_label = proposed_labels.iloc[comp_idx].names
         # plot difumo component-wise
         axbig = _simplify_grid(fig, axes, 0)
-        _plot_difumo(img, axbig, proposed_label, cut_coords)
+        _plot_difumo(img, axbig, proposed_label, cut_coords,
+                     dimension)
         # plot overlapped references - backbone for naming DiFuMo
         for atlas_idx, atlas in enumerate(columns):
             labels_img, labels = atlases[atlas].maps, atlases[atlas].labels
