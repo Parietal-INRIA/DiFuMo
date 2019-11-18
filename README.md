@@ -13,8 +13,6 @@
        - All atlases are available in .nii.gz format and sampled to MNI space
        - Anatomical names are available for each resolution in .csv
 
-[<img title="Download .zip" src="imgs/download-icon.png" width=200>](https://osf.io/a6vu4/download)
-
 ## Simple demo
 
 ![Signals extraction and reconstruction](notebook/demo.ipynb "Simple demo")
