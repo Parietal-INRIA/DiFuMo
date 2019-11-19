@@ -77,11 +77,11 @@ def _add_names_of_the_related_structures(soup, names):
         new_tag = soup.new_tag('div')
         new_tag.append(ATLASES[atlas] + ':' + match_found)
         soup.body.insert(position, new_tag)
-        position += 1    
+        position += 1
     return soup
 
 
-for n in [128]:
+for n in [64, 128]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
@@ -115,11 +115,13 @@ for n in [128]:
             h1 {
                 font-size: xxx-large;
                 margin-bottom: 0px;
+                right: 120px;
             }
-
             a:link {
-                background-color: lightgreen;
                 font-size: 25px;
+            }
+            a:visited {
+                color: green;
             }
             div {
                 font-size: 20px;
@@ -139,6 +141,14 @@ for n in [128]:
         names = related_names[related_names['component'] == i]
         soup = _add_names_of_the_related_structures(soup,
                                                     names)
+
+        link_to_components = "https://parietal-inria.github.io/DiFuMo/{0}".format(n)
+        add_link_back_to_components = soup.new_tag('a',
+                                                   href=link_to_components)
+        add_link_back_to_components.string = "back to components"
+        soup.html.append(add_link_back_to_components)
+        soup.body.insert(-1, add_link_back_to_components)
+
 
         html_doc = str(soup)
 
