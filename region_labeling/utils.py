@@ -40,6 +40,27 @@ def set_data_storage():
     return table
 
 
+def set_difumo_storage():
+    """ Prepare dictionary with list of column attributes to record
+    overlap information.
+
+    Returns
+    -------
+    table : dict
+        An empty list with column is returned. Useful for appending
+        information corresponding to most overlapped regions from an
+        atlas.
+    """
+    columns = ['dimension', 'component', 'identified', 'overlap_against',
+               'label']
+    table = {}
+    if isinstance(columns, str):
+        columns = [columns, ]
+    for col in columns:
+        table.setdefault(col, [])
+    return table
+
+
 def transform_difumo_to_data(dimension, masker):
     """Transform DiFuMo atlas to sparse matrix
 
