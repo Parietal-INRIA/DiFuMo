@@ -113,7 +113,7 @@ def save_info(info, dimension):
 
 
 if __name__ == '__main__':
-    for dimension in [64, 128]:
+    for dimension in [256]:
         info = find_overlaps(dimension)
         table = save_info(info, dimension)
         table.to_csv(str(dimension) + '_dimension_overlap_difumo.csv')
