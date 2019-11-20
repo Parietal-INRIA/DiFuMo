@@ -148,7 +148,7 @@ def save_info(info, save_labels, atlas_names, dimension):
 if __name__ == '__main__':
     atlas_names = ['harvard_oxford', 'destrieux', 'diedrichsen',
                    'juelich', 'jhu', 'mist']
-    for dimension in [512]:
+    for dimension in [64, 128, 256, 512]:
         info, save_labels = find_overlaps(atlas_names, dimension)
         table = save_info(info, save_labels, atlas_names,
                           dimension)
