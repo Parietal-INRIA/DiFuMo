@@ -138,7 +138,7 @@ def _add_links_to_difumo_overlaps(soup, n, i, position):
     return soup
 
 
-for n in [64, 128, 256, 512]:
+for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
