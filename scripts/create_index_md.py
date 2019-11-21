@@ -16,7 +16,7 @@ link_location = "https://parietal-inria.github.io/DiFuMo/{0}"
 start_line = '[![{0} dimensions](imgs/front/{0}.jpg "{0} dimensions")]({1})'
 # start_line = '![{0} dimensions](imgs/front/{0}.jpg "{0} dimensions")'
 next_line = ('See regions for: [{0} dimensions]({0} "Labels '
-             'for {0} dimensions")         ')
+             'for {0} dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;')
 
 # Iteration
 for n in [64, 128, 256, 512, 1024]:
