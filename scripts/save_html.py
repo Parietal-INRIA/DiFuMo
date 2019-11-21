@@ -56,7 +56,7 @@ def _add_names_of_the_related_structures(soup, names):
     position = 3
     masked_names = _mask_background(names)
     columns = _remove_columns(masked_names)
-    new_div = soup.new_tag('div', attrs={'class': 'box'})
+    new_div = soup.new_tag('div', attrs={'class': 'box flush_right'})
 
     # Add links to visualize an image of related anatomical
     # structures to each component
@@ -84,28 +84,29 @@ def _add_names_of_the_related_structures(soup, names):
     return soup, position
 
 
-def _add_h2(soup):
-    """Append and insert heading into soup body
-    """
-    new_tag = soup.new_tag('h2')
-    new_tag.append("Within and across overlaps in DiFuMo "
-                   "dimensions")
-    soup.body.insert(position, new_tag)
-    return soup
-
-
 def _add_back_2_components(soup, n):
     """Add back to all components link to soup body
     """
     link_to_components = ("https://parietal-inria.github.io/"
                           "DiFuMo/{0}".format(n))
+    new_div = soup.new_tag('div', attrs={'class': 'box flush_right'})
+
     add_link_back_to_components = soup.new_tag(
             "a", attrs={"href": link_to_components,
                         "class": "back"})
     label = u"All DiFuMo-{0} maps \U0001F517".format(n)
     add_link_back_to_components.string = label
-    soup.html.append(add_link_back_to_components)
-    soup.body.insert(4, add_link_back_to_components)
+    new_div.append(add_link_back_to_components)
+    link = soup.new_tag(
+            "a", attrs={"href": link_to_components,
+                        "class": "back"})
+    img = soup.new_tag(
+            'img', attrs={"src": "../../imgs/display_maps/{0}.jpg".format(n),
+                          "width": "90%"},
+            )
+    link.append(img)
+    new_div.append(link)
+    soup.body.insert(4, new_div)
     return soup
 
 
@@ -119,28 +120,33 @@ def _add_links_to_difumo_overlaps(soup, n, i, position):
     difumo_overlaps = pd.read_csv(difumo_path.format(n))
     this_n = difumo_overlaps[difumo_overlaps['dimension'] == n]
     overlaps_in_n = this_n['overlap_against'].unique()
+    new_div = soup.new_tag('div', attrs={'class': 'box flush_left'})
+    new_tag = soup.new_tag('h3')
+    new_tag.append("Neighbooring DiFuMo maps")
+    new_div.append(new_tag)
     for dim in overlaps_in_n:
-        position += 1
-        new_tag = soup.new_tag('div')
-        new_tag.append(str(dim))
-        soup.body.insert(position, new_tag)
+        new_header = soup.new_tag('h4')
+        new_header.append("Dim " + str(dim))
+        new_div.append(new_header)
         grab_identified = this_n[this_n['overlap_against'] == dim]
         grab_i = grab_identified[grab_identified['component'] == i + 1]
+        tab = soup.new_tag('table')
         for other_i in grab_i['identified'].values:
-            position += 1
+            row = soup.new_tag('tr')
+            cell1 = soup.new_tag('td')
             add_link_difumo_overlap = soup.new_tag(
                     'a', href=link_to_difumo_overlap.format(dim, other_i))
             label = grab_i[grab_i['identified'] == other_i].label.values[0]
             add_link_difumo_overlap.string = label
-            soup.html.append(add_link_difumo_overlap)
-            soup.body.insert(position, add_link_difumo_overlap)
-            new_tag = soup.new_tag('div')
-            position += 1
-            soup.body.insert(position, new_tag)
+            cell1.append(add_link_difumo_overlap)
+            row.append(cell1)
+            tab.append(row)
+        new_div.append(tab)
+    soup.body.insert(position, new_div)
     return soup
 
 
-for n in [64, 128, 256, 512, 1024]:
+for n in [64, ]:# 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
@@ -176,8 +182,11 @@ for n in [64, 128, 256, 512, 1024]:
                 margin-bottom: 0px;
                 right: 120px;
             }
-            h3 {
+            h3, h2 {
                 margin: 1px;
+            }
+            h4 {
+                margin-bottom: 1px;
             }
             .related {
                 position: static;
@@ -197,28 +206,33 @@ for n in [64, 128, 256, 512, 1024]:
                 background-color: #eee;
             }
             .back {
-                position: absolute;
                 font-size: 20px;
-                color: black;
-                background: white;
-                padding: 5px;
-                top: 8px;
-                right: 8px;
-                border-radius: 4px;
+                display: table-row;
+                max-width: 25ex;
+            }
+            .back img {
+                max-width: 100%;
             }
             div {
                 font-size: 20px;
             }
+            div.flush_right {
+                float: right;
+            }
+            div.flush_left {
+                float: left;
+            }
             div.box {
                 background: white;
-                display: table;
+                display: grid;
                 color: black;
                 padding: 5px;
                 border-radius: 5px;
+                margin: 10px;
             }
         """)
         soup.head.append(style)
-        soup.head.title.string = label
+        soup.head.title.string = "{0} (DiFuMo-{1})".format(label, n)
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
@@ -227,19 +241,15 @@ for n in [64, 128, 256, 512, 1024]:
         names = related_names[related_names['component'] == i]
         soup, position = _add_names_of_the_related_structures(soup,
                                                               names)
-
-        # Add heading for DiFuMo overlaps
-        soup = _add_h2(soup)
+        # Add link back to components
+        soup = _add_back_2_components(soup, n)
 
         # Add links to DiFuMo overlaps
         soup = _add_links_to_difumo_overlaps(soup, n, i, position + 1)
-
-        # Add link back to components
-        soup = _add_back_2_components(soup, n)
 
         html_doc = str(soup)
 
         file_name = join(save_dir, '{0}.html'.format(i + 1))
         with open(file_name, 'wb') as f:
             f.write(html_doc.encode('utf-8'))
-        stop
+        print('Generated file {0}'.format(file_name))
