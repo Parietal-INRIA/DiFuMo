@@ -44,41 +44,43 @@ def _mask_background(data):
 def _remove_columns(data):
     """Remove irrelevant columns
     """
-    columns = data.columns.to_list()
+    columns = list(data.columns)
     columns.remove('cut_coords')
     columns.remove('component')
     return columns
 
 
-def _add_link(soup, n, i):
-    """Adding soup.new_tag to link to a plotted image which
-    visualizes the related anatomical structures to each
-    component
+def _add_names_of_the_related_structures(soup, names):
+    """Add names in strings of overlapped anatomical structures
     """
+    position = 3
+    masked_names = _mask_background(names)
+    columns = _remove_columns(masked_names)
+    new_div = soup.new_tag('div', attrs={'class': 'box'})
+
     # Add links to visualize an image of related anatomical
     # structures to each component
     link = ("https://parietal-inria.github.io/DiFuMo/"
             "{0}/related/component_{1}")
+    new_header = soup.new_tag('h3')
     new_link = soup.new_tag("a", attrs={"href": link.format(n, i + 1),
                                         "class": "related"})
-    new_link.string = "Related brain structures"
-    soup.html.append(new_link)
-    soup.body.insert(3, new_link)
-    return soup
-
-
-def _add_names_of_the_related_structures(soup, names):
-    """Add names in strings of overlapped anatomical structures
-    """
-    position = 4
-    masked_names = _mask_background(names)
-    columns = _remove_columns(masked_names)
+    new_link.string = "Related brain structures in reference atlases"
+    new_header.append(new_link)
+    new_div.append(new_header)
+    tab = soup.new_tag('table')
     for atlas in columns:
+        row = soup.new_tag('tr')
         match_found = masked_names[atlas].values[0]
-        new_tag = soup.new_tag("div")
-        new_tag.append(ATLASES[atlas] + ':' + match_found)
-        soup.body.insert(position, new_tag)
-        position += 1
+        cell1 = soup.new_tag('td')
+        cell1.append(ATLASES[atlas])
+        row.append(cell1)
+        cell2 = soup.new_tag('td')
+        cell2.append(match_found)
+        row.append(cell2)
+        tab.append(row)
+    new_div.append(tab)
+    soup.body.insert(position, new_div)
     return soup, position
 
 
@@ -100,7 +102,7 @@ def _add_back_2_components(soup, n):
     add_link_back_to_components = soup.new_tag(
             "a", attrs={"href": link_to_components,
                         "class": "back"})
-    label = "back to all {0} components".format(n)
+    label = u"All DiFuMo-{0} maps \U0001F517".format(n)
     add_link_back_to_components.string = label
     soup.html.append(add_link_back_to_components)
     soup.body.insert(4, add_link_back_to_components)
@@ -174,6 +176,9 @@ for n in [64, 128, 256, 512, 1024]:
                 margin-bottom: 0px;
                 right: 120px;
             }
+            h3 {
+                margin: 1px;
+            }
             .related {
                 position: static;
                 color: red:
@@ -182,29 +187,41 @@ for n in [64, 128, 256, 512, 1024]:
             a {
                 position: relative;
                 right: -15px;
+                text-decoration: none;
             }
             a:hover {
-                color: red;
+                color: blue;
+                text-decoration: underline;
+            }
+            tr:nth-child(odd) {
+                background-color: #eee;
             }
             .back {
-                color: red;
                 position: absolute;
-                right: 0;
-                font-size: 15px;
+                font-size: 20px;
+                color: black;
+                background: white;
+                padding: 5px;
+                top: 8px;
+                right: 8px;
+                border-radius: 4px;
             }
             div {
                 font-size: 20px;
             }
+            div.box {
+                background: white;
+                display: table;
+                color: black;
+                padding: 5px;
+                border-radius: 5px;
+            }
         """)
         soup.head.append(style)
-        # soup.head.title.string = label
+        soup.head.title.string = label
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
-
-        # Add new_tag linking an image of related anatomical
-        # structures to each component
-        soup = _add_link(soup, n, i)
 
         # add related anatomical structures
         names = related_names[related_names['component'] == i]
@@ -215,7 +232,7 @@ for n in [64, 128, 256, 512, 1024]:
         soup = _add_h2(soup)
 
         # Add links to DiFuMo overlaps
-        soup = _add_links_to_difumo_overlaps(soup, n, i, position)
+        soup = _add_links_to_difumo_overlaps(soup, n, i, position + 1)
 
         # Add link back to components
         soup = _add_back_2_components(soup, n)
@@ -225,3 +242,4 @@ for n in [64, 128, 256, 512, 1024]:
         file_name = join(save_dir, '{0}.html'.format(i + 1))
         with open(file_name, 'wb') as f:
             f.write(html_doc.encode('utf-8'))
+        stop
