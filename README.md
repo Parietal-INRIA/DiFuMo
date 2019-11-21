@@ -5,12 +5,11 @@
    (64, 128, 256, 512, and 1024). These modes are optimized to represent well raw BOLD timeseries,
    over a with range of experimental conditions.
    
+       - All atlases are available in .nii.gz format and sampled to MNI space
+   
 2. Additionally, we provide meaningful names for these modes, based on their anatomical
    location, to facilitate reporting of results.
-   
 
-      
-       - All atlases are available in .nii.gz format and sampled to MNI space
        - Anatomical names are available for each resolution in .csv
 
 ## Simple demo
