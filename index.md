@@ -5,20 +5,20 @@
 
 [![64 dimensions](imgs/front/64.jpg "64 dimensions")](https://parietal-inria.github.io/DiFuMo/64)
 
-See regions for: [64 dimensions](64 "Labels for 64 dimensions")  [Download](https://osf.io/ry5fq/download)
+See regions for: [64 dimensions](64 "Labels for 64 dimensions")         [Download](https://osf.io/ry5fq/download)
 
 [![128 dimensions](imgs/front/128.jpg "128 dimensions")](https://parietal-inria.github.io/DiFuMo/128)
 
-See regions for: [128 dimensions](128 "Labels for 128 dimensions")  [Download](https://osf.io/5kqx7/download)
+See regions for: [128 dimensions](128 "Labels for 128 dimensions")         [Download](https://osf.io/5kqx7/download)
 
 [![256 dimensions](imgs/front/256.jpg "256 dimensions")](https://parietal-inria.github.io/DiFuMo/256)
 
-See regions for: [256 dimensions](256 "Labels for 256 dimensions")  [Download](https://osf.io/xkja5/download)
+See regions for: [256 dimensions](256 "Labels for 256 dimensions")         [Download](https://osf.io/xkja5/download)
 
 [![512 dimensions](imgs/front/512.jpg "512 dimensions")](https://parietal-inria.github.io/DiFuMo/512)
 
-See regions for: [512 dimensions](512 "Labels for 512 dimensions")  [Download](https://osf.io/unqfz/download)
+See regions for: [512 dimensions](512 "Labels for 512 dimensions")         [Download](https://osf.io/unqfz/download)
 
 [![1024 dimensions](imgs/front/1024.jpg "1024 dimensions")](https://parietal-inria.github.io/DiFuMo/1024)
 
-See regions for: [1024 dimensions](1024 "Labels for 1024 dimensions")  [Download](https://osf.io/wr4j3/download)
+See regions for: [1024 dimensions](1024 "Labels for 1024 dimensions")         [Download](https://osf.io/wr4j3/download)
