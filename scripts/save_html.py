@@ -122,7 +122,7 @@ def _add_links_to_difumo_overlaps(soup, n, i, position):
     overlaps_in_n = this_n['overlap_against'].unique()
     new_div = soup.new_tag('div', attrs={'class': 'box flush_left'})
     new_tag = soup.new_tag('h3')
-    new_tag.append("Neighbooring DiFuMo maps")
+    new_tag.append("Neighboring DiFuMo maps")
     new_div.append(new_tag)
     for dim in overlaps_in_n:
         new_header = soup.new_tag('h4')
@@ -146,7 +146,7 @@ def _add_links_to_difumo_overlaps(soup, n, i, position):
     return soup
 
 
-for n in [64, ]:# 128, 256, 512, 1024]:
+for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
