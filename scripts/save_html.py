@@ -192,7 +192,7 @@ nn.fit(labels_vec)
 
 # Do all HTML files
 #for n in [64, 128, 256, 512, 1024]:
-for n in [256, ]:
+for n in [64, ]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
@@ -300,7 +300,7 @@ for n in [256, ]:
         close_idx = close_idx[dist < 3]
         close_labels = all_labels.iloc[close_idx]
         close_labels = close_labels[close_labels.index != i]
-        if len(close_idx):
+        if len(close_labels):
             soup, position = _add_names_of_the_similar_labels(soup,
                                                             close_labels,
                                                             position + 1)
