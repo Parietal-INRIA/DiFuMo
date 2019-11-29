@@ -146,6 +146,51 @@ def _add_links_to_difumo_overlaps(soup, n, i, position):
     return soup
 
 
+def _add_names_of_the_similar_labels(soup, close_labels, position):
+    """ Add links to structures with similar names """
+    link_to_difumo = ("https://parietal-inria.github.io/DiFuMo/"
+                      "{0}/html/{1}.html")
+    new_div = soup.new_tag('div', attrs={'class': 'box flush_left'})
+    new_tag = soup.new_tag('h3')
+    new_tag.append("Similarly-named DiFuMo maps")
+    new_div.append(new_tag)
+    tab = soup.new_tag('table')
+    for _, label in close_labels.iterrows():
+        row = soup.new_tag('tr')
+        cell1 = soup.new_tag('td')
+        dim = label['dimension']
+        other_i = label['index']
+        add_link_difumo_overlap = soup.new_tag(
+                'a', href=link_to_difumo.format(dim, other_i))
+        name = label['names']
+        add_link_difumo_overlap.string = '%s (dim %i)' % (name, dim)
+        cell1.append(add_link_difumo_overlap)
+        row.append(cell1)
+        tab.append(row)
+    new_div.append(tab)
+    soup.body.insert(position, new_div)
+    return soup, position + 1
+
+
+# Find the closest matching strings
+all_labels = []
+
+for n in [64, 128, 256, 512, 1024]:
+    labels = fetch_difumo(dimension=n).labels
+    labels['dimension'] = n
+    labels = labels.reset_index()
+    all_labels.append(labels)
+
+all_labels = pd.concat(all_labels)
+
+from sklearn.feature_extraction import text
+from sklearn import neighbors
+vectorizer = text.CountVectorizer(analyzer='char_wb', ngram_range=[5, 5])
+labels_vec = vectorizer.fit_transform(all_labels['names'])
+nn = neighbors.NearestNeighbors(p=1, n_neighbors=7)
+nn.fit(labels_vec)
+
+# Do all HTML files
 for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
@@ -246,7 +291,18 @@ for n in [64, 128, 256, 512, 1024]:
 
         # Add links to DiFuMo overlaps
         soup = _add_links_to_difumo_overlaps(soup, n, i, position + 1)
+        position += 1
 
+        # Add the strings that are closest
+        dist, close_idx = nn.kneighbors(
+                    vectorizer.transform([labels['names'].iloc[i]]))
+        close_idx = close_idx[dist < 3]
+        close_labels = all_labels.iloc[close_idx]
+        close_labels = close_labels[close_labels.index != i]
+        if len(close_idx):
+            soup, position = _add_names_of_the_similar_labels(soup,
+                                                            close_labels,
+                                                            position + 1)
         html_doc = str(soup)
 
         file_name = join(save_dir, '{0}.html'.format(i + 1))
