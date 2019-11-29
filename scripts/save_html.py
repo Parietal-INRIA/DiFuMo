@@ -192,7 +192,7 @@ nn.fit(labels_vec)
 
 # Do all HTML files
 #for n in [64, 128, 256, 512, 1024]:
-for n in [64, ]:
+for n in [256, ]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
