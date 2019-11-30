@@ -191,8 +191,7 @@ nn = neighbors.NearestNeighbors(p=1, n_neighbors=7)
 nn.fit(labels_vec)
 
 # Do all HTML files
-#for n in [64, 128, 256, 512, 1024]:
-for n in [512, ]:
+for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
