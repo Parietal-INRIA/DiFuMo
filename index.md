@@ -13,7 +13,7 @@ See regions for: [128 dimensions](128 "Labels for 128 dimensions") &nbsp;&nbsp;&
 
 [![256 dimensions](imgs/front/256.jpg "256 dimensions")](https://parietal-inria.github.io/DiFuMo/256)
 
-See regions for: [256 dimensions](256 "Labels for 256 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/a7wqv/download)
+See regions for: [256 dimensions](256 "Labels for 256 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/zy9mu/download)
 
 [![512 dimensions](imgs/front/512.jpg "512 dimensions")](https://parietal-inria.github.io/DiFuMo/512)
 
