@@ -21,4 +21,4 @@ See regions for: [512 dimensions](512 "Labels for 512 dimensions") &nbsp;&nbsp;&
 
 [![1024 dimensions](imgs/front/1024.jpg "1024 dimensions")](https://parietal-inria.github.io/DiFuMo/1024)
 
-See regions for: [1024 dimensions](1024 "Labels for 1024 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/wr4j3/download)
+See regions for: [1024 dimensions](1024 "Labels for 1024 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/rg3vj/download)

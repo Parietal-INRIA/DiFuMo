@@ -5,7 +5,7 @@ dic = {64: "https://osf.io/ry5fq/download",
        128: "https://osf.io/5kqx7/download",
        256: "https://osf.io/zy9mu/download",
        512: "https://osf.io/unqfz/download",
-       1024: "https://osf.io/wr4j3/download",
+       1024: "https://osf.io/rg3vj/download",
        }
 
 mdFile = mdutils.MdUtils(file_name=os.path.join('..', 'index'))
