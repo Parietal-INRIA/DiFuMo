@@ -5,7 +5,7 @@
    dic = {64: https://osf.io/ry5fq/download,
           128: https://osf.io/5kqx7/download,
           256: https://osf.io/zy9mu/download,
-          512: https://osf.io/unqfz/download,
+          512: https://osf.io/47snp/download,
           1024: https://osf.io/rg3vj/download,
           }
 """
@@ -53,7 +53,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     dic = {64: 'ry5fq',
            128: '5kqx7',
            256: 'zy9mu',
-           512: 'unqfz',
+           512: '47snp',
            1024: 'rg3vj',
            }
     valid_dimensions = [64, 128, 256, 512, 1024]
