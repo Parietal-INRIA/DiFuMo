@@ -20,7 +20,9 @@ ATLASES = {'harvard_oxford': 'Harvard Oxford',
            'juelich': 'Juelich',
            'jhu': 'JHU',
            'diedrichsen': 'Diedrichsen',
-           'modl': 'MODL_128'}
+           'modl': 'MODL_128',
+           'yeo_networks7': 'Yeo et al. 2011 7 networks',
+           'yeo_networks17': 'Yeo et al. 2011 17 networks'}
 
 
 def _mask_background(data):
@@ -191,7 +193,7 @@ nn = neighbors.NearestNeighbors(p=1, n_neighbors=7)
 nn.fit(labels_vec)
 
 # Do all HTML files
-for n in [64, 128, 256, 512, 1024]:
+for n in [256]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
@@ -213,6 +215,12 @@ for n in [64, 128, 256, 512, 1024]:
         # Post-processing the HTML
         soup = bs4.BeautifulSoup(html_view.get_standalone(),
                                  'html.parser')
+
+        # Add title
+        title = soup.new_tag('title')
+        title.string = "{0} (DiFuMo-{1})".format(label, n)
+        soup.head.append(title)
+
         # Add CSS in the header
         style = soup.new_tag('style')
         style.append("""
@@ -277,7 +285,7 @@ for n in [64, 128, 256, 512, 1024]:
             }
         """)
         soup.head.append(style)
-        soup.head.title.string = "{0} (DiFuMo-{1})".format(label, n)
+        # soup.head.title.string = "{0} (DiFuMo-{1})".format(label, n)
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
