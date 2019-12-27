@@ -26,7 +26,8 @@ def find_overlaps(atlas_names, dimension):
         Grab atlas from web given the name. Few are shipped with FSL
         and Nilearn.
         Valid options:  ['harvard_oxford', 'destrieux', 'diedrichsen',
-                         'juelich', 'jhu', 'mist']
+                         'juelich', 'jhu', 'mist', 'yeo_networks7',
+                         'yeo_networks17']
 
     dimension : int
         Dimension of the DiFuMo atlas (4D).
@@ -109,7 +110,8 @@ def save_info(info, save_labels, atlas_names, dimension):
         Grab atlas from web given the name. Few are shipped with FSL
         and Nilearn.
         Valid options:  ['harvard_oxford', 'destrieux', 'diedrichsen',
-                         'juelich', 'jhu', 'mist']
+                         'juelich', 'jhu', 'mist', 'yeo_networks7',
+                         'yeo_networks17']
 
     dimension : int
         DiFuMo atlas dimension
@@ -128,7 +130,8 @@ def save_info(info, save_labels, atlas_names, dimension):
             # Proporting of overlap with each index of difumo component
             this_atlas_info = info[atlas]['overlap_proportion'][i]
             if atlas in ['harvard_oxford', 'diedrichsen', 'juelich',
-                         'jhu', 'mist']:
+                         'jhu', 'mist', 'yeo_networks7',
+                         'yeo_networks17']:
                 if len(this_atlas_info.index[:1]) != 0:
                     # grabbing the top one from the overlapped list
                     this_label = save_labels[atlas][this_atlas_info.index[:1]][0]
@@ -147,8 +150,9 @@ def save_info(info, save_labels, atlas_names, dimension):
 
 if __name__ == '__main__':
     atlas_names = ['harvard_oxford', 'destrieux', 'diedrichsen',
-                   'juelich', 'jhu', 'mist']
-    for dimension in [64, 128, 256, 512, 1024]:
+                   'juelich', 'jhu', 'mist', 'yeo_networks7',
+                   'yeo_networks17']
+    for dimension in [64]:
         info, save_labels = find_overlaps(atlas_names, dimension)
         table = save_info(info, save_labels, atlas_names,
                           dimension)

@@ -23,7 +23,9 @@ ATLASES = {'harvard_oxford': 'Harvard Oxford',
            'juelich': 'Juelich',
            'jhu': 'JHU',
            'diedrichsen': 'Diedrichsen',
-           'modl': 'MODL_128'}
+           'modl': 'MODL_128',
+           'yeo_networks7': 'Yeo et al. 2011 7 networks',
+           'yeo_networks17': 'Yeo et al. 2011 17 networks'}
 
 # Not so great defaults but it works
 xy = {'harvard_oxford': {'x': -0.01, 'y': 0.3},
@@ -32,6 +34,8 @@ xy = {'harvard_oxford': {'x': -0.01, 'y': 0.3},
       'juelich': {'x': -0.01, 'y': 0.5},
       'jhu': {'x': -0.01, 'y': 0.3},
       'diedrichsen': {'x': -0.01, 'y': 0.4},
+      'yeo_networks7': {'x': -0.01, 'y': 0.4},
+      'yeo_networks17': {'x': -0.01, 'y': 0.4},
       'modl': {'x': -0.01, 'y': 0.38}}
 
 
@@ -103,7 +107,7 @@ def _plot_references(label_match, labels_img, labels, atlas,
     axes = _simplify_grid(fig, axes, idx + 1)
     labels_data = _safe_get_data(nibabel.load(labels_img))
     if atlas in ['harvard_oxford', 'diedrichsen', 'juelich',
-                 'jhu', 'mist']:
+                 'jhu', 'mist', 'yeo_networks7', 'yeo_networks17']:
         if label_match != 'Background':
             mask = np.where(np.array(labels) == label_match)[0][0]
             data = (labels_data == mask)
@@ -132,15 +136,16 @@ def plot_overlaps(info, atlas_names, dimension, output_dir=None,
     info : pd.DataFrame
         Data frame contains ovelap information of specific dimension
         with regards to : ['harvard_oxford', 'destrieux', 'diedrichsen',
-                           'jhu', 'juelich', 'mist', 'component',
-                           'cut_coords']
+                           'jhu', 'juelich', 'mist', 'yeo_networks7',
+                           'yeo_networks17', 'component', 'cut_coords']
         The info columns
 
     atlas_names : str or list of str
         Grab atlas from web given the name. Few are shipped with FSL
         and Nilearn.
         Valid options:  ['harvard_oxford', 'destrieux', 'diedrichsen',
-                         'juelich', 'jhu', 'mist']
+                         'juelich', 'jhu', 'mist', 'yeo_networks7',
+                         'yeo_networks17']
 
     dimension : int
         DiFuMo atlas dimension
@@ -169,7 +174,7 @@ def plot_overlaps(info, atlas_names, dimension, output_dir=None,
         masked_data = _mask_background(this_data)
         columns = _remove_columns(masked_data)
         fig, axes = plt.subplots(ncols=2, nrows=len(columns) + 1,
-                                 figsize=(10, 18), facecolor='k')
+                                 figsize=(10, 22), facecolor='k')
         proposed_label = proposed_labels.iloc[comp_idx].names
         # plot difumo component-wise
         axbig = _simplify_grid(fig, axes, 0)

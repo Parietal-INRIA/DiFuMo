@@ -31,7 +31,8 @@ def set_data_storage():
 
     """
     columns = ['harvard_oxford', 'destrieux', 'diedrichsen', 'jhu',
-               'juelich', 'mist', 'component', 'cut_coords']
+               'juelich', 'mist', 'yeo_networks7', 'yeo_networks17',
+               'component', 'cut_coords']
     table = {}
     if isinstance(columns, str):
         columns = [columns, ]
