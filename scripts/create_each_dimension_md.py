@@ -10,8 +10,8 @@ fetch_difumo = fetcher['fetch_difumo']
 dic = {64: "https://osf.io/6fjqa/download",
        128: "https://osf.io/zw6ua/download",
        256: "https://osf.io/tku4r/download",
-       512: "https://osf.io/47snp/download",
-       1024: "https://osf.io/rg3vj/download",
+       512: "https://osf.io/2hsjk/download",
+       1024: "https://osf.io/wa894/download",
        }
 
 for n in [64, 128, 256, 512, 1024]:
