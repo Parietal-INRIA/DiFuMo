@@ -7,9 +7,9 @@ import runpy
 fetcher = runpy.run_path('../notebook/fetcher.py')
 fetch_difumo = fetcher['fetch_difumo']
 
-dic = {64: "https://osf.io/ry5fq/download",
-       128: "https://osf.io/5kqx7/download",
-       256: "https://osf.io/zy9mu/download",
+dic = {64: "https://osf.io/6fjqa/download",
+       128: "https://osf.io/zw6ua/download",
+       256: "https://osf.io/tku4r/download",
        512: "https://osf.io/47snp/download",
        1024: "https://osf.io/rg3vj/download",
        }
@@ -35,7 +35,7 @@ for n in [64, 128, 256, 512, 1024]:
                        '({3}/html/{0}.html)|')
 
     for idx in np.arange(n_components) + 1:
-        this_name = annotated_names.iloc[idx - 1].names
+        this_name = annotated_names.iloc[idx - 1].Difumo_names
         mdFile.new_paragraph(iter_line.format(idx, this_name))
         mdFile.new_line()
         mdFile.write(second_line)

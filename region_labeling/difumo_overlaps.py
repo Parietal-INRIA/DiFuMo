@@ -97,7 +97,7 @@ def save_info(info, dimension):
     for i, img in enumerate(image.iter_img(maps_img)):
         cut_coords = plotting.find_xyz_cut_coords(img)
         for n in [64, 128, 256, 512, 1024]:
-            labels = fetch_difumo(dimension=n).labels['names'].to_list()
+            labels = fetch_difumo(dimension=n).labels['Difumo_names'].to_list()
             # Proportion of overlap with each index of difumo component
             this_img_info = info[n]['overlap_proportion'][i]
             identified_components = this_img_info.index[1:6]

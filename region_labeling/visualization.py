@@ -175,7 +175,7 @@ def plot_overlaps(info, atlas_names, dimension, output_dir=None,
         columns = _remove_columns(masked_data)
         fig, axes = plt.subplots(ncols=2, nrows=len(columns) + 1,
                                  figsize=(10, 22), facecolor='k')
-        proposed_label = proposed_labels.iloc[comp_idx].names
+        proposed_label = proposed_labels.iloc[comp_idx].Difumo_names
         # plot difumo component-wise
         axbig = _simplify_grid(fig, axes, 0)
         _plot_difumo(img, axbig, proposed_label, cut_coords,

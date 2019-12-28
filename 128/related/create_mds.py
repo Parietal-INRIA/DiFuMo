@@ -17,7 +17,7 @@ link_back_line = ("[Go back to corresponding component]"
                   "(https://parietal-inria.github.io/DiFuMo/128/html/{0}.html)")
 
 for idx, label in zip(np.arange(n_components) + 1,
-                      labels['names']):
+                      labels['Difumo_names']):
     mdFile = mdutils.MdUtils(file_name='component_' + str(idx))
     title_ = title.format(label)
     mdFile.write("## " + title_)

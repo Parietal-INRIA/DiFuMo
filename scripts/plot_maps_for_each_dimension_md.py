@@ -33,7 +33,7 @@ def _save_results(annotated_names, maps_img, dimension):
     for i, img in enumerate(image.iter_img(maps_img)):
         cut_coords = plotting.find_xyz_cut_coords(img)
         if annotated_names is not None:
-            annotated_name = annotated_names.iloc[i].names
+            annotated_name = annotated_names.iloc[i].Difumo_names
         else:
             annotated_name = None
         _plot_dl_maps(img, cut_coords, annotated_name, i, dimension)

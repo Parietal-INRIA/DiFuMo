@@ -2,9 +2,9 @@
 
    Direct download links from OSF:
 
-   dic = {64: https://osf.io/ry5fq/download,
-          128: https://osf.io/5kqx7/download,
-          256: https://osf.io/zy9mu/download,
+   dic = {64: https://osf.io/6fjqa/download,
+          128: https://osf.io/zw6ua/download,
+          256: https://osf.io/tku4r/download,
           512: https://osf.io/47snp/download,
           1024: https://osf.io/rg3vj/download,
           }
@@ -50,9 +50,9 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     Fine-grain atlases of functional modes for fMRI analysis,
     Paper in preparation
     """
-    dic = {64: 'ry5fq',
-           128: '5kqx7',
-           256: 'zy9mu',
+    dic = {64: '6fjqa',
+           128: 'zw6ua',
+           256: 'tku4r',
            512: '47snp',
            1024: 'rg3vj',
            }
@@ -84,6 +84,18 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
 
     # Download the zip file, first
     files = _fetch_files(data_dir, files, verbose=2)
-    labels = pd.read_csv(files[0], names=['names'])
+    labels = pd.read_csv(files[0])
+
+    # README
+    readme_files = [('README.md', 'https://osf.io/9fzc3/download',
+                    {'move': 'README.md'})]
+    if not os.path.exists(os.path.join(data_dir, 'README.md')):
+        _fetch_files(data_dir, readme_files, verbose=2)
+
+    # Python resampling script
+    script_files = [('resample_dictionaries.py', 'https://osf.io/ezr37/download',
+                    {'move': 'resample_dictionaries.py'})]
+    if not os.path.exists(os.path.join(data_dir, 'resample_dictionaries.py')):
+        _fetch_files(data_dir, script_files, verbose=2)
 
     return Bunch(maps=files[1], labels=labels)
