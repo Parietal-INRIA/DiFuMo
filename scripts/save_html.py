@@ -164,7 +164,7 @@ def _add_names_of_the_similar_labels(soup, close_labels, position):
         other_i = label['index']
         add_link_difumo_overlap = soup.new_tag(
                 'a', href=link_to_difumo.format(dim, other_i))
-        name = label['names']
+        name = label['Difumo_names']
         add_link_difumo_overlap.string = '%s (dim %i)' % (name, dim)
         cell1.append(add_link_difumo_overlap)
         row.append(cell1)
@@ -188,12 +188,12 @@ all_labels = pd.concat(all_labels)
 from sklearn.feature_extraction import text
 from sklearn import neighbors
 vectorizer = text.CountVectorizer(analyzer='char_wb', ngram_range=[5, 5])
-labels_vec = vectorizer.fit_transform(all_labels['names'])
+labels_vec = vectorizer.fit_transform(all_labels['Difumo_names'])
 nn = neighbors.NearestNeighbors(p=1, n_neighbors=7)
 nn.fit(labels_vec)
 
 # Do all HTML files
-for n in [256]:
+for n in [64, 128, 256, 512, 1024]:
     data = fetch_difumo(dimension=n)
     labels = data.labels
     maps_img = data.maps
@@ -207,7 +207,7 @@ for n in [256]:
     related_names = related_names.drop('Unnamed: 0',
                                        axis=1)
     for i, (img, label) in enumerate(zip(iter_img(maps_img),
-                                         labels['names'])):
+                                         labels['Difumo_names'])):
         cut_coords = plotting.find_xyz_cut_coords(img)
         html_view = plotting.view_img(img, cut_coords=cut_coords,
                                       colorbar=False)
@@ -217,9 +217,9 @@ for n in [256]:
                                  'html.parser')
 
         # Add title
-        title = soup.new_tag('title')
-        title.string = "{0} (DiFuMo-{1})".format(label, n)
-        soup.head.append(title)
+        # title = soup.new_tag('title')
+        # title.string = "{0} (DiFuMo-{1})".format(label, n)
+        # soup.head.append(title)
 
         # Add CSS in the header
         style = soup.new_tag('style')
@@ -285,7 +285,7 @@ for n in [256]:
             }
         """)
         soup.head.append(style)
-        # soup.head.title.string = "{0} (DiFuMo-{1})".format(label, n)
+        soup.head.title.string = "{0} (DiFuMo-{1})".format(label, n)
         title = soup.new_tag('h1')
         title.append(label)
         soup.body.insert(0, title)
@@ -303,7 +303,7 @@ for n in [256]:
 
         # Add the strings that are closest
         dist, close_idx = nn.kneighbors(
-                    vectorizer.transform([labels['names'].iloc[i]]))
+                    vectorizer.transform([labels['Difumo_names'].iloc[i]]))
         close_idx = close_idx[dist < 3]
         close_labels = all_labels.iloc[close_idx]
         close_labels = close_labels[close_labels.index != i]
