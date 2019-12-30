@@ -87,7 +87,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     labels = pd.read_csv(files[0])
 
     # README
-    readme_files = [('README.md', 'https://osf.io/9fzc3/download',
+    readme_files = [('README.md', 'https://osf.io/u5xhn/download',
                     {'move': 'README.md'})]
     if not os.path.exists(os.path.join(data_dir, 'README.md')):
         _fetch_files(data_dir, readme_files, verbose=2)
