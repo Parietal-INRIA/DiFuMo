@@ -5,7 +5,7 @@
 
 [![64 dimensions](imgs/front/64.jpg "64 dimensions")](https://parietal-inria.github.io/DiFuMo/64)
 
-See regions for: [64 dimensions](64 "Labels for 64 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/zycbv/download)
+See regions for: [64 dimensions](64 "Labels for 64 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/vfhk8/download)
 
 [![128 dimensions](imgs/front/128.jpg "128 dimensions")](https://parietal-inria.github.io/DiFuMo/128)
 

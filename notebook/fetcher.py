@@ -2,7 +2,7 @@
 
    Direct download links from OSF:
 
-   dic = {64: https://osf.io/zycbv/download,
+   dic = {64: https://osf.io/vfhk8/download,
           128: https://osf.io/hwc4b/download,
           256: https://osf.io/ynqu9/download,
           512: https://osf.io/xcb9g/download,
@@ -50,7 +50,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     Fine-grain atlases of functional modes for fMRI analysis,
     Paper in preparation
     """
-    dic = {64: 'zycbv',
+    dic = {64: 'vfhk8',
            128: 'hwc4b',
            256: 'ynqu9',
            512: 'xcb9g',

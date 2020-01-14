@@ -7,7 +7,7 @@ import runpy
 fetcher = runpy.run_path('../notebook/fetcher.py')
 fetch_difumo = fetcher['fetch_difumo']
 
-dic = {64: "https://osf.io/zycbv/download",
+dic = {64: "https://osf.io/vfhk8/download",
        128: "https://osf.io/hwc4b/download",
        256: "https://osf.io/ynqu9/download",
        512: "https://osf.io/xcb9g/download",
