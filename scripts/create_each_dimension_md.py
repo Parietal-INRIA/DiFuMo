@@ -11,7 +11,7 @@ dic = {64: "https://osf.io/vfhk8/download",
        128: "https://osf.io/hwc4b/download",
        256: "https://osf.io/ynqu9/download",
        512: "https://osf.io/xcb9g/download",
-       1024: "https://osf.io/pxvw2/download",
+       1024: "https://osf.io/gqxhu/download",
        }
 
 for n in [64, 128, 256, 512, 1024]:

@@ -14,15 +14,15 @@
 12,128,1,45,256,"Superior frontal sulcus, LH"
 13,128,1,221,256,Precentral sulcus superior LH
 14,128,1,1,256,"Middle frontal gyrus anterior, LH"
-15,128,1,449,512,Middle frontal gyrus mid-posterior LH
+15,128,1,449,512,Middle frontal gyrus mid-posterior lateral LH
 16,128,1,124,512,Superior frontal sulcus middle LH
-17,128,1,162,512,Middle frontal gyrus posterior LH
+17,128,1,162,512,Superior frontal sulcus posterior LH
 18,128,1,221,512,Inferior frontal sulcus posterior LH
 19,128,1,251,512,Middle frontal gyrus mid-posterior LH
-20,128,1,48,1024,Superior frontal sulcus posterior LH
+20,128,1,48,1024,Superior frontal sulcus mid-posterior LH
 21,128,1,63,1024,Superior frontal sulcus middle LH
-22,128,1,963,1024,Precentral sulcus middle LH
-23,128,1,734,1024,Middle frontal gyrus posterior LH
+22,128,1,963,1024,Precentral sulcus mid-superior LH
+23,128,1,734,1024,Middle frontal gyrus mid-posterior LH
 24,128,1,929,1024,Middle frontal gyrus lateral LH
 25,128,2,51,64,Middle frontal gyrus
 26,128,2,52,64,Inferior frontal gyrus
@@ -39,16 +39,16 @@
 37,128,2,54,256,"Superior frontal sulcus anterior, RH"
 38,128,2,67,256,Middle frontal gyrus posterior RH
 39,128,2,98,256,Middle frontal gyrus medial RH
-40,128,2,310,512,Middle frontal gyrus anterior
+40,128,2,310,512,Middle frontal gyrus middle
 41,128,2,475,512,Middle frontal sulcus mid-anterior LH
-42,128,2,4,512,Middle frontal gyrus RH
+42,128,2,4,512,Middle frontal gyrus middle RH
 43,128,2,115,512,Middle frontal gyrus anterior RH
 44,128,2,48,512,Middle frontal gyrus mid-anterior LH
-45,128,2,879,1024,Middle frontal sulcus mid-anterior RH
+45,128,2,879,1024,Middle frontal sulcus middle RH
 46,128,2,90,1024,Middle frontal gyrus middle LH
-47,128,2,254,1024,Middle frontal gyrus anterior RH
-48,128,2,451,1024,Middle frontal gyrus middle RH
-49,128,2,788,1024,Middle frontal sulcus anterior LH
+47,128,2,254,1024,Middle frontal sulcus anterior RH
+48,128,2,451,1024,Middle frontal gyrus middle inferior RH
+49,128,2,788,1024,Middle frontal sulcus middle LH
 50,128,3,56,64,Superior occipital sulcus
 51,128,3,13,64,Superior occipital gyrus
 52,128,3,20,64,Central Parieto-occipital sulcus
@@ -65,15 +65,15 @@
 63,128,3,97,256,Superior occipital gyrus RH
 64,128,3,194,256,Lateral occipital cortex
 65,128,3,172,512,Superior occipital gyrus LH
-66,128,3,347,512,Superior occipital sulcus RH
-67,128,3,150,512,Superior occipital gyrus LH
+66,128,3,347,512,Superior occipital gyrus inferior RH
+67,128,3,150,512,Occipital pole superior LH
 68,128,3,278,512,Middle occipital sulcus LH
-69,128,3,62,512,Superior occipital sulcus inferior RH
-70,128,3,338,1024,Superior occipital gyrus LH
-71,128,3,297,1024,Cuneus middle LH
-72,128,3,777,1024,Superior occipital sulcus RH
-73,128,3,611,1024,Lunate sulcus LH
-74,128,3,1005,1024,Lunate sulcus RH
+69,128,3,62,512,Cuneus middle posterior RH
+70,128,3,338,1024,Superior occipital sulcus posterior LH
+71,128,3,297,1024,Descending occipital gyrus superior LH
+72,128,3,777,1024,Superior occipital sulcus inferior RH
+73,128,3,611,1024,Lunate sulcus superior LH
+74,128,3,1005,1024,Lunate sulcus superior RH
 75,128,4,58,64,Middle frontal gyrus anterior
 76,128,4,52,64,Inferior frontal gyrus
 77,128,4,49,64,Inferior frontal sulcus
@@ -91,13 +91,13 @@
 89,128,4,2,256,"Middle frontal gyrus anterior, RH"
 90,128,4,371,512,Inferior frontal sulcus anterior RH
 91,128,4,10,512,"Frontal pole lateral, RH"
-92,128,4,205,512,Middle frontal gyrus anterior RH
-93,128,4,366,512,Inferior frontal gyrus mid-anterior RH
+92,128,4,205,512,Middle frontal gyrus anterior lateral RH
+93,128,4,366,512,Inferior frontal gyrus anterior RH
 94,128,4,33,512,Pars orbitalis RH
-95,128,4,568,1024,Middle frontal gyrus anterior RH
+95,128,4,568,1024,Orbital cortex lateral RH
 96,128,4,17,1024,Frontal pole lateral RH
 97,128,4,135,1024,Inferior frontal gyrus anterior RH
-98,128,4,66,1024,Middle frontal gyrus anterior RH
+98,128,4,66,1024,Middle frontal gyrus mid-anterior RH
 99,128,4,282,1024,Cerebrospinal fluid (between frontal pole and skull RH)
 100,128,5,12,64,Paracentral gyrus RH
 101,128,5,33,64,Superior parietal lobule anterior
@@ -115,15 +115,15 @@
 113,128,5,243,256,Postcentral sulcus middle RH
 114,128,5,44,256,"Precentral sulcus, medial"
 115,128,5,414,512,Superior parts of central and postcentral sulci RH
-116,128,5,297,512,Callosomarginal sulcus superior
+116,128,5,297,512,Postcentral sulcus superior
 117,128,5,412,512,Superior parts of central and postcentral sulci LH
-118,128,5,502,512,Central sulcus superior 
+118,128,5,502,512,Central sulcus mid-superior 
 119,128,5,410,512,Callosomarginal sulcus superior
-120,128,5,847,1024,Postcentral gyrus superior lateral RH
+120,128,5,847,1024,Postcentral gyrus superior RH
 121,128,5,736,1024,Central sulcus superior LH
-122,128,5,767,1024,Postcentral gyrus superior 
+122,128,5,767,1024,Superior parts of central and postcentral gyrus
 123,128,5,756,1024,Postcentral sulcus superior LH
-124,128,5,965,1024,Postcentral gyrus superior LH
+124,128,5,965,1024,Paracentral lobule posterior LH
 125,128,6,4,64,Posterior Cingulate cortex
 126,128,6,14,64,Mid-posterior cingulate gyrus
 127,128,6,23,64,Anterior Cingulate Cortex
@@ -140,15 +140,15 @@
 138,128,6,15,256,Posterior cingulate cortex
 139,128,6,188,256,Posterior cingulate cortex
 140,128,6,336,512,Posterior cingulate cortex anterior
-141,128,6,408,512,Corpus callosum isthmus
-142,128,6,30,512,Cingulate gyrus middle
+141,128,6,408,512,Callosal sulcus mid-posterior
+142,128,6,30,512,Cingulate gyrus middle inferior
 143,128,6,142,512,Posterior cingulate cortex LH
-144,128,6,161,512,Cingulate sulcus mid-posterior 
-145,128,6,968,1024,Cingulate gyrus middle
-146,128,6,546,1024,Corpus callosum posterior body
-147,128,6,838,1024,Posterior cingulate cortex inferior
-148,128,6,161,1024,Mid-posterior cingulate cortex
-149,128,6,70,1024,Posterior cingulate cortex
+144,128,6,161,512,Cingulate gyrus mid-posterior 
+145,128,6,968,1024,Callosal sulcus mid-posterior
+146,128,6,546,1024,Cingulum posterior
+147,128,6,838,1024,Posterior cingulate cortex antero-inferior
+148,128,6,161,1024,Cingulate cortex mid-posterior
+149,128,6,70,1024,Posterior cingulate cortex anterior
 150,128,7,57,64,Superior parietal lobule
 151,128,7,56,64,Superior occipital sulcus
 152,128,7,59,64,Angular gyrus
@@ -164,16 +164,16 @@
 162,128,7,166,256,Angular gyrus superior
 163,128,7,27,256,"Intraparietal sulcus, anterior"
 164,128,7,124,256,"Intraparietal sulcus posterior, RH"
-165,128,7,50,512,Superior parietal lobule posterior LH
-166,128,7,75,512,Superior parietal sulcus LH
+165,128,7,50,512,Intraparietal sulcus superior LH
+166,128,7,75,512,Superior occipital sulcus superior LH
 167,128,7,171,512,Angular gyrus superior LH
 168,128,7,144,512,Intraparietal sulcus middle LH
 169,128,7,385,512,Intermediate primus of Jensen LH
-170,128,7,353,1024,Intraparietal sulcus LH
-171,128,7,716,1024,Intraparietal sulcus posterior LH
-172,128,7,298,1024,Intraparietal sulcus posterior LH
+170,128,7,353,1024,Intraparietal sulcus middle LH
+171,128,7,716,1024,Intraparietal sulcus mid-posterior LH
+172,128,7,298,1024,Angular gyrus superior posterior LH
 173,128,7,686,1024,Intraparietal sulcus posterior LH
-174,128,7,12,1024,Superior parietal lobule posterior LH
+174,128,7,12,1024,Cerebrospinal fluid (between posterior intraparietal sulcus and skull LH)
 175,128,8,53,64,Parieto occipital sulcus anterior
 176,128,8,60,64,Cuneus
 177,128,8,35,64,Lingual gyrus anterior
@@ -186,15 +186,15 @@
 184,128,8,52,128,Inferior precuneus
 185,128,8,151,256,"Parieto-occipital sulcus, anterior"
 186,128,8,128,256,"Parieto-occipital sulcus, inferior"
-187,128,8,218,256,Precuneus inferior 
+187,128,8,218,256,Precuneus inferior
 188,128,8,222,256,Calcarine sulcus anterior
 189,128,8,24,256,"Parieto-occipital sulcus, superior"
 190,128,8,331,512,Parieto-occipital sulcus middle
-191,128,8,301,512,Parieto-occipital sulcus middle LH
+191,128,8,301,512,Parieto-occipital sulcus middle inferior LH
 192,128,8,123,512,Cuneus anterior RH
-193,128,8,82,512,Parieto-occipital sulcus anterior
+193,128,8,82,512,Parieto-occipital sulcus mid-anterior
 194,128,8,326,512,Parieto-occipital sulcus mid-anterior RH
-195,128,8,243,1024,Parieto-occipital sulcus middle LH
+195,128,8,243,1024,Parieto-occipital sulcus mid-anterior LH
 196,128,8,1020,1024,Parieto-occipital sulcus anterior RH
 197,128,8,33,1024,Parieto-occipital sulcus middle LH
 198,128,8,159,1024,Parieto-occipital sulcus middle RH
@@ -218,12 +218,12 @@
 216,128,9,190,512,Superior frontal sulcus anterior LH
 217,128,9,277,512,Superior frontal sulcus mid-posterior RH
 218,128,9,149,512,Middle frontal sulcus anterior
-219,128,9,4,512,Middle frontal gyrus RH
-220,128,9,638,1024,Superior frontal gyrus middle LH
-221,128,9,11,1024,Superior frontal sulcus anterior RH
-222,128,9,286,1024,Superior frontal sulcus middle RH
-223,128,9,883,1024,Superior frontal sulcus mid-posterior LH
-224,128,9,586,1024,Superior frontal sulcus middle RH
+219,128,9,4,512,Middle frontal gyrus middle RH
+220,128,9,638,1024,Superior frontal gyrus mid-anterior LH
+221,128,9,11,1024,Middle frontal gyrus superior RH
+222,128,9,286,1024,Superior frontal sulcus mid-anterior RH
+223,128,9,883,1024,Superior frontal sulcus mid-anterior LH
+224,128,9,586,1024,Superior longitudinal fasciculus I anterior RH
 225,128,10,23,64,Anterior Cingulate Cortex
 226,128,10,39,64,Dorsomedial Prefrontal cortex antero-caudal
 227,128,10,4,64,Posterior Cingulate cortex
@@ -246,9 +246,9 @@
 244,128,10,479,512,Frontal pole medial
 245,128,10,533,1024,Superior rostral gyrus anterior
 246,128,10,973,1024,Suborbital sulcus
-247,128,10,106,1024,Olfactory sulcus RH
+247,128,10,106,1024,Inferior rostral gyrus RH
 248,128,10,600,1024,Gyrus rectus
-249,128,10,62,1024,Ventral medial prefrontal cortex posterior 
+249,128,10,62,1024,Ventromedial prefrontal cortex posterior 
 250,128,11,9,64,Cerebellum Crus II
 251,128,11,29,64,Inferior occipital gyrus
 252,128,11,22,64,Superior fornix and isthmus
@@ -264,11 +264,11 @@
 262,128,11,81,256,Cerebellum Crus I RH
 263,128,11,112,256,Fusiform gyrus posterior
 264,128,11,179,256,Cerebellum Crus II
-265,128,11,482,512,Cerebellum Crus I RH
-266,128,11,442,512,Cerebellum Crus I LH
-267,128,11,289,512,Cerebellum Crus I RH
+265,128,11,482,512,Cerebellum Crus I superior RH
+266,128,11,442,512,Cerebellum Crus I posterior LH
+267,128,11,289,512,Cerebellum Crus I posterior RH
 268,128,11,317,512,Cerebellum horizontal fissure medial
-269,128,11,284,512,Cerebellum VI superior
+269,128,11,284,512,Cerebellum VI superior lateral
 270,128,11,959,1024,Cerebellum Crus I posterior LH
 271,128,11,690,1024,Cerebellum superior posterior fissure central
 272,128,11,881,1024,Cerebellum Crus I RH
@@ -291,13 +291,13 @@
 289,128,12,203,256,Fusiform gyrus RH
 290,128,12,495,512,Lingual gyrus middle RH
 291,128,12,265,512,Fusiform gyrus posterior RH
-292,128,12,364,512,Fluid between occipital lobe and cerebellum
-293,128,12,451,512,Fusiform gyrus RH
+292,128,12,364,512,Lingual gyrus inferior
+293,128,12,451,512,Fusiform gyrus posterior RH
 294,128,12,52,512,Lingual gyrus posterior
 295,128,12,780,1024,Lingual gyrus middle
-296,128,12,589,1024,Lingual gyrus middle LH
-297,128,12,343,1024,Lingual gyrus RH
-298,128,12,117,1024,Lingual gyrus posterior RH
+296,128,12,589,1024,Lingual gyrus inferior LH
+297,128,12,343,1024,Lingual gyrus posterior inferior RH
+298,128,12,117,1024,Lingual gyrus mid-posterior RH
 299,128,12,665,1024,Lingual gyrus posterior LH
 300,128,13,42,64,Lateral occipital cortex
 301,128,13,56,64,Superior occipital sulcus
@@ -315,15 +315,15 @@
 313,128,13,84,256,"Superior occipital sulcus, inferior"
 314,128,13,120,256,Lateral occipital cortex superior
 315,128,13,431,512,Superior occipital gyrus RH
-316,128,13,347,512,Superior occipital sulcus RH
+316,128,13,347,512,Superior occipital gyrus inferior RH
 317,128,13,315,512,Lateral occipital cortex superior RH
 318,128,13,134,512,Lateral occipital cortex posterior LH
 319,128,13,2,512,Superior occipital gyrus 
-320,128,13,360,1024,Lateral occipital cortex posterior RH
-321,128,13,763,1024,Lateral occipital cortex superior RH
-322,128,13,905,1024,Lateral occipital cortex anterior RH
-323,128,13,608,1024,Superior occipital gyrus LH
-324,128,13,468,1024,Lateral occipital cortex RH
+320,128,13,360,1024,Lateral occipital sulcus posterior RH
+321,128,13,763,1024,Lateral occipital cortex middle RH
+322,128,13,905,1024,Lateral occipital sulcus mid-posterior RH
+323,128,13,608,1024,Lateral occipital cortex posterior LH
+324,128,13,468,1024,Lateral occipital cortex postero-inferior RH
 325,128,14,52,64,Inferior frontal gyrus
 326,128,14,51,64,Middle frontal gyrus
 327,128,14,39,64,Dorsomedial Prefrontal cortex antero-caudal
@@ -339,7 +339,7 @@
 337,128,14,2,256,"Middle frontal gyrus anterior, RH"
 338,128,14,104,256,Frontal pole
 339,128,14,92,256,Frontomarginal gyrus
-340,128,14,368,512,Frontomarginal sulcus LH
+340,128,14,368,512,Frontomarginal gyrus LH
 341,128,14,32,512,Superior frontal sulcus anterior RH
 342,128,14,185,512,Superior frontal sulcus anterior LH
 343,128,14,397,512,Frontal pole lateral LH
@@ -347,8 +347,8 @@
 345,128,14,730,1024,Middle frontal gyrus anterior RH
 346,128,14,994,1024,Middle frontal sulcus anterior LH
 347,128,14,642,1024,Frontal pole lateral LH
-348,128,14,195,1024,Frontal pole superior RH
-349,128,14,834,1024,Middle frontal sulcus anterior LH
+348,128,14,195,1024,Frontomarginal gyrus RH
+349,128,14,834,1024,Middle frontal sulcus mid-anterior LH
 350,128,15,63,64,Central sulcus
 351,128,15,45,64,Heschl’s gyrus
 352,128,15,37,64,Supramarginal gyrus
@@ -364,14 +364,14 @@
 362,128,15,251,256,"Supramarginal gyrus anterior, LH"
 363,128,15,239,256,Precentral gyrus middle
 364,128,15,47,256,"Supramarginal gyrus anterior, RH"
-365,128,15,269,512,Postcentral gyrus inferior LH
-366,128,15,184,512,Subcentral gyrus anterior RH
+365,128,15,269,512,Precentral gyrus inferior LH
+366,128,15,184,512,Subcentral gyrus RH
 367,128,15,132,512,Postcentral gyrus mid-inferior
 368,128,15,437,512,Central sulcus inferior
 369,128,15,459,512,Central sulcus LH
 370,128,15,709,1024,Precentral gyrus inferior LH
 371,128,15,202,1024,Subcentral gyrus LH
-372,128,15,510,1024,Central sulcus inferior RH
+372,128,15,510,1024,Central sulcus mid-inferior RH
 373,128,15,180,1024,Cerebrospinal fluid (between precentral gyrus and skull RH)
 374,128,15,309,1024,Precentral gyrus inferior
 375,128,16,54,64,Precuneus superior
@@ -392,12 +392,12 @@
 390,128,16,92,512,Cererbrospinal fluid (between callosomarginal sulcus and skull LH)
 391,128,16,436,512,Precuneus antero-superior
 392,128,16,398,512,Cerebrospinal fluid (between callosomarginal sulcus and skull RH)
-393,128,16,413,512,Precuneus superior RH
+393,128,16,413,512,Precuneus RH
 394,128,16,131,512,Precuneus mid-superior LH
-395,128,16,748,1024,Precuneus superior
+395,128,16,748,1024,Precuneus interhemispheric fissure
 396,128,16,703,1024,Precuneus superior
 397,128,16,336,1024,Precuneus superior RH
-398,128,16,961,1024,Postcentral gyrus superior 
+398,128,16,961,1024,Interhemispheric fissure parietal
 399,128,16,329,1024,Superior parietal lobule superior
 400,128,17,5,64,Dorsal Parieto-occipital sulcus
 401,128,17,13,64,Superior occipital gyrus
@@ -415,13 +415,13 @@
 413,128,17,24,256,"Parieto-occipital sulcus, superior"
 414,128,17,153,256,Cerebrospinal fluid (between parieto-occipital sulcus and skull)
 415,128,17,217,512,Parieto-occipital sulcus postero-superior 
-416,128,17,87,512,Parieto-occipital sulcus postero-superior 
-417,128,17,301,512,Parieto-occipital sulcus middle LH
+416,128,17,87,512,Parieto-occipital sulcus posterior lateral
+417,128,17,301,512,Parieto-occipital sulcus middle inferior LH
 418,128,17,123,512,Cuneus anterior RH
 419,128,17,362,512,Precuneus posterior 
-420,128,17,904,1024,Parieto-occipital sulcus postero-superior RH
-421,128,17,914,1024,Cuneus superior RH
-422,128,17,434,1024,Parieto-occipital sulcus postero-superior
+420,128,17,904,1024,Parieto-occipital sulcus posterior RH
+421,128,17,914,1024,Cuneus antero-superior RH
+422,128,17,434,1024,Parieto-occipital sulcus mid-superior
 423,128,17,296,1024,Parieto-occipital sulcus superior
 424,128,17,368,1024,Superior occipital gyrus superior LH
 425,128,18,63,64,Central sulcus
@@ -442,11 +442,11 @@
 440,128,18,273,512,Central sulcus mid-superior RH
 441,128,18,414,512,Superior parts of central and postcentral sulci RH
 442,128,18,465,512,Cerebrospinal fluid (between postcentral sulcus and skull RH)
-443,128,18,73,512,Postcentral gyrus RH
-444,128,18,318,512,Superior parietal lobule anterior RH
-445,128,18,609,1024,Central sulcus superior RH
-446,128,18,727,1024,Central sulcus superior RH
-447,128,18,868,1024,Postcentral gyrus middle RH
+443,128,18,73,512,Postcentral sulcus RH
+444,128,18,318,512,Superior parietal sulcus RH
+445,128,18,609,1024,Central sulcus middle posterior RH
+446,128,18,727,1024,Central sulcus middle medial RH
+447,128,18,868,1024,Middle parts of postcentral gyrus and precentral gyrus RH
 448,128,18,986,1024,Superior parts of central and precentral sulci RH
 449,128,18,14,1024,Precentral gyrus middle
 450,128,19,17,64,Superior frontal gyrus medial
@@ -466,14 +466,14 @@
 464,128,19,176,256,Anterior cingulate cortex
 465,128,19,220,512,Anterior cingulate cortex superior
 466,128,19,474,512,Cingulate sulcus mid-posterior 
-467,128,19,90,512,Cingulate sulcus mid-posterior 
-468,128,19,355,512,Cingulate sulcus middle 
+467,128,19,90,512,Cingulate gyrus middle superior
+468,128,19,355,512,Paracingulate sulcus posterior
 469,128,19,327,512,Cingulate sulcus mid-anterior RH
 470,128,19,869,1024,Paracingulate gyrus middle
-471,128,19,156,1024,Mid-anterior paracingulate gyrus LH
+471,128,19,156,1024,Cingulate sulcus mid-anterior LH
 472,128,19,602,1024,Cingulate mid-anterior
-473,128,19,36,1024,Mid-anterior cingulate cortex LH
-474,128,19,263,1024,Middle cingulate RH
+473,128,19,36,1024,Cingulate cortex mid-anterior LH
+474,128,19,263,1024,Cingulate middle posterior RH
 475,128,20,44,64,Paracentral lobule superior
 476,128,20,12,64,Paracentral gyrus RH
 477,128,20,63,64,Central sulcus
@@ -494,11 +494,11 @@
 492,128,20,380,512,Cerebrospinal fluid (between central sulcus and skull LH)
 493,128,20,382,512,Cerebrospinal fluid (between central sulcus and skull RH)
 494,128,20,275,512,Cerebrospinal fluid (between superior frontal gyrus superior and skull)
-495,128,20,797,1024,Precentral sulcus superior RH
+495,128,20,797,1024,Precentral gyrus superior and superior frontal gyrus RH
 496,128,20,601,1024,Cerebrospinal fluid (between postcentral gyrus RH and skull)
-497,128,20,868,1024,Postcentral gyrus middle RH
-498,128,20,151,1024,Precentral gyrus superior LH
-499,128,20,661,1024,Precentral gyrus middle RH
+497,128,20,868,1024,Middle parts of postcentral gyrus and precentral gyrus RH
+498,128,20,151,1024,Cerebrospinal fluid (between Precentral gyrus and skull LH)
+499,128,20,661,1024,Cerebrospinal fluid (between precentral gyrus superior and skull RH)
 500,128,21,32,64,Intraparietal sulcus
 501,128,21,57,64,Superior parietal lobule
 502,128,21,48,64,Intraparietal sulcus RH
@@ -510,21 +510,21 @@
 508,128,21,29,128,"Angular gyrus anterior, RH"
 509,128,21,86,128,Cerebrospinal fluid (between parietal lobe and skull)
 510,128,21,109,256,Angular gyrus RH
-511,128,21,118,256,Intraparietal sulcus RH
+511,128,21,118,256,"Intraparietal sulcus ventral, RH"
 512,128,21,166,256,Angular gyrus superior
 513,128,21,146,256,Intermediate primus of Jensen RH
 514,128,21,124,256,"Intraparietal sulcus posterior, RH"
 515,128,21,444,512,Cerebrospinal fluid (between intraparietal sulcus and skull RH)
-516,128,21,135,512,Angular gyrus posterior RH
-517,128,21,246,512,Intraparietal sulcus posterior RH
-518,128,21,418,512,Angular yrus posterior RH
-519,128,21,384,512,Intraparietal sulcus anterior RH
-520,128,21,446,1024,Angular gyrus superior RH
-521,128,21,294,1024,Angular gyrus superior RH
-522,128,21,470,1024,Intraparietal sulcus posterior RH
-523,128,21,101,1024,Angular gyrus superior RH
-524,128,21,738,1024,Angular gyrus postero-inferior RH
-525,128,22,11,64,Cerebrospinal fluid
+516,128,21,135,512,Angular gyrus mid-posterior RH
+517,128,21,246,512,Superior occipital sulcus middle RH
+518,128,21,418,512,Angular gyrus posterior RH
+519,128,21,384,512,Superior occipital sulcus superior RH
+520,128,21,446,1024,Angular gyrus postero-superior RH
+521,128,21,294,1024,Angular gyrus posterior superior RH
+522,128,21,470,1024,Intraparietal sulcus middle RH
+523,128,21,101,1024,Lateral occipital cortex superior RH
+524,128,21,738,1024,Angular gyrus posterior RH
+525,128,22,11,64,Transverse sinus
 526,128,22,2,64,Fusiform gyrus
 527,128,22,21,64,Cerebellum I-V
 528,128,22,16,64,Posterior fusiform gyrus
@@ -534,16 +534,16 @@
 532,128,22,28,128,Cerebellum VI superior
 533,128,22,11,128,Cerebellum Crus I posterior
 534,128,22,27,128,Cerebellum VI anterior
-535,128,22,233,256,Cerebellum VI anterior 
+535,128,22,233,256,Cerebellum VI anterior
 536,128,22,147,256,Cerebellum Crus I lateral RH
 537,128,22,161,256,Cerebellum VI superior LH
 538,128,22,81,256,Cerebellum Crus I RH
 539,128,22,91,256,Cerebellum Crus I superior
-540,128,22,257,512,Cerebellum VI LH
+540,128,22,257,512,Cerebellum VI antero-superior LH
 541,128,22,450,512,Cerebellum superior posterior fissure LH
 542,128,22,14,512,Cerebellum VI RH
-543,128,22,16,512,Cerebellum Crus I RH
-544,128,22,375,512,Cerebellum VI RH
+543,128,22,16,512,Cerebellum Crus I anterior RH
+544,128,22,375,512,Cerebellum VI lateral RH
 545,128,22,836,1024,Cerebellum Crus I
 546,128,22,252,1024,Cerebellum Crus I LH
 547,128,22,347,1024,Cerebellum Crus I RH
@@ -564,15 +564,15 @@
 562,128,23,70,256,Parietal operculum
 563,128,23,20,256,Frontal operculum LH
 564,128,23,86,256,Heschl’s gyrus
-565,128,23,508,512,Lateral fissure mid-anterior LH
-566,128,23,252,512,Lateral fissure mid-anterior RH
-567,128,23,293,512,Lateral fissure mid-posterior LH
+565,128,23,508,512,Superior temporal gyrus superior LH
+566,128,23,252,512,Superior temporal gyrus superior RH
+567,128,23,293,512,Heschl’s gyrus LH
 568,128,23,402,512,Superior temporal gyrus middle LH
-569,128,23,405,512,Lateral fissure posterior RH
-570,128,23,16,1024,"Subcentral gyrus, RH"
-571,128,23,416,1024,Lateral fissure middle LH
-572,128,23,487,1024,Superior temporal gyrus middle LH
-573,128,23,295,1024,Lateral fissure middle RH
+569,128,23,405,512,Lateral fissure posterior limb RH
+570,128,23,16,1024,Subcentral gyrus RH
+571,128,23,416,1024,Heschl’s gyrus anterior LH
+572,128,23,487,1024,Superior temporal gyrus middle superior LH
+573,128,23,295,1024,Central operculum RH
 574,128,23,792,1024,Superior temporal gyrus middle LH
 575,128,24,36,64,Angular gyrus
 576,128,24,54,64,Precuneus superior
@@ -593,12 +593,12 @@
 591,128,24,38,512,Angular gyrus postero-inferior RH
 592,128,24,238,512,Lateral occipital cortex superior LH
 593,128,24,315,512,Lateral occipital cortex superior RH
-594,128,24,135,512,Angular gyrus posterior RH
-595,128,24,989,1024,Lateral occipital cortex superior RH
-596,128,24,188,1024,Lateral occipital cortex superior LH
-597,128,24,863,1024,Angular gyrus postero-superior RH
-598,128,24,332,1024,Angular gyrus posterior RH
-599,128,24,97,1024,Superior occipital gyrus RH
+594,128,24,135,512,Angular gyrus mid-posterior RH
+595,128,24,989,1024,Superior occipital gyrus RH
+596,128,24,188,1024,Angular gyrus postero-superior LH
+597,128,24,863,1024,Lateral occipital cortex mid-superior RH
+598,128,24,332,1024,Angular gyrus posterior inferior RH
+599,128,24,97,1024,Lateral occipital cortex mid-anterior RH
 600,128,25,16,64,Posterior fusiform gyrus
 601,128,25,24,64,Descending occipital gyrus
 602,128,25,59,64,Angular gyrus
@@ -616,13 +616,13 @@
 614,128,25,162,256,"Angular gyrus inferior, RH"
 615,128,25,352,512,Lateral occipital cortex anterior LH
 616,128,25,78,512,Anterior occipital sulcus RH
-617,128,25,386,512,Middle occipital sulcus LH
-618,128,25,243,512,Lateral occipital cortex anterior LH
+617,128,25,386,512,Lateral occipital cortex antero-superior LH
+618,128,25,243,512,Middle temporal gyrus posterior LH
 619,128,25,134,512,Lateral occipital cortex posterior LH
-620,128,25,858,1024,Anterior occipital sulcus RH
+620,128,25,858,1024,Anterior occipital sulcus posterior RH
 621,128,25,894,1024,Lateral occipital cortex middle LH
 622,128,25,274,1024,Lateral occipital sulcus LH
-623,128,25,646,1024,Anterior occipital sulcus RH
+623,128,25,646,1024,Lateral occipital sulcus mid-anterior RH
 624,128,25,814,1024,Anterior occipital sulcus LH
 625,128,26,36,64,Angular gyrus
 626,128,26,61,64,Middle temporal gyrus
@@ -639,19 +639,19 @@
 637,128,26,236,256,Pars orbitalis RH
 638,128,26,10,256,"Collateral sulcus, anterior"
 639,128,26,56,256,Suborbital cortex
-640,128,26,360,512,Superior temporal sulcus anterior RH
+640,128,26,360,512,Middle temporal gyrus mid-anterior RH
 641,128,26,391,512,Middle temporal gyrus middle RH
 642,128,26,292,512,Inferior temporal sulcus middle RH
-643,128,26,235,512,Superior temporal sulcus middle RH
+643,128,26,235,512,Superior temporal sulcus middle-superior RH
 644,128,26,33,512,Pars orbitalis RH
 645,128,26,474,1024,Middle temporal gyrus middle RH
-646,128,26,938,1024,Superior temporal gyrus middle RH
-647,128,26,584,1024,Middle temporal gyrus middle RH
-648,128,26,67,1024,Middle temporal gyrus mid-anterior RH
-649,128,26,206,1024,Superior temporal sulcus posterior RH
+646,128,26,938,1024,Superior temporal gyrus mid-posterior RH
+647,128,26,584,1024,Middle temporal gyrus mid-anterior RH
+648,128,26,67,1024,Superior temporal sulcus anterior RH
+649,128,26,206,1024,Superior temporal sulcus middle RH
 650,128,27,9,64,Cerebellum Crus II
 651,128,27,2,64,Fusiform gyrus
-652,128,27,11,64,Cerebrospinal fluid
+652,128,27,11,64,Transverse sinus
 653,128,27,55,64,Lingual gyrus
 654,128,27,16,64,Posterior fusiform gyrus
 655,128,27,113,128,Cerebellum VI
@@ -664,10 +664,10 @@
 662,128,27,200,256,Cerebellum V
 663,128,27,161,256,Cerebellum VI superior LH
 664,128,27,172,256,Cerebellum Crus I anterior LH
-665,128,27,260,512,Cerebellum VI
+665,128,27,260,512,Cerebellum VI posterior
 666,128,27,481,512,Cerebellum VI  LH
-667,128,27,218,512,Cerebellum III
-668,128,27,121,512,Cerebellum VI RH
+667,128,27,218,512,Cerebellum III inferior
+668,128,27,121,512,Cerebellum VI medial RH
 669,128,27,14,512,Cerebellum VI RH
 670,128,27,385,1024,Cerebellum VI LH
 671,128,27,982,1024,Cerebellum IX anterior
@@ -689,16 +689,16 @@
 687,128,28,161,256,Cerebellum VI superior LH
 688,128,28,59,256,Fusiform gyrus LH
 689,128,28,143,256,Cerebellum Crus I posterior
-690,128,28,284,512,Cerebellum VI superior
-691,128,28,478,512,Cerebellum VI LH
-692,128,28,364,512,Fluid between occipital lobe and cerebellum
-693,128,28,425,512,Fusiform gyrus posterior
-694,128,28,442,512,Cerebellum Crus I LH
+690,128,28,284,512,Cerebellum VI superior lateral
+691,128,28,478,512,Cerebellum VI posterior LH
+692,128,28,364,512,Lingual gyrus inferior
+693,128,28,425,512,Cerebellum Crus I superior
+694,128,28,442,512,Cerebellum Crus I posterior LH
 695,128,28,996,1024,Cerebellum VI LH
 696,128,28,248,1024,Fluid between cerebellum and occipital cortex
 697,128,28,174,1024,Cerebellum Crus I superior RH
-698,128,28,343,1024,Lingual gyrus RH
-699,128,28,42,1024,Cerebellum VI dorsal
+698,128,28,343,1024,Lingual gyrus posterior inferior RH
+699,128,28,42,1024,Cerebellum VI superior
 700,128,29,7,64,Superior temporal sulcus with angular gyrus
 701,128,29,48,64,Intraparietal sulcus RH
 702,128,29,37,64,Supramarginal gyrus
@@ -718,11 +718,11 @@
 716,128,29,119,512,Supramarginal gyrus postero-superior RH
 717,128,29,99,512,Angular gyrus anterior RH
 718,128,29,146,512,Superior temporal gyrus posterior RH
-719,128,29,135,512,Angular gyrus posterior RH
-720,128,29,528,1024,Angular sulcus superior RH
-721,128,29,977,1024,Angular sulcus inferior RH
-722,128,29,738,1024,Angular gyrus postero-inferior RH
-723,128,29,231,1024,Angular gyrus inferior RH
+719,128,29,135,512,Angular gyrus mid-posterior RH
+720,128,29,528,1024,Angular gyrus middle RH
+721,128,29,977,1024,Supramarginal gyrus posterior inferior RH
+722,128,29,738,1024,Angular gyrus posterior RH
+723,128,29,231,1024,Angular sulcus mid-anterior RH
 724,128,29,129,1024,Supramarginal gyrus posterior RH
 725,128,30,39,64,Dorsomedial Prefrontal cortex antero-caudal
 726,128,30,1,64,Superior frontal sulcus
@@ -742,13 +742,13 @@
 740,128,30,188,512,Cerebrospinal fluid (between superior frontal gyrus lateral RH and skull)
 741,128,30,458,512,Cerebrospinal fluid (between superior frontal gyrus superior and skull)
 742,128,30,39,512,Cerebrospinal fluid (between middle frontal gyrus and skull)
-743,128,30,333,512,Middle frontal gyrus anterior LH
-744,128,30,43,512,Superior frontal gyrus RH
+743,128,30,333,512,Cerebrospinal fluid (between middle frontal gyrus and skull LH)
+744,128,30,43,512,Superior frontal gyrus superior RH
 745,128,30,744,1024,Cerebrospinal fluid (between superior frontal gyrus and skull)
 746,128,30,570,1024,Cerebrospinal fluid (between superior frontal gyrus and skull RH)
-747,128,30,554,1024,Superior frontal gyrus antero-superior LH
+747,128,30,554,1024,Cerebrospinal fluid (between superior frontal gyrus anterior and skull LH)
 748,128,30,630,1024,Cerebrospinal fluid (between superior frontal gyrus anterior and skull)
-749,128,30,579,1024,Superior frontal gyrus middle 
+749,128,30,579,1024,Cerebrospinal fluid (between superior frontal gyrus middle and skull)
 750,128,31,53,64,Parieto occipital sulcus anterior
 751,128,31,2,64,Fusiform gyrus
 752,128,31,55,64,Lingual gyrus
@@ -764,16 +764,16 @@
 762,128,31,168,256,Anterior hippocampus
 763,128,31,211,256,Cerebellum VI RH
 764,128,31,95,256,Posterior hippocampus
-765,128,31,262,512,Collateral sulcus mid-anterior
-766,128,31,81,512,Cerebellum V
+765,128,31,262,512,Parahippocampal gyrus anterior
+766,128,31,81,512,Cerebellum V anterior
 767,128,31,400,512,Collateral sulcus middle
 768,128,31,343,512,Collateral sulcus anterior 
-769,128,31,105,512,Amygdala
-770,128,31,512,1024,Parahippocampal gyrus posterior LH
+769,128,31,105,512,Amygdala inferior
+770,128,31,512,1024,Hippocampal gyrus posterior LH
 771,128,31,39,1024,Fusiform gyrus anterior RH
-772,128,31,130,1024,Collateral sulcus anterior
-773,128,31,726,1024,Lingual gyrus anterior RH
-774,128,31,653,1024,Fusiform gyrus anterior LH
+772,128,31,130,1024,Collateral sulcus posterior
+773,128,31,726,1024,Parahippocampal gyrus middle RH
+774,128,31,653,1024,Collateral sulcus middle LH
 775,128,32,61,64,Middle temporal gyrus
 776,128,32,6,64,Antero-superior insula
 777,128,32,38,64,Intraparietal sulcus LH
@@ -793,10 +793,10 @@
 791,128,32,397,512,Frontal pole lateral LH
 792,128,32,356,512,Inferior frontal gyrus anterior LH
 793,128,32,322,512,Precentral sulcus inferior LH
-794,128,32,300,512,Inferior frontal gyrus mid-posterior LH
-795,128,32,796,1024,Inferior frontal gyrus anterior LH
-796,128,32,126,1024,Frontal pole lateral LH
-797,128,32,363,1024,Inferior frontal gyrus LH
+794,128,32,300,512,Inferior frontal gyrus posterior LH
+795,128,32,796,1024,Inferior frontal gyrus middle LH
+796,128,32,126,1024,Ventrolateral prefrontal cortex LH
+797,128,32,363,1024,Inferior frontal gyrus mid-posterior LH
 798,128,32,980,1024,Inferior frontal gyrus anterior LH
 799,128,32,110,1024,Inferior frontal sulcus anterior LH
 800,128,33,4,64,Posterior Cingulate cortex
@@ -809,7 +809,7 @@
 807,128,33,63,128,"Posterior cingulate cortex, superior"
 808,128,33,110,128,"Inferior parietal lobule, LH"
 809,128,33,118,128,Parieto-occipital sulcus antero-superior
-810,128,33,218,256,Precuneus inferior 
+810,128,33,218,256,Precuneus inferior
 811,128,33,15,256,Posterior cingulate cortex
 812,128,33,241,256,Precuneus posterior
 813,128,33,166,256,Angular gyrus superior
@@ -819,12 +819,12 @@
 817,128,33,432,512,Subparietal sulcus inferior LH
 818,128,33,253,512,Precuneus middle
 819,128,33,358,512,Subparietal sulcus RH
-820,128,33,715,1024,Posterior cingulate cortex
-821,128,33,743,1024,Precuneus inferior
+820,128,33,715,1024,Subparietal sulcus
+821,128,33,743,1024,Subparietal sulcus posterior
 822,128,33,255,1024,Precuneus anterior LH
 823,128,33,676,1024,Precuneus posterior
-824,128,33,128,1024,Subparietal sulcus LH
-825,128,34,11,64,Cerebrospinal fluid
+824,128,33,128,1024,Precuneus middle LH
+825,128,34,11,64,Transverse sinus
 826,128,34,29,64,Inferior occipital gyrus
 827,128,34,42,64,Lateral occipital cortex
 828,128,34,48,64,Intraparietal sulcus RH
@@ -836,19 +836,19 @@
 834,128,34,28,128,Cerebellum VI superior
 835,128,34,80,256,"Inferior temporal gyrus, posterior, LH"
 836,128,34,97,256,Superior occipital gyrus RH
-837,128,34,233,256,Cerebellum VI anterior 
+837,128,34,233,256,Cerebellum VI anterior
 838,128,34,59,256,Fusiform gyrus LH
 839,128,34,212,256,Inferior temporal sulcus posterior LH
-840,128,34,425,512,Fusiform gyrus posterior
-841,128,34,12,512,Fusiform gyrus RH
+840,128,34,425,512,Cerebellum Crus I superior
+841,128,34,12,512,Occipitotemporal gyrus mid-posterior RH
 842,128,34,127,512,Inferior temporal sulcus posterior RH
 843,128,34,187,512,Inferior occipital gyrus
-844,128,34,15,512,Fusiform gyrus LH
-845,128,34,670,1024,Fusiform gyrus posterior RH
+844,128,34,15,512,Fusiform gyrus anterior LH
+845,128,34,670,1024,Occipitotemporal sulcus mid-posterior RH
 846,128,34,499,1024,Inferior temporal gyrus posterior RH
-847,128,34,179,1024,Inferior temporal sulcus posterior LH
+847,128,34,179,1024,Occipitotemporal sulcus mid-posterior LH
 848,128,34,120,1024,Cerebellum Crus I lateral LH
-849,128,34,133,1024,Occipitotemporal sulcus RH
+849,128,34,133,1024,Occipitotemporal sulcus mid-anterior RH
 850,128,35,30,64,Superior rostral gyrus
 851,128,35,23,64,Anterior Cingulate Cortex
 852,128,35,62,64,Superior frontal gyrus
@@ -868,11 +868,11 @@
 866,128,35,24,512,Dorsomedial prefrontal cortex anterocaudal LH
 867,128,35,291,512,Dorsomedial prefrontal cortex anterior
 868,128,35,51,512,Ventromedial prefrontal cortex
-869,128,35,394,512,Paracingulate gyrus anterior RH
-870,128,35,367,1024,"Dorsomedial prefrontal cortex, anterior RH"
-871,128,35,396,1024,"Dorsomedial prefrontal cortex, anterocaudal"
+869,128,35,394,512,Cingulate sulcus anterior RH
+870,128,35,367,1024,Dorsomedial prefrontal cortex anterior RH
+871,128,35,396,1024,Superior frontal gyrus anterior medial
 872,128,35,452,1024,Paracingulate gyrus anterior LH
-873,128,35,423,1024,Paracingulate sulcus  anterior LH
+873,128,35,423,1024,Paracingulate sulcus anterior LH
 874,128,35,443,1024,Paracingulate gyrus anterior
 875,128,36,51,64,Middle frontal gyrus
 876,128,36,1,64,Superior frontal sulcus
@@ -889,15 +889,15 @@
 887,128,36,129,256,"Precentral sulcus, RH"
 888,128,36,245,256,Cerebrospinal fluid (between middle frontal gyrus RH and skull)
 889,128,36,76,256,Superior frontal gyrus posterior
-890,128,36,95,512,Superior frontal gyrus posterior Lh
-891,128,36,162,512,Middle frontal gyrus posterior LH
+890,128,36,95,512,Superior frontal gyrus posterior LH
+891,128,36,162,512,Superior frontal sulcus posterior LH
 892,128,36,277,512,Superior frontal sulcus mid-posterior RH
 893,128,36,512,512,Precentral sulcus superior RH
 894,128,36,69,512,Superior frontal gyrus mid-posterior 
 895,128,36,803,1024,Superior frontal sulcus posterior LH
-896,128,36,1015,1024,Superior frontal sulcus mid-posterior RH
-897,128,36,974,1024,Middle frontal gyrus posterior RH
-898,128,36,209,1024,Superior frontal sulcus posterior LH
+896,128,36,1015,1024,Superior frontal sulcus middle RH
+897,128,36,974,1024,Middle frontal gyrus posterior superior RH
+898,128,36,209,1024,Superior frontal sulcus posterior inferior LH
 899,128,36,140,1024,Precentral sulcus superior RH
 900,128,37,45,64,Heschl’s gyrus
 901,128,37,8,64,Planum temporale
@@ -914,16 +914,16 @@
 912,128,37,73,256,Supramarginal gyrus
 913,128,37,70,256,Parietal operculum
 914,128,37,232,256,Pars opercularis
-915,128,37,193,512,Supramarginal gyrus anterior LH
+915,128,37,193,512,Supramarginal gyrus inferior LH
 916,128,37,76,512,Supramarginal gyrus posterior LH
-917,128,37,409,512,Parietal operculum LH
-918,128,37,189,512,Lateral fissure posterior LH
+917,128,37,409,512,Supramarginal gyrus antero-inferior LH
+918,128,37,189,512,Arcuate fasciculus postero-superior
 919,128,37,337,512,Superior temporal gyrus posterior LH
-920,128,37,854,1024,Supramarginal gyrus inferior LH
-921,128,37,700,1024,Supramarginal gyrus inferior anterior LH
+920,128,37,854,1024,Supramarginal gyrus postero-inferior LH
+921,128,37,700,1024,Supramarginal gyrus anterior LH
 922,128,37,21,1024,Lateral fissure posterior limb LH
-923,128,37,253,1024,Supramarginal gyrus posterior LH
-924,128,37,279,1024,Supramarginal gyrus anteroventral LH
+923,128,37,253,1024,Supramarginal gyrus middle LH
+924,128,37,279,1024,Supramarginal gyrus antero-inferior LH
 925,128,38,33,64,Superior parietal lobule anterior
 926,128,38,44,64,Paracentral lobule superior
 927,128,38,34,64,Precentral gyrus medial
@@ -939,18 +939,18 @@
 937,128,38,137,256,Paracentral lobule posterior
 938,128,38,189,256,Superior parietal lobule anterior
 939,128,38,46,256,"Postcentral sulcus superior, RH"
-940,128,38,502,512,Central sulcus superior 
+940,128,38,502,512,Central sulcus mid-superior 
 941,128,38,258,512,Superior parietal lobule LH
 942,128,38,374,512,Superior parietal sulcus superior 
-943,128,38,318,512,Superior parietal lobule anterior RH
-944,128,38,297,512,Callosomarginal sulcus superior
+943,128,38,318,512,Superior parietal sulcus RH
+944,128,38,297,512,Postcentral sulcus superior
 945,128,38,127,1024,Superior parts of central and postcentral sulci LH
-946,128,38,697,1024,Central sulcus superior RH
+946,128,38,697,1024,Central sulcus mid-superior RH
 947,128,38,15,1024,Postcentral sulcus superior RH
 948,128,38,660,1024,Postcentral gyrus superior LH
 949,128,38,124,1024,Callosomarginal sulcus superior RH
 950,128,39,3,64,Calcarine cortex posterior
-951,128,39,11,64,Cerebrospinal fluid
+951,128,39,11,64,Transverse sinus
 952,128,39,46,64,Occipital pole
 953,128,39,55,64,Lingual gyrus
 954,128,39,22,64,Superior fornix and isthmus
@@ -966,11 +966,11 @@
 964,128,39,143,256,Cerebellum Crus I posterior
 965,128,39,52,512,Lingual gyrus posterior
 966,128,39,363,512,Inferior occipital gyrus posterior LH
-967,128,39,284,512,Cerebellum VI superior
+967,128,39,284,512,Cerebellum VI superior lateral
 968,128,39,265,512,Fusiform gyrus posterior RH
-969,128,39,195,512,Occipital pole RH
-970,128,39,342,1024,Occipital pole inferior RH
-971,128,39,817,1024,Fusiform gyrus posterior RH
+969,128,39,195,512,Occipital pole
+970,128,39,342,1024,Occipital pole inferior medial RH
+971,128,39,817,1024,Occipital pole inferior lateral RH
 972,128,39,752,1024,Occipital pole inferior LH
 973,128,39,959,1024,Cerebellum Crus I posterior LH
 974,128,39,665,1024,Lingual gyrus posterior LH
@@ -989,13 +989,13 @@
 987,128,40,76,256,Superior frontal gyrus posterior
 988,128,40,192,256,Middle frontal gyrus posterior RH
 989,128,40,40,256,"Paracingulate gyrus, posterior"
-990,128,40,367,512,Paracingulate sulcus posterior
+990,128,40,367,512,Paracingulate sulcus mid-posterior
 991,128,40,299,512,Superior frontal gyrus medial middle
 992,128,40,486,512,Paracingulate sulcus mid-posterior RH
-993,128,40,19,512,Paracingulate gyrus mid-posterior LH
+993,128,40,19,512,Paracingulate sulcus LH
 994,128,40,327,512,Cingulate sulcus mid-anterior RH
 995,128,40,572,1024,Paracingulate gyrus mid-posterior LH
-996,128,40,509,1024,Paracingulate gyrus middle
+996,128,40,509,1024,Paracingulate sulcus middle LH
 997,128,40,7,1024,Paracingulate gyrus posterior
 998,128,40,652,1024,Superior frontal gyrus medial superior 
 999,128,40,707,1024,Cingulate middle RH
@@ -1014,16 +1014,16 @@
 1012,128,41,203,256,Fusiform gyrus RH
 1013,128,41,238,256,Calcarine sulcus anterior
 1014,128,41,211,256,Cerebellum VI RH
-1015,128,41,451,512,Fusiform gyrus RH
+1015,128,41,451,512,Fusiform gyrus posterior RH
 1016,128,41,180,512,Fusiform gyrus anterior RH
 1017,128,41,487,512,Fusiform gyrus posterior LH
-1018,128,41,67,512,Lingual gyrus anterior
-1019,128,41,422,512,Fusiform gyrus RH
-1020,128,41,549,1024,Collateral sulcus anterior RH
-1021,128,41,692,1024,Occipitotemporal gyrus posterior RH
-1022,128,41,761,1024,Fusiform gyrus anterior RH
-1023,128,41,130,1024,Collateral sulcus anterior
-1024,128,41,471,1024,Parahippocampal gyrus anterior LH
+1018,128,41,67,512,Fusiform gyrus anterior
+1019,128,41,422,512,Fusiform gyrus anterior RH
+1020,128,41,549,1024,Collateral sulcus middle RH
+1021,128,41,692,1024,Fusiform gyrus middle RH
+1022,128,41,761,1024,Fusiform gyrus RH
+1023,128,41,130,1024,Collateral sulcus posterior
+1024,128,41,471,1024,Lingual gyrus mid-anterior LH
 1025,128,42,52,64,Inferior frontal gyrus
 1026,128,42,32,64,Intraparietal sulcus
 1027,128,42,26,64,Mid-anterior Cingulate cortex
@@ -1039,16 +1039,16 @@
 1037,128,42,16,256,"Pars opercularis, pars triangularis LH"
 1038,128,42,56,256,Suborbital cortex
 1039,128,42,212,256,Inferior temporal sulcus posterior LH
-1040,128,42,379,512,Middle temporal gyrus middle LH
+1040,128,42,379,512,Middle temporal gyrus mid-anterior LH
 1041,128,42,264,512,Middle temporal gyrus mid-anterior LH
 1042,128,42,443,512,Superior temporal sulcus middle LH
 1043,128,42,373,512,Middle temporal gyrus postero-inferior LH
-1044,128,42,351,512,Superior temporal sulcus posterior LH
-1045,128,42,421,1024,Middle temporal gyrus posterior LH
-1046,128,42,55,1024,Middle temporal gyrus middle LH
-1047,128,42,123,1024,Superior temporal sulcus anterior LH
-1048,128,42,490,1024,Superior temporal sulcus posterior LH
-1049,128,42,152,1024,Superior temporal sulcus middle LH
+1044,128,42,351,512,Superior temporal sulcus mid-posterior LH
+1045,128,42,421,1024,Middle temporal gyrus middle inferior LH
+1046,128,42,55,1024,Middle temporal gyrus middle superior LH
+1047,128,42,123,1024,Middle temporal gyrus middle LH
+1048,128,42,490,1024,Middle temporal gyrus mid-posterior medial LH
+1049,128,42,152,1024,Middle temporal gyrus mid-anterior medial LH
 1050,128,43,63,64,Central sulcus
 1051,128,43,10,64,Superior parts of Postcentral and Precentral gyri
 1052,128,43,28,64,Paracentral lobule
@@ -1069,8 +1069,8 @@
 1067,128,43,380,512,Cerebrospinal fluid (between central sulcus and skull LH)
 1068,128,43,211,512,Postcentral sulcus superior LH
 1069,128,43,212,512,Precentral gyrus superior LH
-1070,128,43,268,1024,Postcentral gyrus LH
-1071,128,43,522,1024,Postcentral gyrus middle LH
+1070,128,43,268,1024,Postcentral gyrus mid-inferior lateral LH
+1071,128,43,522,1024,Postcentral gyrus middle anterior LH
 1072,128,43,234,1024,Precentral gyrus mid-superior LH
 1073,128,43,127,1024,Superior parts of central and postcentral sulci LH
 1074,128,43,736,1024,Central sulcus superior LH
@@ -1090,14 +1090,14 @@
 1088,128,44,141,256,Inferior frontal gyrus anterior LH
 1089,128,44,183,256,Intraparietal sulcus LH
 1090,128,44,171,512,Angular gyrus superior LH
-1091,128,44,154,512,Lateral occipital cortex superior LH
+1091,128,44,154,512,Cerebrospinal fluid (between angular gyrus and skull LH)
 1092,128,44,76,512,Supramarginal gyrus posterior LH
 1093,128,44,385,512,Intermediate primus of Jensen LH
-1094,128,44,365,512,Angular gyrus posterior LH
+1094,128,44,365,512,Angular gyrus postero-inferior LH
 1095,128,44,945,1024,Supramarginal gyrus postero-superior LH
 1096,128,44,909,1024,Supramarginal gyrus posterior LH
 1097,128,44,400,1024,Angular gyrus superior LH
-1098,128,44,298,1024,Intraparietal sulcus posterior LH
+1098,128,44,298,1024,Angular gyrus superior posterior LH
 1099,128,44,228,1024,Cerebrospinal fluid (between superior occipital gyrus and skull LH)
 1100,128,45,31,64,Calcarine sulcus anterior
 1101,128,45,53,64,Parieto occipital sulcus anterior
@@ -1116,14 +1116,14 @@
 1114,128,45,151,256,"Parieto-occipital sulcus, anterior"
 1115,128,45,9,512,"Calcarine sulcus anterior, LH"
 1116,128,45,340,512,Calcarine sulcus anterior RH
-1117,128,45,177,512,Calcarine sulcus anterior
-1118,128,45,82,512,Parieto-occipital sulcus anterior
-1119,128,45,288,512,Parieto-occipital sulcus anterior
-1120,128,45,75,1024,"Calcarine cortex, cuneal point RH"
+1117,128,45,177,512,Calcarine sulcus mid-anterior
+1118,128,45,82,512,Parieto-occipital sulcus mid-anterior
+1119,128,45,288,512,Calcarine sulcus anterior
+1120,128,45,75,1024,Calcarine cortex anterior RH
 1121,128,45,774,1024,Calcarine sulcus anterior RH
 1122,128,45,913,1024,Lingual gyrus anterior
-1123,128,45,445,1024,Parieto-occipital sulcus antero-inferior LH
-1124,128,45,908,1024,Calcarine sulcus mid-anterior LH
+1123,128,45,445,1024,Parieto-occipital sulcus inferior LH
+1124,128,45,908,1024,Optic radiation posterior LH
 1125,128,46,32,64,Intraparietal sulcus
 1126,128,46,56,64,Superior occipital sulcus
 1127,128,46,27,64,Superior parietal lobule posterior
@@ -1134,21 +1134,21 @@
 1132,128,46,21,128,"Angular gyrus superior, RH"
 1133,128,46,77,128,Superior parietal sulcus
 1134,128,46,66,128,Cerebrospinal fluid (between Parieto-occipital sulcus and skull)
-1135,128,46,118,256,Intraparietal sulcus RH
-1136,128,46,63,256,"Intraparietal sulcus, RH"
+1135,128,46,118,256,"Intraparietal sulcus ventral, RH"
+1136,128,46,63,256,"Intraparietal sulcus dorsal, RH"
 1137,128,46,97,256,Superior occipital gyrus RH
 1138,128,46,29,256,"Angular gyrus superior, RH"
 1139,128,46,247,256,"Superior longitudinal fasciculus I posterior, RH"
 1140,128,46,460,512,Intraparietal sulcus posterior RH
-1141,128,46,246,512,Intraparietal sulcus posterior RH
-1142,128,46,86,512,Intraparietal sulcus RH
-1143,128,46,433,512,Intraparietal sulcus anterior RH
-1144,128,46,173,512,Intraparietal sulcus RH
-1145,128,46,178,1024,Intraparietal sulcus posterior RH
-1146,128,46,711,1024,Intraparietal sulcus RH
-1147,128,46,470,1024,Intraparietal sulcus posterior RH
-1148,128,46,429,1024,Intraparietal sulcus RH
-1149,128,46,394,1024,Intraparietal sulcus RH
+1141,128,46,246,512,Superior occipital sulcus middle RH
+1142,128,46,86,512,Intraparietal sulcus middle RH
+1143,128,46,433,512,Intraparietal sulcus middle RH
+1144,128,46,173,512,Superior longitudinal fasciculus II posterior RH
+1145,128,46,178,1024,Superio occipital sulcus superior RH
+1146,128,46,711,1024,Dorsal visual stream RH
+1147,128,46,470,1024,Intraparietal sulcus middle RH
+1148,128,46,429,1024,Intraparietal sulcus superior posterior RH
+1149,128,46,394,1024,Dorsal visual stream posterior RH
 1150,128,47,3,64,Calcarine cortex posterior
 1151,128,47,55,64,Lingual gyrus
 1152,128,47,46,64,Occipital pole
@@ -1169,9 +1169,9 @@
 1167,128,47,281,512,Inferior occipital sulcus
 1168,128,47,487,512,Fusiform gyrus posterior LH
 1169,128,47,363,512,Inferior occipital gyrus posterior LH
-1170,128,47,60,1024,Calcarine cortex posterior LH
-1171,128,47,1,1024,Inferior occipital gyrus posterior RH
-1172,128,47,401,1024,Calcarine cortex posterior LH
+1170,128,47,60,1024,Calcarine sulcus posterior LH
+1171,128,47,1,1024,Retrocalcarine cortex RH
+1172,128,47,401,1024,Descending occipital gyrus inferior LH
 1173,128,47,177,1024,Inferior occipital gyrus LH
 1174,128,47,391,1024,Collateral sulcus posterior LH
 1175,128,48,38,64,Intraparietal sulcus LH
@@ -1191,13 +1191,13 @@
 1189,128,48,27,256,"Intraparietal sulcus, anterior"
 1190,128,48,45,512,Postcentral sulcus LH
 1191,128,48,372,512,Postcentral sulcus inferior LH
-1192,128,48,311,512,Supramarginal gyrus antero-inferior LH
-1193,128,48,193,512,Supramarginal gyrus anterior LH
+1192,128,48,311,512,Cerebrospinal fluid (between supramarginal gyrus and skull LH)
+1193,128,48,193,512,Supramarginal gyrus inferior LH
 1194,128,48,247,512,Supramarginal gyrus anterior RH
-1195,128,48,430,1024,Postcentral sulcus inferior LH
-1196,128,48,926,1024,Postcentral gyrus inferior LH
-1197,128,48,304,1024,Supramarginal gyrus superior LH
-1198,128,48,915,1024,Postcentral gyrus middle LH
+1195,128,48,430,1024,Postcentral gyrus mid-inferior LH
+1196,128,48,926,1024,Cerebrospinal fluid (between postcentral gyrus inferior and skull LH)
+1197,128,48,304,1024,Supramarginal gyrus antero-superior LH
+1198,128,48,915,1024,Postcentral gyrus middle posterior LH
 1199,128,48,141,1024,Intraparietal sulcus anterior LH
 1200,128,49,45,64,Heschl’s gyrus
 1201,128,49,26,64,Mid-anterior Cingulate cortex
@@ -1211,19 +1211,19 @@
 1209,128,49,15,128,Precentral gyrus inferior
 1210,128,49,191,256,Central opercular cortex
 1211,128,49,226,256,Anterior insula dorsal
-1212,128,49,74,256,Insula 
+1212,128,49,74,256,Insula
 1213,128,49,48,256,Frontal opercula RH
 1214,128,49,86,256,Heschl’s gyrus
-1215,128,49,470,512,Anterior insula dorsal
-1216,128,49,94,512,Posterior insula dorsal LH
+1215,128,49,470,512,Middle insula dorsal
+1216,128,49,94,512,Posterior insula dorsal lateral LH
 1217,128,49,467,512,External capsule middle LH
-1218,128,49,505,512,Central opercular cortex RH
-1219,128,49,409,512,Parietal operculum LH
-1220,128,49,578,1024,Central operculum
+1218,128,49,505,512,Central operculum anterior RH
+1219,128,49,409,512,Supramarginal gyrus antero-inferior LH
+1220,128,49,578,1024,Central opercula
 1221,128,49,41,1024,Central opercular cortex LH
-1222,128,49,305,1024,Posterior insula dorsal LH
-1223,128,49,171,1024,Central opercular cortex LH
-1224,128,49,513,1024,Posterior insula ventral
+1222,128,49,305,1024,Posterior insula superior LH
+1223,128,49,171,1024,Anterior insula LH
+1224,128,49,513,1024,Posterior insula inferior
 1225,128,50,18,64,Precuneus superior
 1226,128,50,57,64,Superior parietal lobule
 1227,128,50,5,64,Dorsal Parieto-occipital sulcus
@@ -1240,15 +1240,15 @@
 1238,128,50,18,256,Cerebrospinal fluid (between precuneus and skull)
 1239,128,50,124,256,"Intraparietal sulcus posterior, RH"
 1240,128,50,395,512,Precuneus postero-superior 
-1241,128,50,453,512,Intraparietal sulcus posterior RH
-1242,128,50,7,512,Superior parietal lobule posterior LH
+1241,128,50,453,512,Superior occipital gyrus superior RH
+1242,128,50,7,512,Superior occipital gyrus superior LH
 1243,128,50,460,512,Intraparietal sulcus posterior RH
-1244,128,50,219,512,Superior parietal lobule superior RH
-1245,128,50,211,1024,Precuneus posterior RH
+1244,128,50,219,512,Superior parietal lobule medial RH
+1245,128,50,211,1024,Precuneus postero-superior RH
 1246,128,50,810,1024,Superior parietal lobule postero-superior LH
-1247,128,50,189,1024,Precuneus posterior LH
-1248,128,50,52,1024,Superior parietal lobule posterior RH
-1249,128,50,523,1024,Precuneus superior RH
+1247,128,50,189,1024,Superior parietal lobule mid-posterior LH
+1248,128,50,52,1024,Superior parietal lobule postero-superior RH
+1249,128,50,523,1024,Precuneus mid-superior RH
 1250,128,51,44,64,Paracentral lobule superior
 1251,128,51,10,64,Superior parts of Postcentral and Precentral gyri
 1252,128,51,40,64,Precentral gyrus superior
@@ -1267,13 +1267,13 @@
 1265,128,51,42,512,Cerebrospinal fluid (between interhemispheric fissure and superior frontal gyrus superio )
 1266,128,51,65,512,Precentral gyrus mid-superior 
 1267,128,51,334,512,Precentral gyrus mid-superior LH
-1268,128,51,95,512,Superior frontal gyrus posterior Lh
+1268,128,51,95,512,Superior frontal gyrus posterior LH
 1269,128,51,458,512,Cerebrospinal fluid (between superior frontal gyrus superior and skull)
 1270,128,51,325,1024,Superior frontal gyrus superior RH
-1271,128,51,802,1024,Superior frontal gyrus posterior LH
-1272,128,51,506,1024,Superior frontal gyrus superior RH
-1273,128,51,737,1024,Precentral gyrus superior
-1274,128,51,797,1024,Precentral sulcus superior RH
+1271,128,51,802,1024,Superior frontal gyrus posterior lateral LH
+1272,128,51,506,1024,Superior frontal gyrus antero-superior RH
+1273,128,51,737,1024,Interhemispheric fissure precentral gyrus
+1274,128,51,797,1024,Precentral gyrus superior and superior frontal gyrus RH
 1275,128,52,53,64,Parieto occipital sulcus anterior
 1276,128,52,5,64,Dorsal Parieto-occipital sulcus
 1277,128,52,14,64,Mid-posterior cingulate gyrus
@@ -1284,21 +1284,21 @@
 1282,128,52,6,128,Lower posterior cingulate cortex
 1283,128,52,8,128,Parieto-occipital sulcus central
 1284,128,52,118,128,Parieto-occipital sulcus antero-superior
-1285,128,52,218,256,Precuneus inferior 
+1285,128,52,218,256,Precuneus inferior
 1286,128,52,102,256,Ventral posterior cingulate cortex
 1287,128,52,195,256,Lingual gyrus
 1288,128,52,90,256,Dorsal posterior cingulate cortex
 1289,128,52,151,256,"Parieto-occipital sulcus, anterior"
 1290,128,52,432,512,Subparietal sulcus inferior LH
-1291,128,52,511,512,Precuneus postero-inferior
+1291,128,52,511,512,Parieto-occipital sulcus middle LH
 1292,128,52,461,512,Precuneus inferior 
-1293,128,52,250,512,Retrosplenial cortex
+1293,128,52,250,512,Retrosplenial cortex superior
 1294,128,52,216,512,Precuneus postero-inferior RH
-1295,128,52,390,1024,Inferior precuneus 
+1295,128,52,390,1024,Posterior cingulate cortex postero-inferior
 1296,128,52,493,1024,Posterior cingulate cortex
-1297,128,52,867,1024,Precuneus inferior RH
-1298,128,52,715,1024,Posterior cingulate cortex
-1299,128,52,838,1024,Posterior cingulate cortex inferior
+1297,128,52,867,1024,Subparietal sulcus inferior RH
+1298,128,52,715,1024,Subparietal sulcus
+1299,128,52,838,1024,Posterior cingulate cortex antero-inferior
 1300,128,53,51,64,Middle frontal gyrus
 1301,128,53,6,64,Antero-superior insula
 1302,128,53,37,64,Supramarginal gyrus
@@ -1315,13 +1315,13 @@
 1313,128,53,202,256,Cerebrospinal fluid (between middle frontal gyrus and skull)
 1314,128,53,192,256,Middle frontal gyrus posterior RH
 1315,128,53,439,512,Precentral sulcus inferior RH
-1316,128,53,366,512,Inferior frontal gyrus mid-anterior RH
+1316,128,53,366,512,Inferior frontal gyrus anterior RH
 1317,128,53,239,512,Pars triangularis RH
-1318,128,53,205,512,Middle frontal gyrus anterior RH
+1318,128,53,205,512,Middle frontal gyrus anterior lateral RH
 1319,128,53,153,512,Inferior frontal sulcus posterior RH
 1320,128,53,773,1024,Inferior frontal sulcus middle RH
-1321,128,53,776,1024,Middle frontal gyrus anterior RH
-1322,128,53,1010,1024,Inferior frontal sulcus middle RH
+1321,128,53,776,1024,Middle frontal gyrus mid-anterior inferior RH
+1322,128,53,1010,1024,Inferior frontal sulcus mid-posterior RH
 1323,128,53,514,1024,Inferior frontal sulcus anterior RH
 1324,128,53,845,1024,Precentral sulcus inferior RH
 1325,128,54,45,64,Heschl’s gyrus
@@ -1339,17 +1339,17 @@
 1337,128,54,70,256,Parietal operculum
 1338,128,54,191,256,Central opercular cortex
 1339,128,54,255,256,Parietal operculum RH
-1340,128,54,293,512,Lateral fissure mid-posterior LH
+1340,128,54,293,512,Heschl’s gyrus LH
 1341,128,54,337,512,Superior temporal gyrus posterior LH
-1342,128,54,409,512,Parietal operculum LH
-1343,128,54,183,512,Planum temporale LH
-1344,128,54,189,512,Lateral fissure posterior LH
-1345,128,54,176,1024,Superior temporal gyrus posterior LH
-1346,128,54,83,1024,Lateral fissure posterior LH
+1342,128,54,409,512,Supramarginal gyrus antero-inferior LH
+1343,128,54,183,512,Planum temporale
+1344,128,54,189,512,Arcuate fasciculus postero-superior
+1345,128,54,176,1024,Superior temporal gyrus posterior medial LH
+1346,128,54,83,1024,Planum temporale anterior LH
 1347,128,54,340,1024,Lateral fissure posterior LH
-1348,128,54,837,1024,Parietal operculum LH
-1349,128,54,1018,1024,Superior temporal gyrus posterior LH
-1350,128,55,11,64,Cerebrospinal fluid
+1348,128,54,837,1024,Frontoparietal operculum LH
+1349,128,54,1018,1024,Superior temporal gyrus posterior lateral LH
+1350,128,55,11,64,Transverse sinus
 1351,128,55,2,64,Fusiform gyrus
 1352,128,55,21,64,Cerebellum I-V
 1353,128,55,29,64,Inferior occipital gyrus
@@ -1367,8 +1367,8 @@
 1365,128,55,450,512,Cerebellum superior posterior fissure LH
 1366,128,55,317,512,Cerebellum horizontal fissure medial
 1367,128,55,34,512,Cerebellum VIIb
-1368,128,55,491,512,Cerebellum Crus I RH
-1369,128,55,260,512,Cerebellum VI
+1368,128,55,491,512,Cerebellum Crus II medial RH
+1369,128,55,260,512,Cerebellum VI posterior
 1370,128,55,664,1024,Cerebellum superior posterior fissure RH
 1371,128,55,1001,1024,Cerebellum VI RH
 1372,128,55,690,1024,Cerebellum superior posterior fissure central
@@ -1392,13 +1392,13 @@
 1390,128,56,385,512,Intermediate primus of Jensen LH
 1391,128,56,144,512,Intraparietal sulcus middle LH
 1392,128,56,242,512,Superior parietal sulcus LH
-1393,128,56,35,512,Superior parietal lobule antero-inferior LH
+1393,128,56,35,512,Intraparietal sulcus anterior LH
 1394,128,56,17,512,Supramarginal gyrus antero-superior LH
-1395,128,56,495,1024,Intraparietal sulcus anterior LH
+1395,128,56,495,1024,Intraparietal sulcus medial LH
 1396,128,56,141,1024,Intraparietal sulcus anterior LH
-1397,128,56,811,1024,Superior parietal sulcus LH
-1398,128,56,866,1024,Intraparietal sulcus LH
-1399,128,56,353,1024,Intraparietal sulcus LH
+1397,128,56,811,1024,Superior parietal sulcus inferior LH
+1398,128,56,866,1024,Intraparietal sulcus mid-anterior LH
+1399,128,56,353,1024,Intraparietal sulcus middle LH
 1400,128,57,25,64,Putamen
 1401,128,57,35,64,Lingual gyrus anterior
 1402,128,57,64,64,Caudate
@@ -1414,16 +1414,16 @@
 1412,128,57,132,256,"Insula, ventral anterior"
 1413,128,57,21,256,Amygdala
 1414,128,57,213,256,Lingual gyrus anterior
-1415,128,57,120,512,Perirhinal cortex
-1416,128,57,83,512,Hippocampus
-1417,128,57,488,512,Hippocampus posterior
+1415,128,57,120,512,Amygdala
+1416,128,57,83,512,Hippocampus anterior
+1417,128,57,488,512,Hippocampus middle
 1418,128,57,194,512,Cerebrospinal fluid (between superior cerebellum and limbic lobe)
-1419,128,57,285,512,Lateral ventricles inferior
-1420,128,57,874,1024,Hippocampus anterior RH
-1421,128,57,425,1024,Amygdala
+1419,128,57,285,512,Cerebral peduncles
+1420,128,57,874,1024,Hippocampus middle RH
+1421,128,57,425,1024,Amygdala anterior
 1422,128,57,58,1024,Hippocampal fissure
-1423,128,57,250,1024,Hippocampus LH
-1424,128,57,172,1024,Hippocampus
+1423,128,57,250,1024,Lateral geniculate nucleus LH
+1424,128,57,172,1024,Parahippocampal gyrus posterior LH
 1425,128,58,39,64,Dorsomedial Prefrontal cortex antero-caudal
 1426,128,58,23,64,Anterior Cingulate Cortex
 1427,128,58,51,64,Middle frontal gyrus
@@ -1445,10 +1445,10 @@
 1443,128,58,299,512,Superior frontal gyrus medial middle
 1444,128,58,24,512,Dorsomedial prefrontal cortex anterocaudal LH
 1445,128,58,68,1024,Dorsomedial prefrontal cortex RH
-1446,128,58,405,1024,Dorsomedial prefrontal cortex
-1447,128,58,645,1024,Dorsomedial prefrontal cortex RH
-1448,128,58,423,1024,Paracingulate sulcus  anterior LH
-1449,128,58,509,1024,Paracingulate gyrus middle
+1446,128,58,405,1024,Paracingulate gyrus mid-anterior
+1447,128,58,645,1024,Dorsomedial prefrontal cortex superior RH
+1448,128,58,423,1024,Paracingulate sulcus anterior LH
+1449,128,58,509,1024,Paracingulate sulcus middle LH
 1450,128,59,54,64,Precuneus superior
 1451,128,59,34,64,Precentral gyrus medial
 1452,128,59,28,64,Paracentral lobule
@@ -1464,16 +1464,16 @@
 1462,128,59,201,256,Cingulate sulcus posterior
 1463,128,59,252,256,Callosomarginal sulcus inferior
 1464,128,59,219,256,Paracentral lobule
-1465,128,59,102,512,Cingulate sulcus posterior
+1465,128,59,102,512,Paracentral lobule inferior LH
 1466,128,59,143,512,Precuneus anterior
-1467,128,59,161,512,Cingulate sulcus mid-posterior 
-1468,128,59,108,512,Callosomarginal sulcus inferior
+1467,128,59,161,512,Cingulate gyrus mid-posterior 
+1468,128,59,108,512,Callosomarginal sulcus middle
 1469,128,59,410,512,Callosomarginal sulcus superior
 1470,128,59,598,1024,Paracentral lobule postero-inferior RH
-1471,128,59,349,1024,Callosomarginal sulcus inferior
-1472,128,59,467,1024,Callosomarginal sulcus LH
+1471,128,59,349,1024,Callosomarginal sulcus middle LH
+1472,128,59,467,1024,Callosomarginal sulcus superior LH
 1473,128,59,244,1024,Paracentral lobule inferior
-1474,128,59,843,1024,Callosomarginal sulcus inferior
+1474,128,59,843,1024,Callosomarginal sulcus mid-inferior
 1475,128,60,43,64,Callosomarginal sulcus
 1476,128,60,34,64,Precentral gyrus medial
 1477,128,60,44,64,Paracentral lobule superior
@@ -1491,14 +1491,14 @@
 1489,128,60,201,256,Cingulate sulcus posterior
 1490,128,60,410,512,Callosomarginal sulcus superior
 1491,128,60,103,512,Precentral sulcus medial
-1492,128,60,102,512,Cingulate sulcus posterior
+1492,128,60,102,512,Paracentral lobule inferior LH
 1493,128,60,229,512,Paracentral sulcus
-1494,128,60,297,512,Callosomarginal sulcus superior
+1494,128,60,297,512,Postcentral sulcus superior
 1495,128,60,650,1024,Paracentral lobule posterior 
 1496,128,60,508,1024,Paracentral lobule superior
 1497,128,60,962,1024,Paracentral lobule postero-inferior
 1498,128,60,753,1024,Precentral sulcus medial RH
-1499,128,60,970,1024,Paracentral lobule posterior RH
+1499,128,60,970,1024,Callosomarginal sulcus superior
 1500,128,61,35,64,Lingual gyrus anterior
 1501,128,61,22,64,Superior fornix and isthmus
 1502,128,61,4,64,Posterior Cingulate cortex
@@ -1514,14 +1514,14 @@
 1512,128,61,213,256,Lingual gyrus anterior
 1513,128,61,195,256,Lingual gyrus
 1514,128,61,238,256,Calcarine sulcus anterior
-1515,128,61,288,512,Parieto-occipital sulcus anterior
-1516,128,61,82,512,Parieto-occipital sulcus anterior
+1515,128,61,288,512,Calcarine sulcus anterior
+1516,128,61,82,512,Parieto-occipital sulcus mid-anterior
 1517,128,61,331,512,Parieto-occipital sulcus middle
 1518,128,61,326,512,Parieto-occipital sulcus mid-anterior RH
-1519,128,61,250,512,Retrosplenial cortex
-1520,128,61,939,1024,Precuneus inferior LH
-1521,128,61,407,1024,Precuneus inferior LH
-1522,128,61,445,1024,Parieto-occipital sulcus antero-inferior LH
+1519,128,61,250,512,Retrosplenial cortex superior
+1520,128,61,939,1024,Parieto-occipital sulcus anterior LH
+1521,128,61,407,1024,Posterior cingulate cortex inferior LH
+1522,128,61,445,1024,Parieto-occipital sulcus inferior LH
 1523,128,61,1020,1024,Parieto-occipital sulcus anterior RH
 1524,128,61,20,1024,Parieto-occipital sulcus middle
 1525,128,62,63,64,Central sulcus
@@ -1543,11 +1543,11 @@
 1541,128,62,132,512,Postcentral gyrus mid-inferior
 1542,128,62,459,512,Central sulcus LH
 1543,128,62,309,512,Central sulcus inferior RH
-1544,128,62,438,512,Precentral gyrus inferior RH
-1545,128,62,971,1024,Central sulcus inferior LH
-1546,128,62,956,1024,Central sulcus inferior RH
-1547,128,62,510,1024,Central sulcus inferior RH
-1548,128,62,436,1024,Precentral gyrus middle LH
+1544,128,62,438,512,Central sulcus mid-inferior RH
+1545,128,62,971,1024,Central sulcus mid-inferior LH
+1546,128,62,956,1024,Central sulcus mid-inferior medial RH
+1547,128,62,510,1024,Central sulcus mid-inferior RH
+1548,128,62,436,1024,Precentral gyrus middle posterior LH
 1549,128,62,100,1024,Central sulcus inferior
 1550,128,63,54,64,Precuneus superior
 1551,128,63,4,64,Posterior Cingulate cortex
@@ -1570,7 +1570,7 @@
 1568,128,63,244,512,Precuneus antero-inferior
 1569,128,63,302,512,Subparietal sulcus LH
 1570,128,63,590,1024,Subparietal sulcus anterior RH
-1571,128,63,70,1024,Posterior cingulate cortex
+1571,128,63,70,1024,Posterior cingulate cortex anterior
 1572,128,63,223,1024,Subparietal sulcus RH
 1573,128,63,902,1024,Cingulate gyrus mid-posterior
 1574,128,63,918,1024,Subparietal sulcus posterior RH
@@ -1585,25 +1585,25 @@
 1583,128,64,99,128,Posterior insula ventral
 1584,128,64,49,128,"Insula center, and lateral fissure"
 1585,128,64,20,256,Frontal operculum LH
-1586,128,64,74,256,Insula 
+1586,128,64,74,256,Insula
 1587,128,64,48,256,Frontal opercula RH
 1588,128,64,163,256,"Superior temporal gyrus, medial"
 1589,128,64,86,256,Heschl’s gyrus
 1590,128,64,249,512,Lateral fissure anterior LH
 1591,128,64,79,512,Lateral fissure anterior
-1592,128,64,116,512,Planum polare
-1593,128,64,508,512,Lateral fissure mid-anterior LH
-1594,128,64,330,512,Central opercular cortex LH
+1592,128,64,116,512,Planum polare superior
+1593,128,64,508,512,Superior temporal gyrus superior LH
+1594,128,64,330,512,Central operculum LH
 1595,128,64,238,1024,Lateral fissure anterior rami RH
-1596,128,64,916,1024,Pars opercularis LH
+1596,128,64,916,1024,Pars opercularis inferior LH
 1597,128,64,551,1024,Lateral fissure anterior RH
-1598,128,64,171,1024,Central opercular cortex LH
-1599,128,64,184,1024,Anterior insula posterodorsal RH
+1598,128,64,171,1024,Anterior insula LH
+1599,128,64,184,1024,Anterior insula posterior RH
 1600,128,65,42,64,Lateral occipital cortex
 1601,128,65,46,64,Occipital pole
 1602,128,65,24,64,Descending occipital gyrus
 1603,128,65,29,64,Inferior occipital gyrus
-1604,128,65,11,64,Cerebrospinal fluid
+1604,128,65,11,64,Transverse sinus
 1605,128,65,25,128,"Lateral occipital cortex, inferior"
 1606,128,65,34,128,"Inferior temporal gyrus, posterior"
 1607,128,65,108,128,Inferior occipital gyrus
@@ -1614,14 +1614,14 @@
 1612,128,65,80,256,"Inferior temporal gyrus, posterior, LH"
 1613,128,65,108,256,Middle temporal gyrus posterior
 1614,128,65,113,256,Lateral occipital cortex anterior
-1615,128,65,93,512,Occipitotemporal sulcus posterior RH
+1615,128,65,93,512,Occipitotemporal gyrus posterior RH
 1616,128,65,352,512,Lateral occipital cortex anterior LH
 1617,128,65,280,512,Occipitotemporal gyrus posterior LH
 1618,128,65,187,512,Inferior occipital gyrus
 1619,128,65,78,512,Anterior occipital sulcus RH
 1620,128,65,691,1024,Inferior temporal sulcus posterior LH
 1621,128,65,662,1024,Occipitotemporal gyrus posterior LH
-1622,128,65,402,1024,Anterior occipital sulcus RH
+1622,128,65,402,1024,Anterior occipital sulcus anterior RH
 1623,128,65,814,1024,Anterior occipital sulcus LH
 1624,128,65,932,1024,Occipitotemporal gyrus posterior RH
 1625,128,66,57,64,Superior parietal lobule
@@ -1639,16 +1639,16 @@
 1637,128,66,97,256,Superior occipital gyrus RH
 1638,128,66,124,256,"Intraparietal sulcus posterior, RH"
 1639,128,66,215,256,Superior parietal lobule
-1640,128,66,453,512,Intraparietal sulcus posterior RH
+1640,128,66,453,512,Superior occipital gyrus superior RH
 1641,128,66,395,512,Precuneus postero-superior 
 1642,128,66,362,512,Precuneus posterior 
 1643,128,66,497,512,Precuneus superior
 1644,128,66,217,512,Parieto-occipital sulcus postero-superior 
-1645,128,66,941,1024,Cuneus superior
+1645,128,66,941,1024,Parieto-occipital sulcus postero-superior 
 1646,128,66,810,1024,Superior parietal lobule postero-superior LH
-1647,128,66,461,1024,Precuneus posterior
-1648,128,66,805,1024,Superior occipital sulcus
-1649,128,66,927,1024,Superior occipital gyrus superior
+1647,128,66,461,1024,Precuneus postero-superior
+1648,128,66,805,1024,Cerebrospinal fluid (between superior occipital gyrus and skull)
+1649,128,66,927,1024,Superior occipital gyrus mid-superior
 1650,128,67,26,64,Mid-anterior Cingulate cortex
 1651,128,67,19,64,Planum polare
 1652,128,67,37,64,Supramarginal gyrus
@@ -1663,17 +1663,17 @@
 1661,128,67,232,256,Pars opercularis
 1662,128,67,110,256,Insula anterior
 1663,128,67,20,256,Frontal operculum LH
-1664,128,67,74,256,Insula 
-1665,128,67,53,512,Frontal operculum RH
+1664,128,67,74,256,Insula
+1665,128,67,53,512,Anterior insula dorsal RH
 1666,128,67,160,512,Anterior rami of the lateral fissure RH
-1667,128,67,470,512,Anterior insula dorsal
+1667,128,67,470,512,Middle insula dorsal
 1668,128,67,388,512,Anterior insula dorsal LH
 1669,128,67,439,512,Precentral sulcus inferior RH
-1670,128,67,527,1024,Anterior rami of the lateral fissure RH
-1671,128,67,824,1024,Inferior frontal gyrus posterior RH
-1672,128,67,859,1024,Anterior insula dorsal LH
-1673,128,67,704,1024,Anterior vertical ramus of the lateral fissure RH
-1674,128,67,567,1024,Anterior insula anterodorsal
+1670,128,67,527,1024,Anterior insula superior RH
+1671,128,67,824,1024,Subcentral gyrus anterior RH
+1672,128,67,859,1024,Circular sulcus of the insula antero-superior LH
+1673,128,67,704,1024,Anterior vertical ramus of the Lateral fissure RH
+1674,128,67,567,1024,Anterior insula antero-superior
 1675,128,68,45,64,Heschl’s gyrus
 1676,128,68,19,64,Planum polare
 1677,128,68,37,64,Supramarginal gyrus
@@ -1689,15 +1689,15 @@
 1687,128,68,253,256,Superior temporal sulcus posterior RH
 1688,128,68,167,256,Planum temporale LH
 1689,128,68,190,256,Insula posterior inferior
-1690,128,68,405,512,Lateral fissure posterior RH
-1691,128,68,226,512,Parietal operculum RH
-1692,128,68,183,512,Planum temporale LH
+1690,128,68,405,512,Lateral fissure posterior limb RH
+1691,128,68,226,512,Parietal operculum posterior RH
+1692,128,68,183,512,Planum temporale
 1693,128,68,390,512,Posterior insula ventral 
-1694,128,68,252,512,Lateral fissure mid-anterior RH
-1695,128,68,45,1024,Heschl’s gyrus RH
-1696,128,68,557,1024,Lateral fissure posterior RH
-1697,128,68,77,1024,Parietal operculum RH
-1698,128,68,316,1024,Lateral fissure posterior RH
+1694,128,68,252,512,Superior temporal gyrus superior RH
+1695,128,68,45,1024,Heschl’s gyrus posterior RH
+1696,128,68,557,1024,Lateral fissure posterior limb inferior RH
+1697,128,68,77,1024,Supramarginal gyrus antero-inferior RH
+1698,128,68,316,1024,Lateral fissure posterior
 1699,128,68,952,1024,Planum temporale LH
 1700,128,69,30,64,Superior rostral gyrus
 1701,128,69,26,64,Mid-anterior Cingulate cortex
@@ -1714,14 +1714,14 @@
 1712,128,69,13,256,Mid-anterior cingulate cortex
 1713,128,69,235,256,Dorsomedial prefrontal cortex anterior
 1714,128,69,149,256,Rostral anterior cingulate cortex
-1715,128,69,394,512,Paracingulate gyrus anterior RH
+1715,128,69,394,512,Cingulate sulcus anterior RH
 1716,128,69,327,512,Cingulate sulcus mid-anterior RH
 1717,128,69,271,512,Paracingulate gyrus mid-anterior LH
 1718,128,69,354,512,Paracingulate gyrus anterior LH
 1719,128,69,220,512,Anterior cingulate cortex superior
-1720,128,69,86,1024,Anterior cingulate RH
-1721,128,69,741,1024,Anterior cingulate cortex
-1722,128,69,405,1024,Dorsomedial prefrontal cortex
+1720,128,69,86,1024,Cingulate mid-anterior RH
+1721,128,69,741,1024,Anterior cingulate cortex anterior LH
+1722,128,69,405,1024,Paracingulate gyrus mid-anterior
 1723,128,69,393,1024,Anterior cingulate cortex inferior
 1724,128,69,475,1024,Paracingulate gyrus mid-anterior LH
 1725,128,70,28,64,Paracentral lobule
@@ -1738,16 +1738,16 @@
 1736,128,70,137,256,Paracentral lobule posterior
 1737,128,70,3,256,Cerebrospinal fluid (between superior parietal lobule and skull)
 1738,128,70,180,256,Cerebrospinal fluid (between precentral gyrus superior and skull)
-1739,128,70,52,256,Cerebrospinal fluid (between parietal lobe and skull]
+1739,128,70,52,256,Cerebrospinal fluid (between parietal lobe and skull)
 1740,128,70,398,512,Cerebrospinal fluid (between callosomarginal sulcus and skull RH)
 1741,128,70,42,512,Cerebrospinal fluid (between interhemispheric fissure and superior frontal gyrus superio )
 1742,128,70,92,512,Cererbrospinal fluid (between callosomarginal sulcus and skull LH)
 1743,128,70,428,512,Cerebrospinal fluid (between postcentral gyrus and skull)
 1744,128,70,181,512,Cerebrospinal fluid (between superior parietal lobule and skull RH)
-1745,128,70,721,1024,Paracentral lobule superior
+1745,128,70,721,1024,Postcentral gyrus superior
 1746,128,70,326,1024,Precentral gyrus superior
-1747,128,70,953,1024,Superior frontal gyrus anterior
-1748,128,70,961,1024,Postcentral gyrus superior 
+1747,128,70,953,1024,Interhemispheric fissure superior
+1748,128,70,961,1024,Interhemispheric fissure parietal
 1749,128,70,685,1024,Cerebrospinal fluid (between postcentral gyrus and skull)
 1750,128,71,22,64,Superior fornix and isthmus
 1751,128,71,15,64,ventricles
@@ -1765,15 +1765,15 @@
 1763,128,71,41,256,Thalamus
 1764,128,71,103,256,"Lateral ventricles, middle"
 1765,128,71,71,512,Thalamus posterior
-1766,128,71,298,512,Thalamus anterior 
+1766,128,71,298,512,Thalamus middle 
 1767,128,71,421,512,Thalamus medial
 1768,128,71,72,512,Globus pallidus RH
 1769,128,71,377,512,Internal capsule middle LH
-1770,128,71,95,1024,Thalamus posterior
+1770,128,71,95,1024,Thalamus superior
 1771,128,71,38,1024,Thalamus LH
-1772,128,71,917,1024,Thalamus medial 
-1773,128,71,640,1024,Internal capsule middle LH
-1774,128,71,168,1024,Fornix anterior
+1772,128,71,917,1024,Fornix middle body
+1773,128,71,640,1024,Internal capsule posterior limb LH
+1774,128,71,168,1024,Fornix body
 1775,128,72,60,64,Cuneus
 1776,128,72,31,64,Calcarine sulcus anterior
 1777,128,72,46,64,Occipital pole
@@ -1786,18 +1786,18 @@
 1784,128,72,12,128,Lingual gyrus posterior
 1785,128,72,9,256,"Occipital pole, superior"
 1786,128,72,78,256,Mid-posterior lingual gyrus
-1787,128,72,88,256,Cuneus anterior
+1787,128,72,88,256,Cuneus inferior
 1788,128,72,77,256,Cuneus inferior
 1789,128,72,62,256,"Lingual gyrus, middle"
-1790,128,72,296,512,Calcarine sulcus mid-posterior LH
-1791,128,72,175,512,Calcarine cortex posterior RH
-1792,128,72,88,512,Occipital pole superior LH
-1793,128,72,195,512,Occipital pole RH
+1790,128,72,296,512,Calcarine cortex mid-posterior LH
+1791,128,72,175,512,Cuneus posterior RH
+1792,128,72,88,512,Occipital pole LH
+1793,128,72,195,512,Occipital pole
 1794,128,72,5,512,Calcarine cortex posterior LH
 1795,128,72,621,1024,Lingual gyrus posterior
 1796,128,72,323,1024,Calcarine cortex posterior RH
-1797,128,72,94,1024,Calcarine sulcus RH
-1798,128,72,1022,1024,Cuneus posterior LH
+1797,128,72,94,1024,Supracalcarine cortex RH
+1798,128,72,1022,1024,Cuneus postero-inferior LH
 1799,128,72,383,1024,Occipital pole medial RH
 1800,128,73,32,64,Intraparietal sulcus
 1801,128,73,27,64,Superior parietal lobule posterior
@@ -1816,14 +1816,14 @@
 1814,128,73,120,256,Lateral occipital cortex superior
 1815,128,73,507,512,Superior occipital sulcus RH
 1816,128,73,172,512,Superior occipital gyrus LH
-1817,128,73,75,512,Superior parietal sulcus LH
-1818,128,73,347,512,Superior occipital sulcus RH
-1819,128,73,246,512,Intraparietal sulcus posterior RH
+1817,128,73,75,512,Superior occipital sulcus superior LH
+1818,128,73,347,512,Superior occipital gyrus inferior RH
+1819,128,73,246,512,Superior occipital sulcus middle RH
 1820,128,73,923,1024,Superior occipital sulcus superior LH
-1821,128,73,387,1024,Superior occipital sulcus RH
-1822,128,73,979,1024,Superior occipital sulcus RH
+1821,128,73,387,1024,Superior occipital sulcus middle RH
+1822,128,73,979,1024,Superior occipital sulcus superior RH
 1823,128,73,995,1024,Superior occipital sulcus LH
-1824,128,73,192,1024,Angular gyrus posterior RH
+1824,128,73,192,1024,Lateral occipital cortex postero-superior RH
 1825,128,74,12,64,Paracentral gyrus RH
 1826,128,74,33,64,Superior parietal lobule anterior
 1827,128,74,10,64,Superior parts of Postcentral and Precentral gyri
@@ -1839,16 +1839,16 @@
 1837,128,74,27,256,"Intraparietal sulcus, anterior"
 1838,128,74,246,256,Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)
 1839,128,74,23,256,Postcentral gyrus LH
-1840,128,74,35,512,Superior parietal lobule antero-inferior LH
+1840,128,74,35,512,Intraparietal sulcus anterior LH
 1841,128,74,211,512,Postcentral sulcus superior LH
 1842,128,74,45,512,Postcentral sulcus LH
 1843,128,74,412,512,Superior parts of central and postcentral sulci LH
-1844,128,74,73,512,Postcentral gyrus RH
-1845,128,74,915,1024,Postcentral gyrus middle LH
+1844,128,74,73,512,Postcentral sulcus RH
+1845,128,74,915,1024,Postcentral gyrus middle posterior LH
 1846,128,74,550,1024,Postcentral gyrus middle LH
-1847,128,74,544,1024,Postcentral gyrus LH
+1847,128,74,544,1024,Postcentral sulcus mid-superior LH
 1848,128,74,756,1024,Postcentral sulcus superior LH
-1849,128,74,537,1024,Cerebrospinal fluid (between postcentral gyrus and skull LH)
+1849,128,74,537,1024,Cerebrospinal fluid (between postcentral gyrus superior and skull LH)
 1850,128,75,13,64,Superior occipital gyrus
 1851,128,75,3,64,Calcarine cortex posterior
 1852,128,75,20,64,Central Parieto-occipital sulcus
@@ -1860,20 +1860,20 @@
 1858,128,75,103,128,"Occipital pole, superior"
 1859,128,75,3,128,Superior occipital gyrus
 1860,128,75,184,256,Cuneus superior
-1861,128,75,88,256,Cuneus anterior
+1861,128,75,88,256,Cuneus inferior
 1862,128,75,6,256,"Cuneus, anterior"
 1863,128,75,84,256,"Superior occipital sulcus, inferior"
 1864,128,75,8,256,"Lateral occipital cortex, LH"
 1865,128,75,240,512,Cuneus superior 
-1866,128,75,107,512,Cuneus
-1867,128,75,150,512,Superior occipital gyrus LH
-1868,128,75,62,512,Superior occipital sulcus inferior RH
-1869,128,75,175,512,Calcarine cortex posterior RH
+1866,128,75,107,512,Cuneus middle
+1867,128,75,150,512,Occipital pole superior LH
+1868,128,75,62,512,Cuneus middle posterior RH
+1869,128,75,175,512,Cuneus posterior RH
 1870,128,75,846,1024,Cuneus superior
 1871,128,75,605,1024,Cuneus inferior RH
 1872,128,75,521,1024,Cuneus superior LH
-1873,128,75,137,1024,Superior occipital gyrus
-1874,128,75,219,1024,Superior occipital sulcus inferior RH
+1873,128,75,137,1024,Cuneus posterior
+1874,128,75,219,1024,Cuneus posterior RH
 1875,128,76,52,64,Inferior frontal gyrus
 1876,128,76,49,64,Inferior frontal sulcus
 1877,128,76,17,64,Superior frontal gyrus medial
@@ -1893,12 +1893,12 @@
 1891,128,76,322,512,Precentral sulcus inferior LH
 1892,128,76,133,512,Inferior frontal sulcus posterior LH
 1893,128,76,221,512,Inferior frontal sulcus posterior LH
-1894,128,76,503,512,Middle frontal gyrus posterior LH
-1895,128,76,566,1024,Inferior frontal sulcus posterior LH
-1896,128,76,922,1024,Precentral gyrus middle LH
-1897,128,76,870,1024,Precentral sulcus mid-inferior LH
+1894,128,76,503,512,Cerebrospinal fluid (between inferior frontal sulcus and skull LH)
+1895,128,76,566,1024,Middle frontal gyrus posterior LH
+1896,128,76,922,1024,Corticospinal tract precentral gyrus LH
+1897,128,76,870,1024,Precentral sulcus inferior LH
 1898,128,76,888,1024,Precentral gyrus middle LH
-1899,128,76,963,1024,Precentral sulcus middle LH
+1899,128,76,963,1024,Precentral sulcus mid-superior LH
 1900,128,77,38,64,Intraparietal sulcus LH
 1901,128,77,57,64,Superior parietal lobule
 1902,128,77,32,64,Intraparietal sulcus
@@ -1915,15 +1915,15 @@
 1913,128,77,19,256,Superior parietal lobule
 1914,128,77,215,256,Superior parietal lobule
 1915,128,77,242,512,Superior parietal sulcus LH
-1916,128,77,276,512,Superior parietal lobule posterior LH
+1916,128,77,276,512,Superior parietal lobule postero-superior LH
 1917,128,77,144,512,Intraparietal sulcus middle LH
-1918,128,77,75,512,Superior parietal sulcus LH
-1919,128,77,324,512,Superior parietal lobule posterior RH
-1920,128,77,13,1024,Superior parietal lobule LH
+1918,128,77,75,512,Superior occipital sulcus superior LH
+1919,128,77,324,512,Superior parietal lobule postero-superior RH
+1920,128,77,13,1024,Superior parietal lobule anterior LH
 1921,128,77,998,1024,Superior parietal lobule posterior LH
-1922,128,77,878,1024,Superior parietal sulcus inferior LH
-1923,128,77,718,1024,Superior parietal sulcus RH
-1924,128,77,448,1024,Superior parietal sulcus LH
+1922,128,77,878,1024,Superior parietal sulcus mid-inferior LH
+1923,128,77,718,1024,Superior parietal sulcus inferior RH
+1924,128,77,448,1024,Superior parietal sulcus middle LH
 1925,128,78,20,64,Central Parieto-occipital sulcus
 1926,128,78,60,64,Cuneus
 1927,128,78,18,64,Precuneus superior
@@ -1940,15 +1940,15 @@
 1938,128,78,197,256,"Parieto-occipital sulcus, posterior"
 1939,128,78,77,256,Cuneus inferior
 1940,128,78,240,512,Cuneus superior 
-1941,128,78,62,512,Superior occipital sulcus inferior RH
-1942,128,78,150,512,Superior occipital gyrus LH
-1943,128,78,87,512,Parieto-occipital sulcus postero-superior 
+1941,128,78,62,512,Cuneus middle posterior RH
+1942,128,78,150,512,Occipital pole superior LH
+1943,128,78,87,512,Parieto-occipital sulcus posterior lateral
 1944,128,78,362,512,Precuneus posterior 
-1945,128,78,719,1024,Cuneus posterior
-1946,128,78,219,1024,Superior occipital sulcus inferior RH
-1947,128,78,288,1024,Cuneus superior
-1948,128,78,927,1024,Superior occipital gyrus superior
-1949,128,78,695,1024,Superior occipital gyrus LH
+1945,128,78,719,1024,Cuneus postero-superior LH
+1946,128,78,219,1024,Cuneus posterior RH
+1947,128,78,288,1024,Descending occipital gyrus superior
+1948,128,78,927,1024,Superior occipital gyrus mid-superior
+1949,128,78,695,1024,Superior occipital gyrus posterior LH
 1950,128,79,6,64,Antero-superior insula
 1951,128,79,26,64,Mid-anterior Cingulate cortex
 1952,128,79,7,64,Superior temporal sulcus with angular gyrus
@@ -1969,10 +1969,10 @@
 1967,128,79,21,512,Pars triangularis LH
 1968,128,79,33,512,Pars orbitalis RH
 1969,128,79,160,512,Anterior rami of the lateral fissure RH
-1970,128,79,772,1024,Anterior horizontal ramus of the lateral fissure LH
+1970,128,79,772,1024,Anterior horizontal ramus of the Lateral fissure LH
 1971,128,79,875,1024,Pars orbitalis RH
-1972,128,79,710,1024,Posterior orbital gyrus
-1973,128,79,273,1024,Anterior insula ventral LH
+1972,128,79,710,1024,Posterior orbital gyrus posterior
+1973,128,79,273,1024,Anterior insula anterior LH
 1974,128,79,463,1024,Pars orbitalis LH
 1975,128,80,7,64,Superior temporal sulcus with angular gyrus
 1976,128,80,8,64,Planum temporale
@@ -1991,14 +1991,14 @@
 1989,128,80,134,256,Middle temporal gyrus anterior RH
 1990,128,80,443,512,Superior temporal sulcus middle LH
 1991,128,80,509,512,Middle temporal gyrus mid-posterior LH
-1992,128,80,66,512,Superior temporal sulcus anterior LH
+1992,128,80,66,512,Superior temporal gyrus mid-anterior LH
 1993,128,80,230,512,Middle temporal gyrus middle LH
-1994,128,80,235,512,Superior temporal sulcus middle RH
+1994,128,80,235,512,Superior temporal sulcus middle-superior RH
 1995,128,80,458,1024,Superior temporal sulcus middle LH
-1996,128,80,55,1024,Middle temporal gyrus middle LH
-1997,128,80,388,1024,Superior temporal sulcus middle LH
+1996,128,80,55,1024,Middle temporal gyrus middle superior LH
+1997,128,80,388,1024,Superior temporal sulcus mid-anterior LH
 1998,128,80,978,1024,Middle temporal gyrus mid-posterior LH
-1999,128,80,490,1024,Superior temporal sulcus posterior LH
+1999,128,80,490,1024,Middle temporal gyrus mid-posterior medial LH
 2000,128,81,36,64,Angular gyrus
 2001,128,81,57,64,Superior parietal lobule
 2002,128,81,51,64,Middle frontal gyrus
@@ -2009,26 +2009,26 @@
 2007,128,81,21,128,"Angular gyrus superior, RH"
 2008,128,81,112,128,Postcentral sulcus RH
 2009,128,81,86,128,Cerebrospinal fluid (between parietal lobe and skull)
-2010,128,81,118,256,Intraparietal sulcus RH
+2010,128,81,118,256,"Intraparietal sulcus ventral, RH"
 2011,128,81,29,256,"Angular gyrus superior, RH"
 2012,128,81,38,256,"Supramarginal gyrus, RH"
 2013,128,81,11,256,Cerebrospinal fluid (between intraparietal sulcus and skull)
-2014,128,81,63,256,"Intraparietal sulcus, RH"
+2014,128,81,63,256,"Intraparietal sulcus dorsal, RH"
 2015,128,81,214,512,Intraparietal sulcus anterior RH
-2016,128,81,86,512,Intraparietal sulcus RH
+2016,128,81,86,512,Intraparietal sulcus middle RH
 2017,128,81,99,512,Angular gyrus anterior RH
 2018,128,81,444,512,Cerebrospinal fluid (between intraparietal sulcus and skull RH)
 2019,128,81,305,512,Angular gyrus superior RH
-2020,128,81,419,1024,Intermediate primus of Jensen RH
+2020,128,81,419,1024,Intermediate primus of Jensen anterior RH
 2021,128,81,764,1024,Angular gyrus antero-superior RH
 2022,128,81,150,1024,Intraparietal sulcus anterior RH
-2023,128,81,799,1024,Superior parietal lobule anterior RH
-2024,128,81,528,1024,Angular sulcus superior RH
+2023,128,81,799,1024,Superior parietal lobule antero-inferior RH
+2024,128,81,528,1024,Angular gyrus middle RH
 2025,128,82,21,64,Cerebellum I-V
 2026,128,82,35,64,Lingual gyrus anterior
 2027,128,82,22,64,Superior fornix and isthmus
 2028,128,82,55,64,Lingual gyrus
-2029,128,82,11,64,Cerebrospinal fluid
+2029,128,82,11,64,Transverse sinus
 2030,128,82,113,128,Cerebellum VI
 2031,128,82,28,128,Cerebellum VI superior
 2032,128,82,91,128,Lingual gyrus
@@ -2041,9 +2041,9 @@
 2039,128,82,211,256,Cerebellum VI RH
 2040,128,82,376,512,Cerebellum V RH
 2041,128,82,342,512,Cerebellum V superior
-2042,128,82,128,512,Cerebellum VI LH
-2043,128,82,260,512,Cerebellum VI
-2044,128,82,259,512,Cerebellum III
+2042,128,82,128,512,Cerebellum VI superior LH
+2043,128,82,260,512,Cerebellum VI posterior
+2044,128,82,259,512,Cerebellum III superior
 2045,128,82,857,1024,Cerebellum IV LH
 2046,128,82,417,1024,Cerebellum V
 2047,128,82,672,1024,Cerebellum IV
@@ -2069,10 +2069,10 @@
 2067,128,83,212,512,Precentral gyrus superior LH
 2068,128,83,199,512,Precentral gyrus superior RH
 2069,128,83,500,512,Superior frontal sulcus posterior RH
-2070,128,83,265,1024,Precentral sulcus RH
+2070,128,83,265,1024,Precentral sulcus mid-superior RH
 2071,128,83,140,1024,Precentral sulcus superior RH
-2072,128,83,354,1024,Precentral sulcus superior LH
-2073,128,83,40,1024,Precentral sulcus superior LH
+2072,128,83,354,1024,Precentral gyrus middle anterior LH
+2073,128,83,40,1024,Precentral sulcus middle LH
 2074,128,83,722,1024,Precentral sulcus superior LH
 2075,128,84,12,64,Paracentral gyrus RH
 2076,128,84,41,64,Postcentral gyrus inferior
@@ -2095,10 +2095,10 @@
 2093,128,84,382,512,Cerebrospinal fluid (between central sulcus and skull RH)
 2094,128,84,132,512,Postcentral gyrus mid-inferior
 2095,128,84,100,1024,Central sulcus inferior
-2096,128,84,78,1024,Central sulcus LH
+2096,128,84,78,1024,Central sulcus mid-superior LH
 2097,128,84,636,1024,Postcentral gyrus middle RH
-2098,128,84,376,1024,Precentral gyrus RH
-2099,128,84,436,1024,Precentral gyrus middle LH
+2098,128,84,376,1024,Precentral gyrus mid-inferior RH
+2099,128,84,436,1024,Precentral gyrus middle posterior LH
 2100,128,85,60,64,Cuneus
 2101,128,85,35,64,Lingual gyrus anterior
 2102,128,85,3,64,Calcarine cortex posterior
@@ -2114,16 +2114,16 @@
 2112,128,85,62,256,"Lingual gyrus, middle"
 2113,128,85,119,256,Calcarine sulcus posterior
 2114,128,85,139,256,Calcarine sulcus middle
-2115,128,85,296,512,Calcarine sulcus mid-posterior LH
-2116,128,85,26,512,Calcarine cortex middle
+2115,128,85,296,512,Calcarine cortex mid-posterior LH
+2116,128,85,26,512,Cuneus antero-inferior
 2117,128,85,495,512,Lingual gyrus middle RH
 2118,128,85,435,512,Cuneus anterior
-2119,128,85,107,512,Cuneus
-2120,128,85,94,1024,Calcarine sulcus RH
-2121,128,85,896,1024,Lingual gyrus anterior
+2119,128,85,107,512,Cuneus middle
+2120,128,85,94,1024,Supracalcarine cortex RH
+2121,128,85,896,1024,Lingual gyrus medial
 2122,128,85,833,1024,Calcarine sulcus mid-anterior
-2123,128,85,10,1024,Calcarine cortex middle RH
-2124,128,85,197,1024,Cuneus anterior
+2123,128,85,10,1024,Calcarine cortex mid-posterior RH
+2124,128,85,197,1024,Cuneus anterior LH
 2125,128,86,33,64,Superior parietal lobule anterior
 2126,128,86,10,64,Superior parts of Postcentral and Precentral gyri
 2127,128,86,27,64,Superior parietal lobule posterior
@@ -2137,18 +2137,18 @@
 2135,128,86,208,256,Superior parietal lobule superior
 2136,128,86,18,256,Cerebrospinal fluid (between precuneus and skull)
 2137,128,86,3,256,Cerebrospinal fluid (between superior parietal lobule and skull)
-2138,128,86,52,256,Cerebrospinal fluid (between parietal lobe and skull]
+2138,128,86,52,256,Cerebrospinal fluid (between parietal lobe and skull)
 2139,128,86,29,256,"Angular gyrus superior, RH"
-2140,128,86,324,512,Superior parietal lobule posterior RH
-2141,128,86,276,512,Superior parietal lobule posterior LH
-2142,128,86,50,512,Superior parietal lobule posterior LH
+2140,128,86,324,512,Superior parietal lobule postero-superior RH
+2141,128,86,276,512,Superior parietal lobule postero-superior LH
+2142,128,86,50,512,Intraparietal sulcus superior LH
 2143,128,86,477,512,Cerebrospinal fluid (between superior parietal lobule and skull LH)
-2144,128,86,494,512,Superior parietal lobule antero-superior
-2145,128,86,576,1024,Superior parietal lobule RH
+2144,128,86,494,512,Superior parietal lobule superior
+2145,128,86,576,1024,Intraparietal sulcus superior RH
 2146,128,86,88,1024,Cerebrospinal fluid (between superior parietal lobule and skull)
 2147,128,86,329,1024,Superior parietal lobule superior
-2148,128,86,52,1024,Superior parietal lobule posterior RH
-2149,128,86,755,1024,Superior parietal lobule RH
+2148,128,86,52,1024,Superior parietal lobule postero-superior RH
+2149,128,86,755,1024,Superior parietal lobule antero-superior RH
 2150,128,87,22,64,Superior fornix and isthmus
 2151,128,87,64,64,Caudate
 2152,128,87,47,64,Thalamus
@@ -2161,20 +2161,19 @@
 2159,128,87,95,128,Retrosplenial cortex
 2160,128,87,60,256,Genu of callosal body
 2161,128,87,34,256,"Corpus callosum forceps minor, LH"
-2162,128,87,157,256,"Anterior corona radiata RH
-"
+2162,128,87,157,256,Anterior corona radiata RH
 2163,128,87,101,256,Internal capsule anterior horn RH
 2164,128,87,135,256,Superior corona radiata RH
 2165,128,87,165,512,Superior corona radiata
-2166,128,87,208,512,Corpus callosum genu
-2167,128,87,130,512,Corpus callosum rostrum
+2166,128,87,208,512,Corpus callosum genu superior
+2167,128,87,130,512,Corpus callosum genu inferior
 2168,128,87,22,512,Superior longitudinal fasciculus II LH
-2169,128,87,483,512,Internal capsule anterior RH
-2170,128,87,438,1024,Anterior corona radiata RH
-2171,128,87,324,1024,Genu of corpus callosum LH
+2169,128,87,483,512,Superior longitudinal fasciculus III anterior RH
+2170,128,87,438,1024,Superior longitudinal fasciculus II middle RH
+2171,128,87,324,1024,Corpus callosum genu LH
 2172,128,87,1024,1024,Corpus callosum genu RH
-2173,128,87,313,1024,Anterior horn of internal capsule LH
-2174,128,87,403,1024,Anterior limb of internal capsule RH
+2173,128,87,313,1024,Internal capsule anterior limb superior LH
+2174,128,87,403,1024,Superior longitudinal fasciculus II anterior RH
 2175,128,88,24,64,Descending occipital gyrus
 2176,128,88,16,64,Posterior fusiform gyrus
 2177,128,88,3,64,Calcarine cortex posterior
@@ -2192,14 +2191,14 @@
 2189,128,88,25,256,"Occipital pole, inferior"
 2190,128,88,109,512,Lunate sulcus RH
 2191,128,88,232,512,Occipital pole lateral RH
-2192,128,88,179,512,Occipital pole LH
+2192,128,88,179,512,Occipital pole lateral LH
 2193,128,88,278,512,Middle occipital sulcus LH
 2194,128,88,134,512,Lateral occipital cortex posterior LH
 2195,128,88,102,1024,Occipital pole superior LH
-2196,128,88,794,1024,Lunate sulcus LH
+2196,128,88,794,1024,Lunate sulcus inferior LH
 2197,128,88,350,1024,Occipital pole lateral LH
-2198,128,88,155,1024,Occipital pole superior RH
-2199,128,88,611,1024,Lunate sulcus LH
+2198,128,88,155,1024,Occipital pole RH
+2199,128,88,611,1024,Lunate sulcus superior LH
 2200,128,89,43,64,Callosomarginal sulcus
 2201,128,89,18,64,Precuneus superior
 2202,128,89,27,64,Superior parietal lobule posterior
@@ -2215,13 +2214,13 @@
 2212,128,89,19,256,Superior parietal lobule
 2213,128,89,65,256,Precuneus anterior
 2214,128,89,87,256,Superior parts of central and postcentral sulci
-2215,128,89,163,512,Superior parietal sulcus LH
+2215,128,89,163,512,Superior longitudinal fasciculus I posterior LH
 2216,128,89,374,512,Superior parietal sulcus superior 
 2217,128,89,258,512,Superior parietal lobule LH
-2218,128,89,219,512,Superior parietal lobule superior RH
+2218,128,89,219,512,Superior parietal lobule medial RH
 2219,128,89,436,512,Precuneus antero-superior
-2220,128,89,331,1024,Superior parietal lobule RH
-2221,128,89,954,1024,Precuneus superior 
+2220,128,89,331,1024,Superior parietal lobule anterior RH
+2221,128,89,954,1024,Superior parietal lobule posterior
 2222,128,89,336,1024,Precuneus superior RH
 2223,128,89,651,1024,Superior parietal lobule antero-superior LH
 2224,128,89,860,1024,Precuneus antero-superior LH
@@ -2241,14 +2240,14 @@
 2238,128,90,54,256,"Superior frontal sulcus anterior, RH"
 2239,128,90,61,256,Frontal pole
 2240,128,90,174,512,Superior frontal gyrus anterior
-2241,128,90,43,512,Superior frontal gyrus RH
+2241,128,90,43,512,Superior frontal gyrus superior RH
 2242,128,90,24,512,Dorsomedial prefrontal cortex anterocaudal LH
 2243,128,90,185,512,Superior frontal sulcus anterior LH
 2244,128,90,115,512,Middle frontal gyrus anterior RH
 2245,128,90,631,1024,Superior frontal gyrus antero-superior
 2246,128,90,699,1024,Superior frontal gyrus anterior
 2247,128,90,581,1024,Superior frontal gyrus middle RH
-2248,128,90,765,1024,Superior frontal gyrus LH
+2248,128,90,765,1024,Superior frontal gyrus anterior LH
 2249,128,90,856,1024,Superior frontal sulcus anterior LH
 2250,128,91,55,64,Lingual gyrus
 2251,128,91,2,64,Fusiform gyrus
@@ -2266,14 +2265,14 @@
 2263,128,91,195,256,Lingual gyrus
 2264,128,91,154,256,Cerebellum V
 2265,128,91,427,512,Lingual gyrus anterior
-2266,128,91,364,512,Fluid between occipital lobe and cerebellum
+2266,128,91,364,512,Lingual gyrus inferior
 2267,128,91,9,512,"Calcarine sulcus anterior, LH"
-2268,128,91,128,512,Cerebellum VI LH
-2269,128,91,288,512,Parieto-occipital sulcus anterior
+2268,128,91,128,512,Cerebellum VI superior LH
+2269,128,91,288,512,Calcarine sulcus anterior
 2270,128,91,404,1024,Cerebrospinal fluid (between lingual gyrus and cerebellum)
-2271,128,91,677,1024,Fusiform gyrus anterior RH
+2271,128,91,677,1024,Lingual gyrus middle RH
 2272,128,91,822,1024,Lingual gyrus anterior RH
-2273,128,91,589,1024,Lingual gyrus middle LH
+2273,128,91,589,1024,Lingual gyrus inferior LH
 2274,128,91,913,1024,Lingual gyrus anterior
 2275,128,92,43,64,Callosomarginal sulcus
 2276,128,92,18,64,Precuneus superior
@@ -2296,10 +2295,10 @@
 2293,128,92,253,512,Precuneus middle
 2294,128,92,436,512,Precuneus antero-superior
 2295,128,92,703,1024,Precuneus superior
-2296,128,92,671,1024,Precuneus anterior 
+2296,128,92,671,1024,Precuneus antero-superior
 2297,128,92,571,1024,Precuneus middle RH
-2298,128,92,955,1024,Callosomarginal sulcus
-2299,128,92,467,1024,Callosomarginal sulcus LH
+2298,128,92,955,1024,Callosomarginal sulcus mid-superior
+2299,128,92,467,1024,Callosomarginal sulcus superior LH
 2300,128,93,51,64,Middle frontal gyrus
 2301,128,93,52,64,Inferior frontal gyrus
 2302,128,93,1,64,Superior frontal sulcus
@@ -2316,15 +2315,15 @@
 2313,128,93,54,256,"Superior frontal sulcus anterior, RH"
 2314,128,93,214,256,Middle frontal gyrus anterior
 2315,128,93,48,512,Middle frontal gyrus mid-anterior LH
-2316,128,93,310,512,Middle frontal gyrus anterior
+2316,128,93,310,512,Middle frontal gyrus middle
 2317,128,93,115,512,Middle frontal gyrus anterior RH
 2318,128,93,39,512,Cerebrospinal fluid (between middle frontal gyrus and skull)
 2319,128,93,185,512,Superior frontal sulcus anterior LH
-2320,128,93,806,1024,Middle frontal gyrus anterior RH
+2320,128,93,806,1024,Middle frontal gyrus mid-anterior superior RH
 2321,128,93,895,1024,Middle frontal gyrus lateral RH
-2322,128,93,109,1024,Middle frontal gyrus anterior LH
+2322,128,93,109,1024,Cerebrospinal fluid (between middle frontal gyrus superior and skull LH)
 2323,128,93,428,1024,Middle frontal gyrus anterior LH
-2324,128,93,254,1024,Middle frontal gyrus anterior RH
+2324,128,93,254,1024,Middle frontal sulcus anterior RH
 2325,128,94,64,64,Caudate
 2326,128,94,47,64,Thalamus
 2327,128,94,22,64,Superior fornix and isthmus
@@ -2343,13 +2342,13 @@
 2340,128,94,328,512,Caudate LH
 2341,128,94,261,512,Caudate
 2342,128,94,225,512,Caudate ventral
-2343,128,94,464,512,Lateral ventricles anterior
+2343,128,94,464,512,Anterior horn of lateral ventricles
 2344,128,94,54,512,Caudate dorsal
-2345,128,94,147,1024,Caudate LH
-2346,128,94,153,1024,Caudate anterior
-2347,128,94,1023,1024,Caudate dorsal
+2345,128,94,147,1024,Caudate posterior LH
+2346,128,94,153,1024,Caudate
+2347,128,94,1023,1024,Caudate superior anterior
 2348,128,94,251,1024,Caudate posterior 
-2349,128,94,310,1024,Caudate LH
+2349,128,94,310,1024,Internal capsule anterior limb
 2350,128,95,35,64,Lingual gyrus anterior
 2351,128,95,53,64,Parieto occipital sulcus anterior
 2352,128,95,47,64,Thalamus
@@ -2365,17 +2364,17 @@
 2362,128,95,140,256,"Lateral ventricles, posterior horns"
 2363,128,95,213,256,Lingual gyrus anterior
 2364,128,95,95,256,Posterior hippocampus
-2365,128,95,250,512,Retrosplenial cortex
-2366,128,95,392,512,Retrosplenial cortex
+2365,128,95,250,512,Retrosplenial cortex superior
+2366,128,95,392,512,Retrosplenial cortex inferior
 2367,128,95,421,512,Thalamus medial
-2368,128,95,288,512,Parieto-occipital sulcus anterior
-2369,128,95,407,512,Lateral ventricles posterior
-2370,128,95,529,1024,Retrosplenial cortex
-2371,128,95,688,1024,Posterior lateral ventricles
+2368,128,95,288,512,Calcarine sulcus anterior
+2369,128,95,407,512,Posterior horn of lateral ventricles 
+2370,128,95,529,1024,Retrosplenial cortex posterior
+2371,128,95,688,1024,Third ventricle posterior
 2372,128,95,54,1024,Retrosplenial cortex
 2373,128,95,583,1024,Posterior cingulate cortex inferior
-2374,128,95,917,1024,Thalamus medial 
-2375,128,96,11,64,Cerebrospinal fluid
+2374,128,95,917,1024,Fornix middle body
+2375,128,96,11,64,Transverse sinus
 2376,128,96,29,64,Inferior occipital gyrus
 2377,128,96,21,64,Cerebellum I-V
 2378,128,96,2,64,Fusiform gyrus
@@ -2390,10 +2389,10 @@
 2387,128,96,147,256,Cerebellum Crus I lateral RH
 2388,128,96,50,256,Cerebellum VIIIb posterior
 2389,128,96,143,256,Cerebellum Crus I posterior
-2390,128,96,289,512,Cerebellum Crus I RH
-2391,128,96,234,512,Cerebellum Crus II
+2390,128,96,289,512,Cerebellum Crus I posterior RH
+2391,128,96,234,512,Cerebellum Crus II posterior
 2392,128,96,429,512,Cerebellum Crus II RH
-2393,128,96,491,512,Cerebellum Crus I RH
+2393,128,96,491,512,Cerebellum Crus II medial RH
 2394,128,96,317,512,Cerebellum horizontal fissure medial
 2395,128,96,464,1024,Cerebellum Crus I LH
 2396,128,96,300,1024,Cerebellum Crus II
@@ -2415,16 +2414,16 @@
 2412,128,97,228,256,Thalamus
 2413,128,97,190,256,Insula posterior inferior
 2414,128,97,158,256,Thalamus lateral
-2415,128,97,285,512,Lateral ventricles inferior
+2415,128,97,285,512,Cerebral peduncles
 2416,128,97,415,512,Thalamus LH
-2417,128,97,298,512,Thalamus anterior 
+2417,128,97,298,512,Thalamus middle 
 2418,128,97,71,512,Thalamus posterior
 2419,128,97,29,512,Posterior limb of the internal capsule RH
-2420,128,97,1016,1024,Thalamus anterior
-2421,128,97,111,1024,Calcarine sulcus anterior
-2422,128,97,262,1024,Midbrain 
-2423,128,97,292,1024,Thalamus RH
-2424,128,97,698,1024,Thalamus anterior 
+2420,128,97,1016,1024,Hypothalamus
+2421,128,97,111,1024,Hippocampus posterior superior
+2422,128,97,262,1024,Midbrain superior
+2423,128,97,292,1024,Thalamus posterior RH
+2424,128,97,698,1024,Thalamus antero-superior
 2425,128,98,64,64,Caudate
 2426,128,98,15,64,ventricles
 2427,128,98,26,64,Mid-anterior Cingulate cortex
@@ -2441,15 +2440,15 @@
 2438,128,98,199,256,Putamen and globus pallidus
 2439,128,98,132,256,"Insula, ventral anterior"
 2440,128,98,468,512,Putamen RH
-2441,128,98,316,512,Putamen posterior
+2441,128,98,316,512,Putamen postero-inferior
 2442,128,98,303,512,Anterior limb of internal capsule RH
 2443,128,98,56,512,Globus pallidus anterior
 2444,128,98,111,512,Putamen LH
 2445,128,98,149,1024,Putamen anterior RH
 2446,128,98,851,1024,Putamen anterior LH
-2447,128,98,82,1024,Amygdala
+2447,128,98,82,1024,Uncinate fasciculus
 2448,128,98,488,1024,Globus pallidus
-2449,128,98,629,1024,Putamen anterior RH
+2449,128,98,629,1024,Putamen and globus pallidus anterior LH
 2450,128,99,26,64,Mid-anterior Cingulate cortex
 2451,128,99,8,64,Planum temporale
 2452,128,99,25,64,Putamen
@@ -2463,18 +2462,18 @@
 2460,128,99,190,256,Insula posterior inferior
 2461,128,99,217,256,Superior temporal gyrus anterior
 2462,128,99,86,256,Heschl’s gyrus
-2463,128,99,74,256,Insula 
+2463,128,99,74,256,Insula
 2464,128,99,132,256,"Insula, ventral anterior"
-2465,128,99,116,512,Planum polare
+2465,128,99,116,512,Planum polare superior
 2466,128,99,390,512,Posterior insula ventral 
 2467,128,99,510,512,Posterior insula ventral RH
 2468,128,99,215,512,Superior temporal gyrus medial anterior RH
 2469,128,99,3,512,"Anterior insula, ventral"
-2470,128,99,308,1024,Posterior insula ventral RH
-2471,128,99,500,1024,Lateral fissure middle LH
-2472,128,99,597,1024,Posterior insula ventral RH
+2470,128,99,308,1024,Heschl’s gyrus anterior medial RH
+2471,128,99,500,1024,Planum polare LH
+2472,128,99,597,1024,Posterior insula inferior RH
 2473,128,99,830,1024,Heschl’s gyrus LH
-2474,128,99,793,1024,Posterior insula ventral LH
+2474,128,99,793,1024,Posterior insula inferior LH
 2475,128,100,15,64,ventricles
 2476,128,100,47,64,Thalamus
 2477,128,100,25,64,Putamen
@@ -2490,16 +2489,16 @@
 2487,128,100,169,256,Caudate nucleus
 2488,128,100,105,256,Putamen anterior
 2489,128,100,131,256,Suborbital cortex medial
-2490,128,100,130,512,Corpus callosum rostrum
+2490,128,100,130,512,Corpus callosum genu inferior
 2491,128,100,225,512,Caudate ventral
 2492,128,100,236,512,Anterior limb of internal capsule
 2493,128,100,328,512,Caudate LH
 2494,128,100,303,512,Anterior limb of internal capsule RH
-2495,128,100,145,1024,Mammillary bodies
-2496,128,100,72,1024,Caudate nucleus
+2495,128,100,145,1024,Anterior commissure
+2496,128,100,72,1024,Internal capsule anterior limb inferior
 2497,128,100,426,1024,Caudate LH
-2498,128,100,717,1024,Subcallosal cortex
-2499,128,100,729,1024,Rostrum of corpus callosum LH
+2498,128,100,717,1024,Subcallosal cortex superior
+2499,128,100,729,1024,Corpus callosum rostrum
 2500,128,101,62,64,Superior frontal gyrus
 2501,128,101,39,64,Dorsomedial Prefrontal cortex antero-caudal
 2502,128,101,52,64,Inferior frontal gyrus
@@ -2515,7 +2514,7 @@
 2512,128,101,76,256,Superior frontal gyrus posterior
 2513,128,101,12,256,Superior frontal gyrus anterior
 2514,128,101,182,256,Cerebrospinal fluid (between superior frontal gyrus and skull)
-2515,128,101,333,512,Middle frontal gyrus anterior LH
+2515,128,101,333,512,Cerebrospinal fluid (between middle frontal gyrus and skull LH)
 2516,128,101,63,512,Cerebrospinal fluid (between middle frontal gyrus and skull LH)
 2517,128,101,267,512,Superior frontal gyrus middle LH
 2518,128,101,124,512,Superior frontal sulcus middle LH
@@ -2523,7 +2522,7 @@
 2520,128,101,193,1024,Cerebrospinal fluid (between superior frontal sulcus and skull LH)
 2521,128,101,277,1024,Superior frontal gyrus middle LH
 2522,128,101,63,1024,Superior frontal sulcus middle LH
-2523,128,101,831,1024,Middle frontal gyrus posterior LH
+2523,128,101,831,1024,Middle frontal gyrus postero-superior LH
 2524,128,101,619,1024,Cerebrospinal fluid (between precentral gyrus and skull LH)
 2525,128,102,26,64,Mid-anterior Cingulate cortex
 2526,128,102,28,64,Paracentral lobule
@@ -2541,15 +2540,15 @@
 2538,128,102,207,256,Posterior middle frontal gyrus
 2539,128,102,14,256,Mid-posterior cingulate cortex
 2540,128,102,103,512,Precentral sulcus medial
-2541,128,102,90,512,Cingulate sulcus mid-posterior 
+2541,128,102,90,512,Cingulate gyrus middle superior
 2542,128,102,314,512,Cingulate sulcus posterior RH
-2543,128,102,47,512,Paracingulate posterior
-2544,128,102,355,512,Cingulate sulcus middle 
+2543,128,102,47,512,Paracingulate sulcus posterior RH
+2544,128,102,355,512,Paracingulate sulcus posterior
 2545,128,102,520,1024,Cingulate posterior
 2546,128,102,541,1024,Superior frontal gyrus medial posterior
 2547,128,102,244,1024,Paracentral lobule inferior
-2548,128,102,327,1024,Precentral sulcus medial LH
-2549,128,102,104,1024,Mid-posterior cingulate
+2548,128,102,327,1024,Precentral sulcus medial inferior LH
+2549,128,102,104,1024,Cingulate sulcus mid-posterior
 2550,128,103,46,64,Occipital pole
 2551,128,103,13,64,Superior occipital gyrus
 2552,128,103,3,64,Calcarine cortex posterior
@@ -2565,15 +2564,15 @@
 2562,128,103,77,256,Cuneus inferior
 2563,128,103,9,256,"Occipital pole, superior"
 2564,128,103,194,256,Lateral occipital cortex
-2565,128,103,88,512,Occipital pole superior LH
+2565,128,103,88,512,Occipital pole LH
 2566,128,103,109,512,Lunate sulcus RH
-2567,128,103,175,512,Calcarine cortex posterior RH
+2567,128,103,175,512,Cuneus posterior RH
 2568,128,103,431,512,Superior occipital gyrus RH
-2569,128,103,179,512,Occipital pole LH
+2569,128,103,179,512,Occipital pole lateral LH
 2570,128,103,380,1024,Occipital pole superior
-2571,128,103,1005,1024,Lunate sulcus RH
-2572,128,103,284,1024,Superior occipital gyrus RH
-2573,128,103,137,1024,Superior occipital gyrus
+2571,128,103,1005,1024,Lunate sulcus superior RH
+2572,128,103,284,1024,Occipital pole lateral RH
+2573,128,103,137,1024,Cuneus posterior
 2574,128,103,350,1024,Occipital pole lateral LH
 2575,128,104,51,64,Middle frontal gyrus
 2576,128,104,17,64,Superior frontal gyrus medial
@@ -2591,15 +2590,15 @@
 2588,128,104,67,256,Middle frontal gyrus posterior RH
 2589,128,104,202,256,Cerebrospinal fluid (between middle frontal gyrus and skull)
 2590,128,104,153,512,Inferior frontal sulcus posterior RH
-2591,128,104,49,512,Middle frontal gyrus posterior RH
+2591,128,104,49,512,Middle frontal gyrus posterior lateral RH
 2592,128,104,294,512,Middle frontal gyrus posterior RH
-2593,128,104,203,512,Middle frontal gyrus posterior RH
+2593,128,104,203,512,Middle frontal gyrus mid-posterior RH
 2594,128,104,439,512,Precentral sulcus inferior RH
-2595,128,104,213,1024,Precentral sulcus inferior RH
+2595,128,104,213,1024,Precentral sulcus middle RH
 2596,128,104,778,1024,Inferior frontal sulcus posterior RH
-2597,128,104,3,1024,Inferior frontal sulcus posterior RH
-2598,128,104,37,1024,Precentral sulcus middle RH
-2599,128,104,32,1024,Middle frontal gyrus posterior RH
+2597,128,104,3,1024,Arcuate fasciculus mid-anterior RH
+2598,128,104,37,1024,Middle frontal gyrus posterior inferior RH
+2599,128,104,32,1024,Middle frontal gyrus mid-posterior inferior RH
 2600,128,105,26,64,Mid-anterior Cingulate cortex
 2601,128,105,34,64,Precentral gyrus medial
 2602,128,105,54,64,Precuneus superior
@@ -2615,16 +2614,16 @@
 2612,128,105,207,256,Posterior middle frontal gyrus
 2613,128,105,201,256,Cingulate sulcus posterior
 2614,128,105,205,256,"Pericallosal sulcus, middle"
-2615,128,105,90,512,Cingulate sulcus mid-posterior 
-2616,128,105,161,512,Cingulate sulcus mid-posterior 
+2615,128,105,90,512,Cingulate gyrus middle superior
+2616,128,105,161,512,Cingulate gyrus mid-posterior 
 2617,128,105,493,512,Cingulate sulcus posterior LH
-2618,128,105,30,512,Cingulate gyrus middle
+2618,128,105,30,512,Cingulate gyrus middle inferior
 2619,128,105,191,512,Cingulum middle
 2620,128,105,398,1024,Cingulate sulcus posterior
-2621,128,105,749,1024,Callosomarginal sulcus LH
-2622,128,105,104,1024,Mid-posterior cingulate
-2623,128,105,204,1024,Mid-anterior cingulate cortex
-2624,128,105,161,1024,Mid-posterior cingulate cortex
+2621,128,105,749,1024,Callosomarginal sulcus inferior LH
+2622,128,105,104,1024,Cingulate sulcus mid-posterior
+2623,128,105,204,1024,Cingulate cortex mid-anterior
+2624,128,105,161,1024,Cingulate cortex mid-posterior
 2625,128,106,1,64,Superior frontal sulcus
 2626,128,106,49,64,Inferior frontal sulcus
 2627,128,106,36,64,Angular gyrus
@@ -2640,16 +2639,16 @@
 2637,128,106,67,256,Middle frontal gyrus posterior RH
 2638,128,106,248,256,Superior frontal sulcus RH
 2639,128,106,129,256,"Precentral sulcus, RH"
-2640,128,106,203,512,Middle frontal gyrus posterior RH
+2640,128,106,203,512,Middle frontal gyrus mid-posterior RH
 2641,128,106,188,512,Cerebrospinal fluid (between superior frontal gyrus lateral RH and skull)
-2642,128,106,49,512,Middle frontal gyrus posterior RH
-2643,128,106,4,512,Middle frontal gyrus RH
+2642,128,106,49,512,Middle frontal gyrus posterior lateral RH
+2643,128,106,4,512,Middle frontal gyrus middle RH
 2644,128,106,345,512,Cerebrospinal fluid (between middle frontal gyrus and skull RH)
 2645,128,106,628,1024,Cerebrospinal fluid (between middle frontal gyrus RH and skull)
-2646,128,106,185,1024,Middle frontal gyrus posterior RH
+2646,128,106,185,1024,Middle frontal sulcus RH
 2647,128,106,240,1024,Middle frontal gyrus posterior RH
-2648,128,106,412,1024,Superior frontal gyrus posterior RH
-2649,128,106,32,1024,Middle frontal gyrus posterior RH
+2648,128,106,412,1024,Superior frontal gyrus posterior lateral RH
+2649,128,106,32,1024,Middle frontal gyrus mid-posterior inferior RH
 2650,128,107,61,64,Middle temporal gyrus
 2651,128,107,23,64,Anterior Cingulate Cortex
 2652,128,107,64,64,Caudate
@@ -2670,14 +2669,14 @@
 2667,128,107,27,512,Anterior vertical ramus of the lateral fissure LH
 2668,128,107,160,512,Anterior rami of the lateral fissure RH
 2669,128,107,325,512,Anterior horizontal ramus of the lateral fissure LH
-2670,128,107,26,1024,Anterior insula RH
-2671,128,107,482,1024,Frontal operculum LH
-2672,128,107,273,1024,Anterior insula ventral LH
-2673,128,107,334,1024,Anterior vertical ramus of the Lateral fissure LH
-2674,128,107,239,1024,Anterior insula RH
+2670,128,107,26,1024,Anterior insula antero-inferior RH
+2671,128,107,482,1024,Operculum orbitalis LH
+2672,128,107,273,1024,Anterior insula anterior LH
+2673,128,107,334,1024,Pars triangularis LH
+2674,128,107,239,1024,Anterior insula anterior RH
 2675,128,108,16,64,Posterior fusiform gyrus
 2676,128,108,46,64,Occipital pole
-2677,128,108,11,64,Cerebrospinal fluid
+2677,128,108,11,64,Transverse sinus
 2678,128,108,42,64,Lateral occipital cortex
 2679,128,108,24,64,Descending occipital gyrus
 2680,128,108,39,128,Cerebrospinal fluid (between occipital pole and cerebellum)
@@ -2692,14 +2691,14 @@
 2689,128,108,35,256,"Occipitotemporal sulcus posterior, RH"
 2690,128,108,187,512,Inferior occipital gyrus
 2691,128,108,363,512,Inferior occipital gyrus posterior LH
-2692,128,108,425,512,Fusiform gyrus posterior
+2692,128,108,425,512,Cerebellum Crus I superior
 2693,128,108,232,512,Occipital pole lateral RH
 2694,128,108,498,512,Inferior occipital gyrus posterior RH
-2695,128,108,503,1024,Inferior occipital gyrus LH
+2695,128,108,503,1024,Fusiform gyrus posterior LH
 2696,128,108,724,1024,Inferior occipital gyrus anterior RH
-2697,128,108,23,1024,Fusiform gyrus RH
+2697,128,108,23,1024,Fusiform gyrus mid-posterior RH
 2698,128,108,307,1024,Lateral occipital cortex inferior LH
-2699,128,108,817,1024,Fusiform gyrus posterior RH
+2699,128,108,817,1024,Occipital pole inferior lateral RH
 2700,128,109,19,64,Planum polare
 2701,128,109,8,64,Planum temporale
 2702,128,109,41,64,Postcentral gyrus inferior
@@ -2713,18 +2712,18 @@
 2710,128,109,255,256,Parietal operculum RH
 2711,128,109,191,256,Central opercular cortex
 2712,128,109,70,256,Parietal operculum
-2713,128,109,74,256,Insula 
+2713,128,109,74,256,Insula
 2714,128,109,167,256,Planum temporale LH
 2715,128,109,263,512,Central operculum posterior RH
-2716,128,109,94,512,Posterior insula dorsal LH
-2717,128,109,13,512,Posterior insula dorsal
-2718,128,109,226,512,Parietal operculum RH
-2719,128,109,293,512,Lateral fissure mid-posterior LH
-2720,128,109,751,1024,Posterior lateral fissure LH
-2721,128,109,680,1024,Parietal operculum RH
-2722,128,109,225,1024,Parietal operculum RH
-2723,128,109,457,1024,Posterior insula
-2724,128,109,316,1024,Lateral fissure posterior RH
+2716,128,109,94,512,Posterior insula dorsal lateral LH
+2717,128,109,13,512,Posterior insula dorsal medial
+2718,128,109,226,512,Parietal operculum posterior RH
+2719,128,109,293,512,Heschl’s gyrus LH
+2720,128,109,751,1024,Lateral fissure middle LH
+2721,128,109,680,1024,Parietal operculum medial RH
+2722,128,109,225,1024,Parietal operculum anterior RH
+2723,128,109,457,1024,Posterior insula RH
+2724,128,109,316,1024,Lateral fissure posterior
 2725,128,110,36,64,Angular gyrus
 2726,128,110,61,64,Middle temporal gyrus
 2727,128,110,7,64,Superior temporal sulcus with angular gyrus
@@ -2740,16 +2739,16 @@
 2737,128,110,120,256,Lateral occipital cortex superior
 2738,128,110,109,256,Angular gyrus RH
 2739,128,110,126,256,"Angular gyrus posterior, RH"
-2740,128,110,357,512,Angular sulcus LH
-2741,128,110,411,512,Inferior parietal lobule posterior LH
-2742,128,110,18,512,Angular sulcus LH
+2740,128,110,357,512,Angular sulcus superior LH
+2741,128,110,411,512,Angular gyrus antero-inferior LH
+2742,128,110,18,512,Angular sulcus superior LH
 2743,128,110,416,512,Angular gyrus postero-superior LH
 2744,128,110,38,512,Angular gyrus postero-inferior RH
-2745,128,110,596,1024,Angular gyrus inferior LH
+2745,128,110,596,1024,Angular sulcus mid-posterior LH
 2746,128,110,984,1024,Angular gyrus anterior LH
-2747,128,110,73,1024,Angular gyrus posterior LH
+2747,128,110,73,1024,Angular gyrus postero-inferior LH
 2748,128,110,852,1024,Angular gyrus antero-inferior LH
-2749,128,110,226,1024,Angular gyrus posterior LH
+2749,128,110,226,1024,Lateral occipital cortex superior LH
 2750,128,111,31,64,Calcarine sulcus anterior
 2751,128,111,20,64,Central Parieto-occipital sulcus
 2752,128,111,3,64,Calcarine cortex posterior
@@ -2760,18 +2759,18 @@
 2757,128,111,8,128,Parieto-occipital sulcus central
 2758,128,111,45,128,"Calcarine sulcus, anterior"
 2759,128,111,72,128,"Calcarine cortex, posterior"
-2760,128,111,88,256,Cuneus anterior
+2760,128,111,88,256,Cuneus inferior
 2761,128,111,222,256,Calcarine sulcus anterior
 2762,128,111,6,256,"Cuneus, anterior"
 2763,128,111,77,256,Cuneus inferior
 2764,128,111,119,256,Calcarine sulcus posterior
 2765,128,111,435,512,Cuneus anterior
-2766,128,111,107,512,Cuneus
+2766,128,111,107,512,Cuneus middle
 2767,128,111,123,512,Cuneus anterior RH
-2768,128,111,177,512,Calcarine sulcus anterior
-2769,128,111,446,512,Forceps major LH
+2768,128,111,177,512,Calcarine sulcus mid-anterior
+2769,128,111,446,512,Forceps major
 2770,128,111,833,1024,Calcarine sulcus mid-anterior
-2771,128,111,197,1024,Cuneus anterior
+2771,128,111,197,1024,Cuneus anterior LH
 2772,128,111,372,1024,Cuneus anterior RH
 2773,128,111,846,1024,Cuneus superior
 2774,128,111,768,1024,Calcarine sulcus middle
@@ -2788,20 +2787,20 @@
 2785,128,112,243,256,Postcentral sulcus middle RH
 2786,128,112,46,256,"Postcentral sulcus superior, RH"
 2787,128,112,42,256,"Postcentral sulcus, inferior"
-2788,128,112,118,256,Intraparietal sulcus RH
-2789,128,112,63,256,"Intraparietal sulcus, RH"
-2790,128,112,73,512,Postcentral gyrus RH
+2788,128,112,118,256,"Intraparietal sulcus ventral, RH"
+2789,128,112,63,256,"Intraparietal sulcus dorsal, RH"
+2790,128,112,73,512,Postcentral sulcus RH
 2791,128,112,247,512,Supramarginal gyrus anterior RH
-2792,128,112,86,512,Intraparietal sulcus RH
+2792,128,112,86,512,Intraparietal sulcus middle RH
 2793,128,112,61,512,Postcentral sulcus inferior RH
 2794,128,112,214,512,Intraparietal sulcus anterior RH
-2795,128,112,663,1024,Postcentral sulcus RH
-2796,128,112,270,1024,Postcentral sulcus  RH
-2797,128,112,439,1024,Postcentral gyrus superior RH
+2795,128,112,663,1024,Postcentral sulcus inferior RH
+2796,128,112,270,1024,Corticospinal tract postero-superior RH
+2797,128,112,439,1024,Postcentral gyrus mid-superior RH
 2798,128,112,328,1024,Postcentral gyrus inferior RH
-2799,128,112,701,1024,Postcentral sulcus superior RH
+2799,128,112,701,1024,Postcentral sulcus mid-superior RH
 2800,128,113,21,64,Cerebellum I-V
-2801,128,113,11,64,Cerebrospinal fluid
+2801,128,113,11,64,Transverse sinus
 2802,128,113,9,64,Cerebellum Crus II
 2803,128,113,16,64,Posterior fusiform gyrus
 2804,128,113,55,64,Lingual gyrus
@@ -2811,15 +2810,15 @@
 2808,128,113,82,128,Cerebellum IV and V
 2809,128,113,22,128,Cerebellum Crus I anterior
 2810,128,113,211,256,Cerebellum VI RH
-2811,128,113,233,256,Cerebellum VI anterior 
+2811,128,113,233,256,Cerebellum VI anterior
 2812,128,113,181,256,Cerebellum VI
 2813,128,113,91,256,Cerebellum Crus I superior
 2814,128,113,223,256,Cerebellum VI superior
 2815,128,113,481,512,Cerebellum VI  LH
-2816,128,113,478,512,Cerebellum VI LH
-2817,128,113,15,512,Fusiform gyrus LH
-2818,128,113,422,512,Fusiform gyrus RH
-2819,128,113,257,512,Cerebellum VI LH
+2816,128,113,478,512,Cerebellum VI posterior LH
+2817,128,113,15,512,Fusiform gyrus anterior LH
+2818,128,113,422,512,Fusiform gyrus anterior RH
+2819,128,113,257,512,Cerebellum VI antero-superior LH
 2820,128,113,930,1024,Cerebellum VI LH
 2821,128,113,891,1024,Cerebellum V RH
 2822,128,113,873,1024,Cerebellum VI RH
@@ -2840,15 +2839,15 @@
 2837,128,114,47,256,"Supramarginal gyrus anterior, RH"
 2838,128,114,255,256,Parietal operculum RH
 2839,128,114,48,256,Frontal opercula RH
-2840,128,114,6,512,Supramarginal gyrus anterior RH
+2840,128,114,6,512,Lateral fissure posterior ramus RH
 2841,128,114,99,512,Angular gyrus anterior RH
-2842,128,114,226,512,Parietal operculum RH
+2842,128,114,226,512,Parietal operculum posterior RH
 2843,128,114,247,512,Supramarginal gyrus anterior RH
-2844,128,114,405,512,Lateral fissure posterior RH
-2845,128,114,821,1024,Parietal operculum cortex RH
-2846,128,114,374,1024,Supramarginal gyrus RH
-2847,128,114,507,1024,Supramarginal gyrus antero-inferior RH
-2848,128,114,940,1024,Supramarginal gyrus antero-inferior RH
+2844,128,114,405,512,Lateral fissure posterior limb RH
+2845,128,114,821,1024,Parietal operculum posterior RH
+2846,128,114,374,1024,Supramarginal gyrus antero-superior RH
+2847,128,114,507,1024,Supramarginal gyrus postero-inferior RH
+2848,128,114,940,1024,Supramarginal gyrus anterior RH
 2849,128,114,129,1024,Supramarginal gyrus posterior RH
 2850,128,115,2,64,Fusiform gyrus
 2851,128,115,22,64,Superior fornix and isthmus
@@ -2861,20 +2860,20 @@
 2858,128,115,31,128,Parahippocampal gyrus
 2859,128,115,57,128,Hippocampal fissure
 2860,128,115,138,256,"Pons, inferior"
-2861,128,115,173,256,Cerebellum VI anterior 
+2861,128,115,173,256,Cerebellum VI anterior
 2862,128,115,130,256,"Pons, superior"
 2863,128,115,96,256,Cerebellum IV
 2864,128,115,165,256,Fluid between cerebellum and pons
-2865,128,115,218,512,Cerebellum III
+2865,128,115,218,512,Cerebellum III inferior
 2866,128,115,204,512,Pons
 2867,128,115,209,512,Fourth ventricle
-2868,128,115,344,512,Parahippocampal gyrus posterior
-2869,128,115,148,512,Midbrain
-2870,128,115,190,1024,Middle cerebellar peduncle
+2868,128,115,344,512,Cerebellar peduncles
+2869,128,115,148,512,Pons antero-superior
+2870,128,115,190,1024,Middle cerebellar peduncle inferior
 2871,128,115,897,1024,Cerebellum V
 2872,128,115,647,1024,Cerebellum IV
 2873,128,115,732,1024,Cerebellum V
-2874,128,115,108,1024,Middle cerebellar peduncle
+2874,128,115,108,1024,Middle cerebellar peduncle superior
 2875,128,116,3,64,Calcarine cortex posterior
 2876,128,116,29,64,Inferior occipital gyrus
 2877,128,116,24,64,Descending occipital gyrus
@@ -2890,16 +2889,16 @@
 2887,128,116,159,256,Inferior occipital sulcus
 2888,128,116,89,256,Transverse occipital sulcus
 2889,128,116,112,256,Fusiform gyrus posterior
-2890,128,116,195,512,Occipital pole RH
-2891,128,116,179,512,Occipital pole LH
+2890,128,116,195,512,Occipital pole
+2891,128,116,179,512,Occipital pole lateral LH
 2892,128,116,232,512,Occipital pole lateral RH
 2893,128,116,281,512,Inferior occipital sulcus
 2894,128,116,5,512,Calcarine cortex posterior LH
-2895,128,116,330,1024,Occipital pole inferior LH
+2895,128,116,330,1024,Occipital pole inferior medial LH
 2896,128,116,365,1024,Occipital pole LH
-2897,128,116,155,1024,Occipital pole superior RH
+2897,128,116,155,1024,Occipital pole RH
 2898,128,116,839,1024,Retrocalcarine cortex LH
-2899,128,116,401,1024,Calcarine cortex posterior LH
+2899,128,116,401,1024,Descending occipital gyrus inferior LH
 2900,128,117,39,64,Dorsomedial Prefrontal cortex antero-caudal
 2901,128,117,4,64,Posterior Cingulate cortex
 2902,128,117,23,64,Anterior Cingulate Cortex
@@ -2918,11 +2917,11 @@
 2915,128,117,479,512,Frontal pole medial
 2916,128,117,192,512,Frontal pole medial
 2917,128,117,51,512,Ventromedial prefrontal cortex
-2918,128,117,68,512,Paracingulate gyrus anterior
+2918,128,117,68,512,Superior frontal gyrus medial anterior
 2919,128,117,112,512,Frontal pole
 2920,128,117,443,1024,Paracingulate gyrus anterior
 2921,128,117,96,1024,Cingulate anterior
-2922,128,117,289,1024,Ventral medial prefrontal cortex posterior RH
+2922,128,117,289,1024,Ventromedial prefrontal cortex posterior RH
 2923,128,117,533,1024,Superior rostral gyrus anterior
 2924,128,117,991,1024,Ventromedial prefrontal cortex anterior LH
 2925,128,118,20,64,Central Parieto-occipital sulcus
@@ -2937,19 +2936,19 @@
 2934,128,118,50,128,"Superior parietal lobule, posterior"
 2935,128,118,216,256,Parieto-occipital sulcus superior
 2936,128,118,128,256,"Parieto-occipital sulcus, inferior"
-2937,128,118,218,256,Precuneus inferior 
+2937,128,118,218,256,Precuneus inferior
 2938,128,118,241,256,Precuneus posterior
 2939,128,118,197,256,"Parieto-occipital sulcus, posterior"
-2940,128,118,159,512,Parieto-occipital sulcus superior LH
+2940,128,118,159,512,Parieto-occipital sulcus middle superior LH
 2941,128,118,216,512,Precuneus postero-inferior RH
 2942,128,118,362,512,Precuneus posterior 
 2943,128,118,217,512,Parieto-occipital sulcus postero-superior 
-2944,128,118,511,512,Precuneus postero-inferior
+2944,128,118,511,512,Parieto-occipital sulcus middle LH
 2945,128,118,865,1024,Precuneus postero-inferior LH
 2946,128,118,296,1024,Parieto-occipital sulcus superior
 2947,128,118,61,1024,Parieto-occipital sulcus posterior LH
 2948,128,118,20,1024,Parieto-occipital sulcus middle
-2949,128,118,826,1024,Precuneus posterior RH
+2949,128,118,826,1024,Parieto-occipital sulcus postero-superior RH
 2950,128,119,34,64,Precentral gyrus medial
 2951,128,119,44,64,Paracentral lobule superior
 2952,128,119,26,64,Mid-anterior Cingulate cortex
@@ -2965,20 +2964,20 @@
 2962,128,119,116,256,Mid-posterior medial frontal gyrus
 2963,128,119,221,256,Precentral sulcus superior LH
 2964,128,119,180,256,Cerebrospinal fluid (between precentral gyrus superior and skull)
-2965,128,119,47,512,Paracingulate posterior
-2966,128,119,355,512,Cingulate sulcus middle 
-2967,128,119,367,512,Paracingulate sulcus posterior
-2968,128,119,320,512,Precentral sulcus medial
+2965,128,119,47,512,Paracingulate sulcus posterior RH
+2966,128,119,355,512,Paracingulate sulcus posterior
+2967,128,119,367,512,Paracingulate sulcus mid-posterior
+2968,128,119,320,512,Precentral sulcus superior
 2969,128,119,20,512,Superior frontal gyrus superior
 2970,128,119,526,1024,Paracingulate gyrus posterior RH
 2971,128,119,966,1024,Paracingulate sulcus posterior LH
-2972,128,119,737,1024,Precentral gyrus superior
+2972,128,119,737,1024,Interhemispheric fissure precentral gyrus
 2973,128,119,541,1024,Superior frontal gyrus medial posterior
 2974,128,119,7,1024,Paracingulate gyrus posterior
 2975,128,120,55,64,Lingual gyrus
 2976,128,120,29,64,Inferior occipital gyrus
 2977,128,120,2,64,Fusiform gyrus
-2978,128,120,11,64,Cerebrospinal fluid
+2978,128,120,11,64,Transverse sinus
 2979,128,120,9,64,Cerebellum Crus II
 2980,128,120,113,128,Cerebellum VI
 2981,128,120,28,128,Cerebellum VI superior
@@ -2990,16 +2989,16 @@
 2987,128,120,193,256,Lingual gyrus middle
 2988,128,120,155,256,Fusiform gyrus LH
 2989,128,120,80,256,"Inferior temporal gyrus, posterior, LH"
-2990,128,120,478,512,Cerebellum VI LH
+2990,128,120,478,512,Cerebellum VI posterior LH
 2991,128,120,280,512,Occipitotemporal gyrus posterior LH
-2992,128,120,370,512,Inferior occipital gyrus anterior RH
-2993,128,120,15,512,Fusiform gyrus LH
-2994,128,120,284,512,Cerebellum VI superior
-2995,128,120,247,1024,Fusiform gyrus posterior LH
-2996,128,120,789,1024,Lingual gyrus middle LH
+2992,128,120,370,512,Inferior occipital gyrus RH
+2993,128,120,15,512,Fusiform gyrus anterior LH
+2994,128,120,284,512,Cerebellum VI superior lateral
+2995,128,120,247,1024,Fusiform gyrus mid-posterior LH
+2996,128,120,789,1024,Lingual gyrus mid-posterior LH
 2997,128,120,873,1024,Cerebellum VI RH
-2998,128,120,245,1024,Fusiform gyrus LH
-2999,128,120,23,1024,Fusiform gyrus RH
+2998,128,120,245,1024,Fusiform gyrus mid-anterior LH
+2999,128,120,23,1024,Fusiform gyrus mid-posterior RH
 3000,128,121,18,64,Precuneus superior
 3001,128,121,54,64,Precuneus superior
 3002,128,121,5,64,Dorsal Parieto-occipital sulcus
@@ -3013,16 +3012,16 @@
 3010,128,121,256,256,Precuneus superior
 3011,128,121,178,256,Posterior cingulate
 3012,128,121,216,256,Parieto-occipital sulcus superior
-3013,128,121,218,256,Precuneus inferior 
+3013,128,121,218,256,Precuneus inferior
 3014,128,121,18,256,Cerebrospinal fluid (between precuneus and skull)
 3015,128,121,253,512,Precuneus middle
 3016,128,121,362,512,Precuneus posterior 
 3017,128,121,131,512,Precuneus mid-superior LH
 3018,128,121,395,512,Precuneus postero-superior 
-3019,128,121,413,512,Precuneus superior RH
-3020,128,121,461,1024,Precuneus posterior
-3021,128,121,128,1024,Subparietal sulcus LH
-3022,128,121,561,1024,Precuneus superior LH
+3019,128,121,413,512,Precuneus RH
+3020,128,121,461,1024,Precuneus postero-superior
+3021,128,121,128,1024,Precuneus middle LH
+3022,128,121,561,1024,Precuneus middle superior LH
 3023,128,121,681,1024,Precuneus posterior LH
 3024,128,121,676,1024,Precuneus posterior
 3025,128,122,61,64,Middle temporal gyrus
@@ -3041,14 +3040,14 @@
 3038,128,122,113,256,Lateral occipital cortex anterior
 3039,128,122,93,256,Optic radiation LH
 3040,128,122,509,512,Middle temporal gyrus mid-posterior LH
-3041,128,122,243,512,Lateral occipital cortex anterior LH
-3042,128,122,411,512,Inferior parietal lobule posterior LH
-3043,128,122,138,512,Superior temporal sulcus posterior
-3044,128,122,357,512,Angular sulcus LH
-3045,128,122,249,1024,Angular sulcus inferior LH
-3046,128,122,972,1024,Middle temporal gyrus posterior LH
+3041,128,122,243,512,Middle temporal gyrus posterior LH
+3042,128,122,411,512,Angular gyrus antero-inferior LH
+3043,128,122,138,512,Superior temporal sulcus posterior LH
+3044,128,122,357,512,Angular sulcus superior LH
+3045,128,122,249,1024,Angular sulcus mid-anterior LH
+3046,128,122,972,1024,Middle temporal gyrus posterior superior LH
 3047,128,122,314,1024,Superior temporal sulcus posterior LH
-3048,128,122,713,1024,Superior temporal sulcus posterior LH
+3048,128,122,713,1024,Superior temporal sulcus postero-superior LH
 3049,128,122,173,1024,Lateral occipital cortex anterior LH
 3050,128,123,49,64,Inferior frontal sulcus
 3051,128,123,38,64,Intraparietal sulcus LH
@@ -3067,13 +3066,13 @@
 3064,128,123,16,256,"Pars opercularis, pars triangularis LH"
 3065,128,123,221,512,Inferior frontal sulcus posterior LH
 3066,128,123,133,512,Inferior frontal sulcus posterior LH
-3067,128,123,503,512,Middle frontal gyrus posterior LH
-3068,128,123,59,512,Precentral sulcus inferior LH
+3067,128,123,503,512,Cerebrospinal fluid (between inferior frontal sulcus and skull LH)
+3068,128,123,59,512,Precentral sulcus mid-inferior LH
 3069,128,123,322,512,Precentral sulcus inferior LH
-3070,128,123,946,1024,Inferior frontal sulcus posterior LH
-3071,128,123,424,1024,Inferior frontal sulcus posterior LH
-3072,128,123,674,1024,Pars opercularis LH
-3073,128,123,943,1024,Inferior frontal sulcus posterior LH
+3070,128,123,946,1024,Inferior frontal sulcus posterior inferior LH
+3071,128,123,424,1024,Pars opercularis superior LH
+3072,128,123,674,1024,Pars opercularis lateral LH
+3073,128,123,943,1024,Inferior frontal sulcus posterior superior LH
 3074,128,123,110,1024,Inferior frontal sulcus anterior LH
 3075,128,124,47,64,Thalamus
 3076,128,124,45,64,Heschl’s gyrus
@@ -3087,19 +3086,19 @@
 3084,128,124,109,128,Central operculum cortex
 3085,128,124,72,256,Putamen
 3086,128,124,199,256,Putamen and globus pallidus
-3087,128,124,74,256,Insula 
+3087,128,124,74,256,Insula
 3088,128,124,190,256,Insula posterior inferior
 3089,128,124,41,256,Thalamus
 3090,128,124,111,512,Putamen LH
 3091,128,124,468,512,Putamen RH
 3092,128,124,467,512,External capsule middle LH
 3093,128,124,308,512,Globus pallidus
-3094,128,124,13,512,Posterior insula dorsal
+3094,128,124,13,512,Posterior insula dorsal medial
 3095,128,124,644,1024,Putamen posterior LH
-3096,128,124,6,1024,Putamen RH
+3096,128,124,6,1024,Putamen inferior RH
 3097,128,124,606,1024,Putamen LH
 3098,128,124,80,1024,Putamen posterior RH
-3099,128,124,679,1024,Putamen LH
+3099,128,124,679,1024,Insula superior LH
 3100,128,125,12,64,Paracentral gyrus RH
 3101,128,125,33,64,Superior parietal lobule anterior
 3102,128,125,48,64,Intraparietal sulcus RH
@@ -3115,16 +3114,16 @@
 3112,128,125,150,256,Cerebrospinal fluid (between precentral gyrus and skull)
 3113,128,125,46,256,"Postcentral sulcus superior, RH"
 3114,128,125,27,256,"Intraparietal sulcus, anterior"
-3115,128,125,35,512,Superior parietal lobule antero-inferior LH
+3115,128,125,35,512,Intraparietal sulcus anterior LH
 3116,128,125,181,512,Cerebrospinal fluid (between superior parietal lobule and skull RH)
 3117,128,125,361,512,Cerebrospinal fluid (between intraparietal sulcus and skull LH)
 3118,128,125,477,512,Cerebrospinal fluid (between superior parietal lobule and skull LH)
 3119,128,125,258,512,Superior parietal lobule LH
-3120,128,125,799,1024,Superior parietal lobule anterior RH
-3121,128,125,755,1024,Superior parietal lobule RH
-3122,128,125,537,1024,Cerebrospinal fluid (between postcentral gyrus and skull LH)
-3123,128,125,1011,1024,Superior parietal lobule LH
-3124,128,125,915,1024,Postcentral gyrus middle LH
+3120,128,125,799,1024,Superior parietal lobule antero-inferior RH
+3121,128,125,755,1024,Superior parietal lobule antero-superior RH
+3122,128,125,537,1024,Cerebrospinal fluid (between postcentral gyrus superior and skull LH)
+3123,128,125,1011,1024,Superior parietal lobule inferior LH
+3124,128,125,915,1024,Postcentral gyrus middle posterior LH
 3125,128,126,8,64,Planum temporale
 3126,128,126,36,64,Angular gyrus
 3127,128,126,37,64,Supramarginal gyrus
@@ -3141,15 +3140,15 @@
 3138,128,126,108,256,Middle temporal gyrus posterior
 3139,128,126,204,256,Planum temporale RH
 3140,128,126,391,512,Middle temporal gyrus middle RH
-3141,128,126,235,512,Superior temporal sulcus middle RH
-3142,128,126,237,512,Middle temporal gyrus posterior RH
-3143,128,126,447,512,Superior temporal sulcus mid-posterior RH
+3141,128,126,235,512,Superior temporal sulcus middle-superior RH
+3142,128,126,237,512,Middle temporal gyrus mid-posterior RH
+3143,128,126,447,512,Superior temporal sulcus middle-inferior RH
 3144,128,126,146,512,Superior temporal gyrus posterior RH
-3145,128,126,654,1024,Superior temporal sulcus posterior RH
-3146,128,126,925,1024,Superior temporal sulcus posterior RH
+3145,128,126,654,1024,Middle temporal gyrus mid-posterior RH
+3146,128,126,925,1024,Superior temporal sulcus mid-posterior RH
 3147,128,126,144,1024,Superior temporal sulcus posterior RH
 3148,128,126,532,1024,Inferior temporal gyrus middle RH
-3149,128,126,781,1024,Superior temporal gyrus mid-posterior RH
+3149,128,126,781,1024,Superior temporal gyrus posterior RH
 3150,128,127,22,64,Superior fornix and isthmus
 3151,128,127,47,64,Thalamus
 3152,128,127,5,64,Dorsal Parieto-occipital sulcus
@@ -3165,16 +3164,16 @@
 3162,128,127,158,256,Thalamus lateral
 3163,128,127,140,256,"Lateral ventricles, posterior horns"
 3164,128,127,5,256,Caudate superior
-3165,128,127,423,512,Lateral ventricles posterior
+3165,128,127,423,512,Caudate nucleus tail
 3166,128,127,261,512,Caudate
 3167,128,127,421,512,Thalamus medial
-3168,128,127,31,512,Caudate
+3168,128,127,31,512,Caudate RH
 3169,128,127,377,512,Internal capsule middle LH
-3170,128,127,485,1024,Caudate dorsal
-3171,128,127,469,1024,Thalamus superior
-3172,128,127,256,1024,Fornix
+3170,128,127,485,1024,Caudate superior posterior
+3171,128,127,469,1024,Fornix postero-superior
+3172,128,127,256,1024,Fornix superior
 3173,128,127,99,1024,Lateral ventricle RH
-3174,128,127,168,1024,Fornix anterior
+3174,128,127,168,1024,Fornix body
 3175,128,128,42,64,Lateral occipital cortex
 3176,128,128,59,64,Angular gyrus
 3177,128,128,48,64,Intraparietal sulcus RH
@@ -3190,13 +3189,13 @@
 3187,128,128,126,256,"Angular gyrus posterior, RH"
 3188,128,128,253,256,Superior temporal sulcus posterior RH
 3189,128,128,109,256,Angular gyrus RH
-3190,128,128,237,512,Middle temporal gyrus posterior RH
+3190,128,128,237,512,Middle temporal gyrus mid-posterior RH
 3191,128,128,100,512,Angular sulcus inferior RH
-3192,128,128,255,512,Inferior temporal sulcus posterior RH
+3192,128,128,255,512,Middle temporal gyrus posterior RH
 3193,128,128,146,512,Superior temporal gyrus posterior RH
 3194,128,128,38,512,Angular gyrus postero-inferior RH
-3195,128,128,259,1024,Superior temporal sulcus posterior RH
-3196,128,128,1013,1024,Middle temporal gyrus posterior RH
-3197,128,128,850,1024,Angular sulcus inferior RH
-3198,128,128,231,1024,Angular gyrus inferior RH
-3199,128,128,437,1024,Middle temporal gyrus posterior RH
+3195,128,128,259,1024,Middle temporal gyrus postero-superior RH
+3196,128,128,1013,1024,Lateral occipital sulcus anterior RH
+3197,128,128,850,1024,Angular sulcus mid-posterior RH
+3198,128,128,231,1024,Angular sulcus mid-anterior RH
+3199,128,128,437,1024,Middle temporal gyrus postero-inferior RH

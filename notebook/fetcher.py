@@ -6,7 +6,7 @@
           128: https://osf.io/hwc4b/download,
           256: https://osf.io/ynqu9/download,
           512: https://osf.io/xcb9g/download,
-          1024: https://osf.io/pxvw2/download,
+          1024: https://osf.io/gqxhu/download,
           }
 """
 import os
@@ -54,7 +54,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
            128: 'hwc4b',
            256: 'ynqu9',
            512: 'xcb9g',
-           1024: 'pxvw2',
+           1024: 'gqxhu',
            }
     valid_dimensions = [64, 128, 256, 512, 1024]
     valid_resolution_mm = [2, 3]
