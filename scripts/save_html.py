@@ -161,7 +161,7 @@ def _add_names_of_the_similar_labels(soup, close_labels, position):
         row = soup.new_tag('tr')
         cell1 = soup.new_tag('td')
         dim = label['dimension']
-        other_i = label['index']
+        other_i = label['Component']
         add_link_difumo_overlap = soup.new_tag(
                 'a', href=link_to_difumo.format(dim, other_i))
         name = label['Difumo_names']
