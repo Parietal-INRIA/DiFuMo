@@ -563,7 +563,7 @@ Component,Difumo_names,Yeo_networks7,Yeo_networks17,GM,WM,CSF
 562,Superior longitudinal fasciculus III middle LH,No network found,No network found,0.011027101721687265,0.9889377928349076,2.6961073560080605e-05
 563,Medulla oblongata posterior,No network found,No network found,0.5516289676429623,0.4483370119478979,3.460217848924945e-05
 564,Cerebellum VI,No network found,No network found,0.7624591909984186,0.09759789803100054,0.1259215262281938
-565,Thalamic radiation posterior,No network found,No network found,0.3004674277975726,0.20577030222919976,0.4937754524718134
+565,Lateral ventricles posterior,No network found,No network found,0.3004674277975726,0.20577030222919976,0.4937754524718134
 566,Middle frontal gyrus posterior LH,DorsAttnB,ContA,0.6706967981965194,0.0867478720112927,0.1887122339867322
 567,Anterior insula antero-superior,SalVentAttnA,SalVentAttnB,0.8436982394635327,0.0463638152015978,0.10992907567072976
 568,Orbital cortex lateral RH,ContA,ContB,0.6279407535416072,0.0666452807839523,0.12805757856308486
@@ -798,7 +798,7 @@ Component,Difumo_names,Yeo_networks7,Yeo_networks17,GM,WM,CSF
 797,Precentral gyrus superior and superior frontal gyrus RH,SomMotA,DorsAttnB,0.456925845163576,0.08785080009633628,0.2013954426667264
 798,Ventral striatum RH,LimbicA,LimbicB,0.4654883641977506,0.5334626467026393,0.0010589785662016168
 799,Superior parietal lobule antero-inferior RH,DorsAttnB,DorsAttnB,0.5086940328521746,0.11827080962956832,0.2474314153497676
-800,Lateral ventricles posterior,No network found,No network found,0.5161542956031312,0.19272414149900366,0.2911143542370348
+800,Fornix antero-superior,No network found,No network found,0.5161542956031312,0.19272414149900366,0.2911143542370348
 801,Calcarine sulcus anterior,DefaultB,DefaultC,0.7741661175992185,0.12866432119907495,0.09718375155894457
 802,Superior frontal gyrus posterior lateral LH,DorsAttnB,DorsAttnB,0.5357241528578977,0.133780996254364,0.1530307477610351
 803,Superior frontal sulcus posterior LH,ContA,ContA,0.5762914112540468,0.3105037375562851,0.10684794243518114
