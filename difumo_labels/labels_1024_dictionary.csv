@@ -486,7 +486,7 @@ Component,Difumo_names,Yeo_networks7,Yeo_networks17,GM,WM,CSF
 485,Caudate superior posterior,No network found,No network found,0.5223886013307565,0.31041603641523857,0.16719991782091295
 486,Corpus callosum genu inferior,No network found,No network found,0.6241290519156392,0.2960427658470961,0.07984084379632364
 487,Superior temporal gyrus middle superior LH,SomMotA,SomMotB,0.7140010481187373,0.03611999840376488,0.19127644600468746
-488,Globus pallidus,No network found,No network found,0.6934478847900928,0.2854397045693768,0.021130436261453108
+488,Globus pallidus middle,No network found,No network found,0.6934478847900928,0.2854397045693768,0.021130436261453108
 489,Internal capsule posterior limb,No network found,No network found,0.16408618502400038,0.8358377714451775,7.327409734395541e-05
 490,Middle temporal gyrus mid-posterior medial LH,DefaultB,DefaultB,0.3977713428598034,0.5862346223773143,0.016003221197089742
 491,Cerebellar peduncles,No network found,No network found,0.5524954760610836,0.4416258546872431,0.005887521551730162
