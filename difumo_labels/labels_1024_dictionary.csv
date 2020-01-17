@@ -279,7 +279,7 @@ Component,Difumo_names,Yeo_networks7,Yeo_networks17,GM,WM,CSF
 278,Cerebrospinal fluid (between pre and postcentral gyri and skull LH),SomMotA,SomMotA,0.492743466418865,0.09117036962411007,0.1711946506645467
 279,Supramarginal gyrus antero-inferior LH,SalVentAttnA,SalVentAttnA,0.6087415143062671,0.3243676653575063,0.06669666001709104
 280,Midbrain anterior,No network found,No network found,0.5391377479808771,0.3192916281780578,0.14069852353797596
-281,Thalamus,No network found,No network found,0.6287736887224448,0.37074135780223294,0.0004947847530555517
+281,Thalamus middle,No network found,No network found,0.6287736887224448,0.37074135780223294,0.0004947847530555517
 282,Cerebrospinal fluid (between frontal pole and skull RH),ContA,ContB,0.3895582557324045,0.03900411497867588,0.11573140118388088
 283,Cerebellum VI,No network found,No network found,0.8341239804346249,0.06474526361276549,0.10076370417126514
 284,Occipital pole lateral RH,VisCent,VisCent,0.6460028190781092,0.21109358014475404,0.12124922509795465
