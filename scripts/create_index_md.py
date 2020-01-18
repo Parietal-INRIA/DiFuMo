@@ -1,11 +1,11 @@
 import mdutils
 import os
 
-dic = {64: "https://osf.io/vfhk8/download",
-       128: "https://osf.io/hwc4b/download",
-       256: "https://osf.io/ynqu9/download",
-       512: "https://osf.io/xcb9g/download",
-       1024: "https://osf.io/gqxhu/download",
+dic = {64: "https://osf.io/wjum7/download",
+       128: "https://osf.io/kdfg3/download",
+       256: "https://osf.io/vza2y/download",
+       512: "https://osf.io/a23gw/download",
+       1024: "https://osf.io/jpdum/download",
        }
 
 mdFile = mdutils.MdUtils(file_name=os.path.join('..', 'index'))
