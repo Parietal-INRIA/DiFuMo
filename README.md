@@ -28,7 +28,7 @@ For this, we leverage the wealth of openly-available functional images
 
 Dadi, K., Varoquaux, G., Machlouzarides-Shalit, A., Gorgolewski, KJ.,
 Wassermann, D., Thirion, B., Mensch, A. Fine-grain atlases of functional
-modes for fMRI analysis **Paper in preparation**
+modes for fMRI analysis. NeuroImage, Elsevier, 2020, pp.117126
 
 ### References
 
