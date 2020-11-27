@@ -9,7 +9,7 @@ See regions for: [64 dimensions](64 "Labels for 64 dimensions") &nbsp;&nbsp;&nbs
 
 [![128 dimensions](imgs/front/128.jpg "128 dimensions")](https://parietal-inria.github.io/DiFuMo/128)
 
-See regions for: [128 dimensions](128 "Labels for 128 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/kdfg3/download)
+See regions for: [128 dimensions](128 "Labels for 128 dimensions") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://osf.io/n3vba/download)
 
 [![256 dimensions](imgs/front/256.jpg "256 dimensions")](https://parietal-inria.github.io/DiFuMo/256)
 
