@@ -12,7 +12,7 @@
 import os
 import pandas as pd
 
-from sklearn.datasets.base import Bunch
+from sklearn.utils import Bunch
 
 from nilearn.datasets.utils import (_fetch_files,
                                     _get_dataset_dir)
@@ -79,7 +79,7 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
 
     dataset_name = 'difumo_atlases'
 
-    data_dir = _get_dataset_dir(data_dir=None, dataset_name=dataset_name,
+    data_dir = _get_dataset_dir(data_dir=data_dir, dataset_name=dataset_name,
                                 verbose=1)
 
     # Download the zip file, first
