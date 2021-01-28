@@ -2,11 +2,11 @@
 
    Direct download links from OSF:
 
-   dic = {64: https://osf.io/wjum7/download,
-          128: https://osf.io/n3vba/download,
-          256: https://osf.io/vza2y/download,
-          512: https://osf.io/a23gw/download,
-          1024: https://osf.io/jpdum/download,
+   dic = {64: https://osf.io/pqu9r/download,
+          128: https://osf.io/wjvd5/download,
+          256: https://osf.io/3vrct/download,
+          512: https://osf.io/9b76y/download,
+          1024: https://osf.io/34792/download,
           }
 """
 import os
@@ -50,11 +50,11 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     Fine-grain atlases of functional modes for fMRI analysis,
     Paper in preparation
     """
-    dic = {64: 'wjum7',
-           128: 'n3vba',
-           256: 'vza2y',
-           512: 'a23gw',
-           1024: 'jpdum',
+    dic = {64: 'pqu9r',
+           128: 'wjvd5',
+           256: '3vrct',
+           512: '9b76y',
+           1024: '34792',
            }
     valid_dimensions = [64, 128, 256, 512, 1024]
     valid_resolution_mm = [2, 3]
