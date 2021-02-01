@@ -70,9 +70,9 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
 
     csv_file = os.path.join('{0}', 'labels_{0}_dictionary.csv')
     if resolution_mm != 3:
-        nifti_file = os.path.join('{0}', 'maps.nii.gz')
+        nifti_file = os.path.join('{0}', '2mm', 'maps.nii.gz')
     else:
-        nifti_file = os.path.join('{0}', '3mm', 'resampled_maps.nii.gz')
+        nifti_file = os.path.join('{0}', '3mm', 'maps.nii.gz')
 
     files = [(csv_file.format(dimension), url, opts),
              (nifti_file.format(dimension), url, opts)]
@@ -87,15 +87,9 @@ def fetch_difumo(dimension=64, resolution_mm=2, data_dir=None):
     labels = pd.read_csv(files[0])
 
     # README
-    readme_files = [('README.md', 'https://osf.io/u5xhn/download',
+    readme_files = [('README.md', 'https://osf.io/4k9bf/download',
                     {'move': 'README.md'})]
     if not os.path.exists(os.path.join(data_dir, 'README.md')):
         _fetch_files(data_dir, readme_files, verbose=2)
-
-    # Python resampling script
-    script_files = [('resample_dictionaries.py', 'https://osf.io/ezr37/download',
-                    {'move': 'resample_dictionaries.py'})]
-    if not os.path.exists(os.path.join(data_dir, 'resample_dictionaries.py')):
-        _fetch_files(data_dir, script_files, verbose=2)
 
     return Bunch(maps=files[1], labels=labels)
